@@ -1,0 +1,10 @@
+            <div class="brand">
+                {% if lang and lang !== defaultLanguage %}
+                {% set homeUrl = "/" + supportedLanguages[locale].slug %}
+                {% else %}
+                {% set lang = defaultLanguage %}
+                {% set homeUrl = "/" %}
+                {% endif %}
+
+                <a rel="home" href="{{ homeUrl }}"{% if page.url === homeUrl %} aria-current="page"{% endif %}>{{ site[locale].name }}</a>
+            </div>
