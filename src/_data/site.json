@@ -1,18 +1,18 @@
 {
-  "en-CA": {
-    "name": "Trivet",
-    "description": "Trivet is a simple starter kit for Eleventy-based static sites for the Fluid Project.",
-    "url": "https://trivet.netlify.app",
-    "authorWebsite": "https://fluidproject.org/",
-    "authorEmail": "idrc@ocadu.ca",
-    "authorName": "Fluid Project"
+  "en": {
+    "name": "Accessible Canada — Accessible World",
+    "description": "Welcome to Accessible Canada — Accessible World, a conference that aims to advance accessibility and inclusive design in various domains.",
+    "url": "https://acaw-cama.idrc.ocadu.ca",
+    "authorWebsite": "https://idrc.ocadu.ca",
+    "authorEmail": "acaw@ocadu.ca",
+    "authorName": "Inclusive Design Research Centre"
   },
-  "fr-CA": {
-    "name": "Trivet",
-    "description": "Trivet est un kit de démarrage simple pour les sites statiques basés sur Eleventy pour le projet Fluid.",
-    "url": "https://trivet.netlify.app",
-    "authorWebsite": "https://fluidproject.org/",
-    "authorEmail": "idrc@ocadu.ca",
-    "authorName": "Projet Fluid"
+  "fr": {
+    "name": "Un Canada accessible — Un monde accessible",
+    "description": "Bienvenue à Un Canada accessible — Un monde accessible, une conférence visant à promouvoir l'accessibilité et la conception inclusive dans divers contextes.",
+    "url": "https://acaw-cama.idrc.ocadu.ca",
+    "authorWebsite": "https://idrc.ocadu.ca",
+    "authorEmail": "acaw@ocadu.ca",
+    "authorName": "Inclusive Design Research Centre"
   }
 }

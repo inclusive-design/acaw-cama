@@ -1,12 +1,11 @@
 {
-    "name": "trivet",
-    "version": "2.1.1",
-    "description": "Trivet is a simple starter kit for Eleventy-based static sites for the Fluid Project.",
+    "name": "@inclusive-design/acaw-cama",
+    "version": "0.0.1",
+    "description": "Microsite for ACAW / CAMA",
     "scripts": {
-        "build": "npm-run-all -l clean -p build:*",
+        "build": "npm-run-all -l clean -p build:eleventy",
         "build:eleventy": "cross-env NODE_ENV=production eleventy",
         "clean": "rimraf _site",
-        "cms": "decap-server",
         "debug": "DEBUG=Eleventy* eleventy",
         "dev": "cross-env NODE_ENV=development eleventy --serve",
         "lint": "run-s -l lint:*",
@@ -14,37 +13,32 @@
         "lint:scripts": "eslint \"**/*.{js,md}\"",
         "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
         "lint:yml": "eslint \"**/*.yml\"",
-        "start": "npm-run-all -l clean -p start:*",
-        "start:eleventy": "run-p dev cms",
+        "start": "npm-run-all -l clean dev",
         "prepare": "husky install"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/fluid-project/trivet.git"
+        "url": "git+https://github.com/inclusive-design/acaw-cama.git"
     },
     "author": "OCAD University",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/fluid-project/trivet/issues"
+        "url": "https://github.com/inclusive-design/acaw-cama/issues"
     },
-    "homepage": "https://github.com/fluid-project/trivet#readme",
+    "homepage": "https://github.com/inclusive-design/acaw-cama#readme",
     "dependencies": {
         "@11ty/eleventy": "2.0.1",
         "@11ty/eleventy-navigation": "0.3.5",
         "@11ty/eleventy-plugin-rss": "1.2.0",
         "@11ty/eleventy-plugin-syntaxhighlight": "5.0.0",
-        "decap-cms": "3.1.8",
         "eleventy-plugin-fluid": "2.7.1",
-        "infusion": "4.6.0",
-        "prop-types": "15.8.1",
-        "react": "16.14.0"
+        "infusion": "4.6.0"
     },
     "devDependencies": {
         "@commitlint/cli": "19.2.1",
         "@commitlint/config-conventional": "19.1.0",
         "cross-env": "7.0.3",
         "debug": "4.3.4",
-        "decap-server": "3.0.4",
         "eslint": "8.56.0",
         "eslint-config-fluid": "2.1.1",
         "eslint-plugin-jsdoc": "48.2.3",

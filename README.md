@@ -1,11 +1,11 @@
-# Trivet
+# ACAW / CAMA
 
 _A simple starter kit for Eleventy-based static sites for the Fluid Project._
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8286bcec-a92b-47ca-a4cf-128a276b57eb/deploy-status)](https://app.netlify.com/sites/trivet/deploys)
 
 This repository contains the files needed to build [Eleventy](http://11ty.dev/)-based static sites for the [Fluid Project](https://fluidproject.org).
-It includes support for internationalization; if your project does not require internationalization, use [Trivet Monolingual](https://github.com/fluid-project/trivet-monolingual)
+It includes support for internationalization; if your project does not require internationalization, use [Trivet Monolingual](https://github.com/inclusive-design/acaw-cama-monolingual)
 instead.
 
 ## Installation
@@ -13,16 +13,16 @@ instead.
 You can use this repository as a template for a new site hosted on [Netlify](https://netlify.com) with [Decap CMS](https://decapcms.org)
 pre-configured:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/fluid-project/trivet&stack=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/inclusive-design/acaw-cama&stack=cms)
 
 You can also use GitHub's template repository feature to create your own project based on Trivet Monolingual. From the
-[repository homepage](https://github.com/fluid-project/trivet),
+[repository homepage](https://github.com/inclusive-design/acaw-cama),
 click the "Use this template" button and then choose "Create a new repository".
 
 You can also set up a new project locally using [degit](https://www.npmjs.com/package/degit):
 
 ```bash
-npx degit fluid-project/trivet YOUR-PROJECT-NAME
+npx degit inclusive-design/acaw-cama YOUR-PROJECT-NAME
 ```
 
 ## Usage
@@ -182,7 +182,7 @@ For more information about how Decap CMS works with internationalized content, s
 ## Disabling Internationalization
 
 If you do not need internationalization support for all content on your site, it can be disabled for a specific
-collection or collections. If you don't need internationalization support at all, you should use [Trivet Monolingual](https://github.com/fluid-project/trivet-monolingual)
+collection or collections. If you don't need internationalization support at all, you should use [Trivet Monolingual](https://github.com/inclusive-design/acaw-cama-monolingual)
 as the basis of your project instead.
 
 ### Disabling Internationalization for a Specific Collection
@@ -323,7 +323,7 @@ internationalization for a specific collection, you can do so in one of two ways
 
 ## License
 
-Trivet is available under the [New BSD License](https://raw.githubusercontent.com/fluid-project/trivet/master/LICENSE.md).
+Trivet is available under the [New BSD License](https://raw.githubusercontent.com/inclusive-design/acaw-cama/master/LICENSE.md).
 
 ## Third Party Software in Trivet
 
