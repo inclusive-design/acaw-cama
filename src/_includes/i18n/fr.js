@@ -22,6 +22,7 @@ module.exports = {
         "transcript": "Transcription en {{ formatLocale }}",
         "slides": "Diapositives en {{ formatLocale }}",
         "audio": "Audio en {{ formatLocale }}",
+        "youtube": "Vidéo en {{ formatLocale }} sur YouTube",
         "pdf": "PDF en {{ formatLocale }}"
     },
     "submissions": "Soumissions",
@@ -31,5 +32,9 @@ module.exports = {
         "all": "Toutes les soumissions",
         "filtered": "résultat filtré/résultats filtrés"
     },
-    "registration": "Site d'enregistrement"
+    "registration": "Site d'enregistrement",
+    "interpretation": {
+        "asl": "avec ASL",
+        "lsq": "avec LSQ"
+    }
 };

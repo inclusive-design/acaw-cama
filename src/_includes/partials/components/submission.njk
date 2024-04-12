@@ -1,10 +1,26 @@
 
-<article data-filter-theme="{{ submission.data.themes | join(',') }}" data-filter-format="{% for format in ['text', 'youtube', 'transcript', 'slides', 'audio', 'pdf'] %}
+<article
+    data-filter-theme="{{ submission.data.themes | join(',') }}"
+    data-filter-format="
+    {%- for format in ['text', 'youtube', 'transcript', 'slides', 'audio', 'pdf'] %}
         {%- if submission.data[format] -%}
         {%- if format === 'transcript' %}text{% else %}{{ format }}{% endif -%}
         {%- if not loop.last %},{% endif -%}
         {%- endif -%}
-{%- endfor %}">
+    {%- endfor -%}
+    "
+    data-filter-language="
+    {%- if submission.data.youtube.interpretation -%}
+        {{ 'asl' if submission.data.youtube.lang === 'en' else 'lsq' }},
+    {%- endif -%}
+    {%- if submission.data.youtube.lang === 'en' or submission.data.text.en or submission.data.transcript.en or submission.data.slides.en or submission.data.audio.lang === 'en' or submission.data.pdf.en -%}
+        en,
+    {%- endif -%}
+    {%- if submission.data.youtube.lang === 'fr' or submission.data.text.fr or submission.data.transcript.fr or submission.data.slides.fr or submission.data.audio.lang === 'fr' or submission.data.pdf.fr -%}
+        fr,
+    {%- endif -%}
+    "
+>
     <h3 id="{{ submission.data.uuid }}">{{ submission.data.title }}</h3>
     <div class="presenters">
         {{ submission.data.presenters | join(', ') }}
@@ -31,13 +47,25 @@
     </div>
     <ul class="formats" role="list">
         {% if submission.data.youtube %}
-        <li class="youtube">{% include 'svg/youtube.svg' %} <a aria-describedby="{{ submission.data.uuid }}" href="{{ submission.data.youtube }}">YouTube</a>
+        <li class="youtube">{% include 'svg/youtube.svg' %} <a aria-describedby="{{ submission.data.uuid }}" href="{{ submission.data.youtube.url }}">
+            {% localizedFormat 'youtube', submission.data.youtube.lang, lang %} {% if submission.data.youtube.interpretation -%}
+            (
+                {%- if submission.data.youtube.lang === 'en' -%}
+                {{ 'interpretation.asl' | i18n }}
+                {%- elif submission.data.youtube.lang === 'fr' -%}
+                {{ 'interpretation.lsq' | i18n }}
+                {%- endif -%}
+            )
+            {%- endif %}</a>
         {% endif %}
-        {% for format in ['text', 'transcript', 'slides', 'audio', 'pdf'] %}
+        {% if submission.data.audio %}
+        <li class="audio">{% include 'svg/audio.svg' %} <a aria-describedby="{{ submission.data.uuid }}" href="{{ submission.data.audio.url }}">{% localizedFormat 'audio', submission.data.audio.lang, lang %}</a>
+        {% endif %}
+        {% for format in ['text', 'transcript', 'slides', 'pdf'] %}
         {% if submission.data[format] %}
         <li class="{{ format }}">{% if format === 'transcript' %}{% include 'svg/text.svg' %}{% else %}{% include 'svg/' + format + '.svg' %}{% endif %}
         {% for formatLocale, formatUrl in submission.data[format] -%}
-        <span><a aria-describedby="{{ submission.data.uuid }}" href="{{ formatUrl }}">{% localizedFormat format, formatLocale, locale %}</a></span>
+        <span><a aria-describedby="{{ submission.data.uuid }}" href="{{ formatUrl }}">{% localizedFormat format, formatLocale, lang %}</a></span>
         {%- endfor %}
         </li>
         {% endif %}

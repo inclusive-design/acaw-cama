@@ -23,6 +23,7 @@ module.exports = {
         "transcript": "{{ formatLocale }} Transcript",
         "slides": "{{ formatLocale }} Slide Deck",
         "audio": "{{ formatLocale }} Audio",
+        "youtube": "{{ formatLocale }} YouTube Video",
         "pdf": "{{ formatLocale }} PDF"
     },
     "theme": "Theme",
@@ -31,5 +32,9 @@ module.exports = {
         "all": "All submissions",
         "filtered": "filtered result/filtered results"
     },
-    "registration": "Registration site"
+    "registration": "Registration site",
+    "interpretation": {
+        "asl": "with ASL",
+        "lsq": "with LSQ"
+    }
 };
