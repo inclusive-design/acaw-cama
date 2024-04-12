@@ -212,6 +212,20 @@ legend {
     margin-block-start: 1.5rem;
 }
 
+p {
+    margin-block: 0;
+}
+
+.content {
+    align-items: flex-start;
+    display: flex;
+    gap: 2rem;
+}
+
+.content img {
+    display: none;
+}
+
 .submissions .formats {
     margin-block-start: 3rem;
 }
@@ -318,6 +332,10 @@ filter-container > * + * {
 
     .nav li:has(ul) {
         margin-inline-start: 3.25rem;
+    }
+
+    .content img {
+        display: block;
     }
 
     filter-container > * + * {

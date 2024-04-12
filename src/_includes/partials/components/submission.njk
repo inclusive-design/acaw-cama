@@ -21,7 +21,14 @@
             {%- if not loop.last %}, {% endif %}
         {%- endfor %}
     </div>
-    {{ submission.templateContent | safe }}
+    <div class="content">
+        <div class="flow">
+            {{ submission.templateContent | safe }}
+        </div>
+        {% if submission.data.previewImage and submission.data.previewImageAlt %}
+        <img src="{{ submission.data.previewImage }}" alt="{{ submission.data.previewImageAlt }}" />
+        {% endif %}
+    </div>
     <ul class="formats" role="list">
         {% if submission.data.youtube %}
         <li class="youtube">{% include 'svg/youtube.svg' %} <a aria-describedby="{{ submission.data.uuid }}" href="{{ submission.data.youtube }}">YouTube</a>
