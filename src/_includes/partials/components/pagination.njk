@@ -1,9 +1,9 @@
     <nav data-pagination-navigation aria-label="{{ 'pagination.label' | i18n }}">
         <ul role="list">
-            <li><a href="#" rel="prev">{% include "svg/previous.svg" %}<span class="visually-hidden">{{ 'pagination.previous' | i18n }}</span></a></li>
-            <li><a href="#" rel="next">{% include "svg/next.svg" %}<span class="visually-hidden">{{ 'pagination.next' | i18n }}</span></a></li>
+            <li><a href="#" rel="prev" onclick="window.scrollTo(0, 0)">{% include "svg/previous.svg" %}<span class="visually-hidden">{{ 'pagination.previous' | i18n }}</span></a></li>
+            <li><a href="#" rel="next" onclick="window.scrollTo(0, 0)">{% include "svg/next.svg" %}<span class="visually-hidden">{{ 'pagination.next' | i18n }}</span></a></li>
             <template data-pagination-link>
-                <li><a href="#" data-page></a></li>
+                <li><a href="#" data-page onclick="window.scrollTo(0, 0)"></a></li>
             </template>
         </ul>
     </nav>

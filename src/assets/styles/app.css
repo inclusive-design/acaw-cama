@@ -110,7 +110,7 @@ h2,
     padding-block-end: 1.7rem;
 }
 
-.submissions article + article {
+.submissions article:not([class*="--hide"]) + article {
     margin-block-start: 4rem;
 }
 
