@@ -1,0 +1,43 @@
+<div class="filters flow">
+    <h2>{{ 'filters' | i18n }}</h2>
+    <button aria-expanded="false"><h2>{{ 'filters' | i18n }}</h2></button>
+    <div class="flow">
+        <fieldset>
+            <legend>{{ 'themes' | i18n }}</legend>
+            <ul role="list">
+                {% for theme in collections.themes %}
+                {% if theme.data.lang === locale %}
+                <li>
+                    <input type="checkbox" id="{{ theme.data.uuid }}" name="theme" value="{{ theme.data.uuid }}" data-filter-key="theme" />
+                    <label for="{{ theme.data.uuid }}">{{ theme.data.title }}</label>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>{{ 'formats.label' | i18n }}</legend>
+            <ul role="list">
+                {% for value in formats %}
+                <li>
+                    <input type="checkbox" id="{{ value }}" name="format" value="{{ value }}" data-filter-key="format" />
+                    <label for="{{ value }}">{{ ['formats', value] | join('.') | i18n }}</label>
+                </li>
+                {% endfor %}
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>{{ 'languages.label' | i18n }}</legend>
+            <ul role="list">
+                {% for value in languages %}
+                <li>
+                    <input type="checkbox" id="{{ value }}" name="language" value="{{ value }}" data-filter-key="language" />
+                    <label for="{{ value }}">{{ ['languages', value] | join('.') | i18n | titlecase }}</label>
+                </li>
+                {% endfor %}
+            </ul>
+        </fieldset>
+    </div>
+</div>

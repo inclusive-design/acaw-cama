@@ -18,6 +18,12 @@ module.exports = {
     },
     overrides: [
         {
+            files: ["src/assets/scripts/app.js"],
+            parserOptions: {
+                sourceType: "module"
+            }
+        },
+        {
             files: ["**/*.md"],
             processor: "markdown/markdown"
         }

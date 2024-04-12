@@ -1,9 +1,405 @@
-/* These example styles may be removed when you start work on your project. Or not! The choice is yours. */
+@font-face {
+    font-display: swap;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/montserrat-v26-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/montserrat-v26-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/montserrat-v26-latin-700.woff2") format("woff2");
+}
 
 :root {
-    --base-font-family: system-ui, sans-serif;
+    --base-font-family: montserrat, sans-serif;
 }
 
 body {
     font-family: var(--base-font-family);
+    font-weight: 500;
+    line-height: 1.875;
+    margin: 0;
+    padding: 0;
+}
+
+body > * {
+    padding-block: 1.75rem;
+    padding-inline: 3rem;
+}
+
+.visually-hidden {
+    block-size: 1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    inline-size: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+}
+
+[role="banner"] .container,
+main {
+    margin-inline: auto;
+    max-inline-size: 75rem;
+}
+
+[role="banner"] .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.brand svg {
+    block-size: auto;
+    inline-size: 100%;
+    max-inline-size: 31rem;
+}
+
+h1,
+h2 {
+    margin-block: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.219;
+    margin-block-end: 2.8125rem;
+}
+
+h2,
+.title {
+    border-block-end: 5px solid #000;
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 1.219;
+    padding-block-end: 1.7rem;
+}
+
+.submissions .title {
+    border-block-end: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em;
+}
+
+.submissions .title h2,
+.submissions .title [data-filter-results] {
+    border-block-end: 0;
+    padding-block-end: 0;
+}
+
+.submissions .title h2::after {
+    content: ":";
+}
+
+.submissions .title:last-child {
+    border-block-end: 5px solid #000;
+    padding-block-end: 1.7rem;
+}
+
+.submissions article:not([class*="--hide"]) + article {
+    margin-block-start: 4rem;
+}
+
+.flow > * + * {
+    margin-block-start: var(--flow-space, 1em);
+}
+
+.filters {
+    --flow-space: 2.5rem;
+}
+
+.filters > h2 {
+    display: none;
+}
+
+.filters [aria-expanded] {
+    appearance: none;
+    background: transparent;
+    background-image: url('data:image/svg+xml,<svg viewBox="0 0 8 8" width="36" height="36" xmlns="http://www.w3.org/2000/svg"><rect height="6" width="1" y="1" x="3.5"/><rect height="1" width="6" y="3.5" x="1"/></svg>');
+    background-position: top right;
+    background-repeat: no-repeat;
+    border: 0;
+    inline-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+
+.filters [aria-expanded="true"] {
+    background-image: url('data:image/svg+xml,<svg viewBox="0 0 8 8" width="36" height="36" xmlns="http://www.w3.org/2000/svg"><rect height="1" width="6" y="3.5" x="1"/></svg>');
+}
+
+.filters [aria-expanded] + div {
+    display: none;
+}
+
+.filters [aria-expanded="true"] + div {
+    display: block;
+}
+
+fieldset li + li {
+    margin-block-start: 1.25rem;
+}
+
+fieldset label {
+    font-weight: 600;
+    line-height: 1.219;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+}
+
+fieldset li {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.219;
+    margin-block-end: 1rem;
+}
+
+[type="checkbox"] {
+    appearance: none;
+    block-size: 1.5rem;
+    border: 3px solid #000;
+    inline-size: 1.5rem;
+}
+
+[type="checkbox"]:checked {
+    background-image: url('data:image/svg+xml,<svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 4.5L7 10.5L15.5 1" stroke="black" stroke-width="3"/></svg>');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.submissions article h3 {
+    border-block-end: none;
+    border-block-start: 5px solid #000;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1.219;
+    margin-block: 0;
+    padding-block-end: 0;
+    padding-block-start: 2.5rem;
+}
+
+.submissions .presenters {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.219;
+    margin-block-start: 1.5rem;
+}
+
+.submissions .themes {
+    font-weight: 600;
+    line-height: 1.219;
+    margin-block-end: 2.25rem;
+    margin-block-start: 1.5rem;
+}
+
+p {
+    margin-block: 0;
+}
+
+.content {
+    align-items: flex-start;
+    display: flex;
+    gap: 2rem;
+}
+
+.content img {
+    display: none;
+}
+
+.submissions .formats {
+    margin-block-start: 3rem;
+}
+
+a {
+    color: black;
+}
+
+[role="list"] {
+    list-style: none;
+    margin-block: 0;
+    padding-inline: 0;
+}
+
+[role="banner"] {
+    border-block-end: 5px solid #000;
+}
+
+.nav > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav ul ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav ul ul li + li::before {
+    content: "/";
+    padding-inline: 1ex;
+}
+
+.nav a {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav a svg {
+    block-size: 1.25em;
+    inline-size: 1.25rem;
+}
+
+.nav a[rel="external"] {
+    align-items: center;
+    display: flex;
+    gap: 0.25em;
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+[aria-current="page"] {
+    text-decoration: none;
+}
+
+[data-pagination-navigation] ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-block-start: 8.25rem;
+}
+
+[data-pagination-navigation] a {
+    align-items: center;
+    block-size: 2.5rem;
+    display: flex;
+    inline-size: 2.5rem;
+    justify-content: center;
+}
+
+[data-pagination-navigation] svg {
+    block-size: 0.75rem;
+    inline-size: auto;
+}
+
+filter-container {
+    margin-block-start: 5.3125rem;
+}
+
+.formats span + span::before {
+    content: "/";
+    padding-inline: 1ex;
+}
+
+.formats li {
+    align-items: center;
+    display: flex;
+}
+
+.formats li + li {
+    margin-block-start: 1rem;
+}
+
+.formats svg {
+    inline-size: 1.5rem;
+    margin-inline-end: 1.75rem;
+}
+
+.formats a {
+    block-size: 1.875rem;
+    display: inline-block;
+}
+
+.filter-format--hide,
+.filter-language--hide,
+.filter-theme--hide,
+.pagination--hide {
+    display: none;
+}
+
+filter-container > * + * {
+    margin-block-start: 3.25rem;
+}
+
+@media (width >= 72rem) {
+    .filters > h2 {
+        display: block;
+    }
+
+    .filters [aria-expanded] {
+        display: none;
+    }
+
+    .filters [aria-expanded] + div {
+        display: block;
+    }
+
+    [role="banner"] .container {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav > ul {
+        flex-direction: row;
+    }
+
+    .nav li:has(ul) {
+        margin-inline-start: 3.25rem;
+    }
+
+    .content img {
+        display: block;
+    }
+
+    filter-container > * + * {
+        margin-block-start: 0;
+    }
+
+    filter-container {
+        column-gap: 8.75rem;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    filter-container .filters {
+        grid-row: 1 / 2;
+    }
+
+    filter-container .submissions {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    filter-container nav {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
 }

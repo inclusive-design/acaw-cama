@@ -25,26 +25,83 @@ collections:
       - {label: Title, name: title, widget: string, i18n: true}
       - {label: Excerpt, name: excerpt, widget: string, required: false, i18n: true}
       - {label: Body, name: body, widget: markdown, i18n: true}
-  - label: Presentations
-    label_singular: Presentation
-    name: presentations
+  - label: Submissions
+    label_singular: Submission
+    name: submissions
     icon: co_present
     i18n:
       structure: multiple_folders
-    folder: src/collections/presentations/
+    folder: src/collections/submissions/
     extension: md
     create: true
     fields:
       - {label: Title, name: title, widget: string, i18n: true}
-      - {label: Tags, name: tags, widget: relation, multiple: true, collection: tags, search_fields: [title], value_field: uuid, display_fields: [title], i18n: duplicate}
+      - {label: ID, name: uuid, widget: uuid, i18n: duplicate}
+      - {label: Preview Image, name: previewImage, widget: image, i18n: duplicate, required: false}
+      - {label: Preview Image Alternative Text, name: previewImageAlt, widget: string, i18n: true, required: false}
+      - {label: Presenters, name: presenters, widget: list, i18n: duplicate}
+      - {label: Presenter Affiliation, name: affiliation, widget: string, i18n: duplicate, required: false}
+      - {label: Themes, name: themes, widget: relation, multiple: true, collection: themes, search_fields: [title], value_field: uuid, display_fields: [title], i18n: duplicate}
+      - label: Text
+        name: text
+        widget: object
+        i18n: duplicate
+        required: false
+        fields:
+          - {label: English URL, name: en, widget: string, type: url, i18n: duplicate, required: false}
+          - {label: French URL, name: fr, widget: string, type: url, i18n: duplicate, required: false}
+      - label: YouTube
+        name: youtube
+        widget: object
+        i18n: duplicate
+        required: false
+        fields:
+          - {label: YouTube URL, name: url, widget: string, type: url, i18n: duplicate, required: false}
+          - {label: Language, name: lang, widget: select, options: [{value: en, label: English}, {value: fr, label: Français}], i18n: duplicate, required: false}
+          - {label: Sign Language Interpretation, name: interpretation, widget: boolean, i18n: duplicate, required: false}
+      - label: Transcript
+        name: transcript
+        widget: object
+        i18n: duplicate
+        required: false
+        fields:
+          - {label: English URL, name: en, widget: string, type: url, i18n: duplicate, required: false}
+          - {label: French URL, name: fr, widget: string, type: url, i18n: duplicate, required: false}
+
+      - label: Slide Deck
+        name: slides
+        widget: object
+        i18n: duplicate
+        required: false
+        fields:
+          - {label: English URL, name: en, widget: string, type: url, i18n: duplicate, required: false}
+          - {label: French URL, name: fr, widget: string, type: url, i18n: duplicate, required: false}
+
+      - label: Audio
+        name: audio
+        widget: object
+        i18n: duplicate
+        required: false
+        fields:
+          - {label: Audio URL, name: url, widget: string, type: url, i18n: duplicate, required: false}
+          - {label: Language, name: lang, widget: select, options: [{value: en, label: English}, {value: fr, label: Français}], i18n: duplicate, required: false}
+      - label: PDF
+        name: pdf
+        widget: object
+        i18n: duplicate
+        required: false
+        fields:
+          - {label: English URL, name: en, widget: string, type: url, i18n: duplicate, required: false}
+          - {label: French URL, name: fr, widget: string, type: url, i18n: duplicate, required: false}
+
       - {label: Body, name: body, widget: markdown, i18n: true}
-  - label: Tags
-    label_singular: Tag
-    name: tags
+  - label: Themes
+    label_singular: Theme
+    name: themes
     icon: sell
     i18n:
       structure: multiple_folders
-    folder: src/collections/tags/
+    folder: src/collections/themes/
     extension: md
     create: true
     fields:

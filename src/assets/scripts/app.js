@@ -1,5 +1,5 @@
 /*
-Copyright the Trivet copyright holders.
+Copyright the ACAW-CAMA copyright holders.
 
 See the AUTHORS.md file at the top-level directory of this distribution and at
 https://github.com/inclusive-design/acaw-cama/raw/master/AUTHORS.md.
@@ -10,6 +10,19 @@ You may obtain a copy of the New BSD License at
 https://github.com/inclusive-design/acaw-cama/raw/master/LICENSE.md.
 */
 
-"use strict";
+import "@zachleat/filter-container";
 
-// If your website needs custom JavaScript, put it here.
+const disclosureBtn = document.querySelector("[aria-expanded]");
+
+if (disclosureBtn) {
+    document.addEventListener("click", (event) => {
+        if (!event.target.closest("[aria-expanded]")) {
+            return false;
+        }
+
+        const btn = event.target.closest("[aria-expanded]");
+
+        const expanded = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", !expanded);
+    });
+}
