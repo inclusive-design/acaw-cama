@@ -61,7 +61,7 @@ main {
     gap: 1.75rem;
 }
 
-.brand img {
+.brand svg {
     block-size: auto;
     inline-size: 100%;
     max-inline-size: 31rem;
@@ -79,20 +79,35 @@ h1 {
     margin-block-end: 2.8125rem;
 }
 
-h2 {
-    border-block-end: 5px solid #000;
-}
-
 h2,
-[data-filter-results] {
+.title {
+    border-block-end: 5px solid #000;
     font-size: 1.875rem;
     font-weight: 600;
     line-height: 1.219;
     padding-block-end: 1.7rem;
 }
 
-[data-filter-results]:last-child {
+.submissions .title {
+    border-block-end: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em;
+}
+
+.submissions .title h2,
+.submissions .title [data-filter-results] {
+    border-block-end: 0;
+    padding-block-end: 0;
+}
+
+.submissions .title h2::after {
+    content: ":";
+}
+
+.submissions .title:last-child {
     border-block-end: 5px solid #000;
+    padding-block-end: 1.7rem;
 }
 
 .flow > * + * {
@@ -172,12 +187,13 @@ legend {
     background-repeat: no-repeat;
 }
 
-.submissions article h2 {
+.submissions article h3 {
     border-block-end: none;
     border-block-start: 5px solid #000;
     font-size: 2.25rem;
     font-weight: 600;
     line-height: 1.219;
+    margin-block: 0;
     padding-block-end: 0;
     padding-block-start: 3.25rem;
 }

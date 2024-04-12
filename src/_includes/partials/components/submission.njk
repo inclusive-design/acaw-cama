@@ -5,7 +5,7 @@
         {%- if not loop.last %},{% endif -%}
         {%- endif -%}
 {%- endfor %}">
-    <h2 id="{{ submission.data.uuid }}">{{ submission.data.title }}</h2>
+    <h3 id="{{ submission.data.uuid }}">{{ submission.data.title }}</h3>
     <div class="presenters">
         {{ submission.data.presenters | join(', ') }}
         {%- if submission.data.affiliation %}, {{ submission.data.affiliation }}{% endif %}

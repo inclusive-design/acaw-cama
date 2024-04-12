@@ -7,7 +7,7 @@
                 {% endif %}
 
                 <a rel="home" href="{{ homeUrl }}"{% if page.url === homeUrl %} aria-current="page"{% endif %}>
-                    <img src="/assets/images/logo.webp" aria-hidden="true" alt="" width="496" height="122" />
+                    {% include "svg/logo.svg" %}
                     <span class="visually-hidden">{{ site[lang].name }}</span>
                 </a>
             </div>

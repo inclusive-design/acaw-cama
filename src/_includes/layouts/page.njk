@@ -13,9 +13,13 @@
 <filter-container oninit filter-mode="all" filter-mode-theme="any" filter-mode-format="any" filter-mode-language="any" data-paginate-results="5">
     {% include "partials/components/filters.njk" %}
     <div class="submissions">
-        <div aria-live="polite" data-filter-results="{{ 'filter-results.filtered' | i18n }}">
-            {{ 'filter-results.all' | i18n }}
+        <div class="title">
+            <h2>{{ 'submissions' | i18n }}</h2>
+            <div aria-live="polite" data-filter-results="{{ 'filter-results.filtered' | i18n }}">
+                {{ 'filter-results.all' | i18n }}
+            </div>
         </div>
+        
         {% for submission in collections.submissions %}
         {% if submission.data.lang === locale %}
         {% include "partials/components/submission.njk" %}

@@ -24,11 +24,12 @@ module.exports = {
         "audio": "Audio en {{ formatLocale }}",
         "pdf": "PDF en {{ formatLocale }}"
     },
+    "submissions": "Soumissions",
     "theme": "Thème",
     "themes": "Thèmes",
     "filter-results": {
         "all": "Toutes les soumissions",
-        "filtered": "soumission/soumissions"
+        "filtered": "soumission filtrée/soumissions filtrées"
     },
     "registration": "Site d'enregistrement"
 };

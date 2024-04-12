@@ -17,6 +17,7 @@ module.exports = {
         "slides": "Slides",
         "pdf": "PDF"
     },
+    "submissions": "Submissions",
     "submission-formats": {
         "text": "{{ formatLocale }} Text",
         "transcript": "{{ formatLocale }} Transcript",
@@ -28,7 +29,7 @@ module.exports = {
     "themes": "Themes",
     "filter-results": {
         "all": "All submissions",
-        "filtered": "submission/submissions"
+        "filtered": "filtered submission/filtered submissions"
     },
     "registration": "Registration site"
 };
