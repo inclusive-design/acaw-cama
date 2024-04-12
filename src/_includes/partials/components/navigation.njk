@@ -1,18 +1,17 @@
             <nav class="nav" id="menu" aria-label="menu">
-                <ul>
-                    {% set navItems = collections.all | eleventyNavigation %}
-                    {% for item in navItems %}
-                    {% if locale === item.lang %}
+                <ul role="list">
                     <li>
-                        <a href="{{ item.url | url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+                        <a rel="external" href="https://sites.events.concordia.ca/sites/accessconf/{{ lang }}/accessible-canada-accessible-world/home" lang="{{ lang }}-CA" hreflang="{{ lang }}-CA">{{ 'registration' | i18n }}</a>
                     </li>
-                    {% endif %}
-                    {% endfor %}
-                    {% set links = page.url | locale_links %}
-                    {%- for link in links %}
                     <li>
-                        <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">{{ link.label }}</a>
+                        <ul role="list">
+                            <li>
+                                <a href="/" lang="en-CA" hreflang="en-CA"{% if '/' == page.url %} aria-current="page"{% endif %}>English</a>
+                            </li>
+                            <li>
+                                <a href="/fr" lang="en-CA" hreflang="en-CA"{% if '/fr/' == page.url %} aria-current="page"{% endif %}>Français</a>
+                            </li>
+                        </ul>
                     </li>
-                    {%- endfor -%}
                 </ul>
             </nav>

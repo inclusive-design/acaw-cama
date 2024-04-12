@@ -1,0 +1,39 @@
+
+<article data-filter-theme="{{ submission.data.themes | join(',') }}" data-filter-format="{% for format in ['text', 'youtube', 'transcript', 'slides', 'audio', 'pdf'] %}
+        {%- if submission.data[format] -%}
+        {%- if format === 'transcript' %}text{% else %}{{ format }}{% endif -%}
+        {%- if not loop.last %},{% endif -%}
+        {%- endif -%}
+{%- endfor %}">
+    <h2 id="{{ submission.data.uuid }}">{{ submission.data.title }}</h2>
+    <div class="presenters">
+        {{ submission.data.presenters | join(', ') }}
+        {%- if submission.data.affiliation %}, {{ submission.data.affiliation }}{% endif %}
+    </div>
+    <div class="themes">
+        {{ 'themes' | i18n if submission.data.themes | length > 1 else 'theme' | i18n }}: 
+        {% for uuid in submission.data.themes -%}
+            {%- for theme in collections.themes -%}
+                {%- if theme.data.lang === locale and theme.data.uuid === uuid -%}
+                {{ theme.data.title }}
+                {%- endif -%}
+            {%- endfor -%}
+            {%- if not loop.last %}, {% endif %}
+        {%- endfor %}
+    </div>
+    {{ submission.templateContent | safe }}
+    <ul class="formats" role="list">
+        {% if submission.data.youtube %}
+        <li class="youtube">{% include 'svg/youtube.svg' %} <a aria-describedby="{{ submission.data.uuid }}" href="{{ submission.data.youtube }}">YouTube</a>
+        {% endif %}
+        {% for format in ['text', 'transcript', 'slides', 'audio', 'pdf'] %}
+        {% if submission.data[format] %}
+        <li class="{{ format }}">{% if format === 'transcript' %}{% include 'svg/text.svg' %}{% else %}{% include 'svg/' + format + '.svg' %}{% endif %}
+        {% for formatLocale, formatUrl in submission.data[format] -%}
+        <span><a aria-describedby="{{ submission.data.uuid }}" href="{{ formatUrl }}">{% localizedFormat format, formatLocale, locale %}</a></span>
+        {%- endfor %}
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</article>

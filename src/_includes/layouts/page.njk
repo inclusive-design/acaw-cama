@@ -10,4 +10,27 @@
 <div class="content">
     {{ content | safe }}
 </div>
+<filter-container oninit filter-mode="all" filter-mode-theme="any" filter-mode-format="any" filter-mode-language="any" data-paginate-results="5">
+    {% include "partials/components/filters.njk" %}
+    <div class="submissions">
+        <div aria-live="polite" data-filter-results="{{ 'filter-results.filtered' | i18n }}">
+            {{ 'filter-results.all' | i18n }}
+        </div>
+        {% for submission in collections.submissions %}
+        {% if submission.data.lang === locale %}
+        {% include "partials/components/submission.njk" %}
+        {% endif %}
+        {% endfor %}
+    </div>
+    <nav data-pagination-navigation>
+        <ul role="list">
+            <li><a href="#" rel="prev">Previous</a></li>
+            <li><a href="#" rel="next">Next</a></li>
+            <template data-pagination-link>
+                <li><a href="#" data-page></a></li>
+            </template>
+        </ul>
+    </nav>
+</filter-container>
 {% endblock %}
+
