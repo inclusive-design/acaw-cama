@@ -110,12 +110,16 @@ h2,
     padding-block-end: 1.7rem;
 }
 
+.submissions article + article {
+    margin-block-start: 4rem;
+}
+
 .flow > * + * {
     margin-block-start: var(--flow-space, 1em);
 }
 
 .filters {
-    --flow-space: 3.25rem;
+    --flow-space: 2.5rem;
 }
 
 .filters > h2 {
@@ -195,7 +199,7 @@ legend {
     line-height: 1.219;
     margin-block: 0;
     padding-block-end: 0;
-    padding-block-start: 3.25rem;
+    padding-block-start: 2.5rem;
 }
 
 .submissions .presenters {
@@ -282,6 +286,26 @@ a {
 
 [aria-current="page"] {
     text-decoration: none;
+}
+
+[data-pagination-navigation] ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-block-start: 8.25rem;
+}
+
+[data-pagination-navigation] a {
+    align-items: center;
+    block-size: 2.5rem;
+    display: flex;
+    inline-size: 2.5rem;
+    justify-content: center;
+}
+
+[data-pagination-navigation] svg {
+    block-size: 0.75rem;
+    inline-size: auto;
 }
 
 filter-container {

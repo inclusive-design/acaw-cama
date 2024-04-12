@@ -26,15 +26,7 @@
         {% endif %}
         {% endfor %}
     </div>
-    <nav data-pagination-navigation>
-        <ul role="list">
-            <li><a href="#" rel="prev">Previous</a></li>
-            <li><a href="#" rel="next">Next</a></li>
-            <template data-pagination-link>
-                <li><a href="#" data-page></a></li>
-            </template>
-        </ul>
-    </nav>
+    {% include "partials/components/pagination.njk" %}
 </filter-container>
 {% endblock %}
 
