@@ -29,7 +29,7 @@ module.exports = {
     "themes": "Themes",
     "filter-results": {
         "all": "All submissions",
-        "filtered": "filtered submission/filtered submissions"
+        "filtered": "filtered result/filtered results"
     },
     "registration": "Registration site"
 };

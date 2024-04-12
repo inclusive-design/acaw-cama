@@ -264,6 +264,22 @@ a {
     font-weight: 600;
 }
 
+.nav a svg {
+    block-size: 1.25em;
+    inline-size: 1.25rem;
+}
+
+.nav a[rel="external"] {
+    align-items: center;
+    display: flex;
+    gap: 0.25em;
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 [aria-current="page"] {
     text-decoration: none;
 }
