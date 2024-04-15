@@ -1,9 +1,15 @@
 {% extends "layouts/base.njk" %}
 
 {% block pageHeader %}
-<header>
-    <h1>{{ title }}</h1>
-</header>
+{% if youtube %}
+<lite-youtube videoid="{{ youtube | youtubeId }}" style="background-image: url('https://i.ytimg.com/vi/{{ youtube | youtubeId }}/maxresdefault.jpg');"></lite-youtube>
+{% endif %}
+{% if transcript %}
+<p class="align-end">
+    <a href="{{ transcript }}">{{ 'video-transcript' | i18n }}</a>
+</p>
+{% endif %}
+<h1>{{ title }}</h1>
 {% endblock %}
 
 {% block content %}

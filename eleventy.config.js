@@ -15,6 +15,7 @@ https://github.com/inclusive-design/acaw-cama/raw/main/LICENSE.md.
 const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
+const getYouTubeID = require("get-youtube-id");
 const title = require("title");
 const rosetta = require("rosetta");
 const i18n = rosetta();
@@ -53,6 +54,9 @@ module.exports = function (eleventyConfig) {
         return title(value, {
             special: ["ASL", "LSQ"]
         });
+    });
+    eleventyConfig.addFilter("youtubeId", function (value) {
+        return getYouTubeID(value);
     });
 
     // Shortcodes

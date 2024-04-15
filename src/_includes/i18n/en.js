@@ -37,5 +37,6 @@ module.exports = {
         "asl": "with ASL",
         "lsq": "with LSQ"
     },
-    "search": "Search submissions:"
+    "search": "Search submissions:",
+    "video-transcript": "Video transcript"
 };

@@ -120,7 +120,7 @@ h1 {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.219;
-    margin-block-end: 2.8125rem;
+    margin-block: 5rem 2.8125rem;
 }
 
 h2 {
@@ -150,7 +150,7 @@ label[for="search"] {
 
 [type="search"] {
     appearance: none;
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 23 22"><path stroke="%23000" stroke-width="3" d="M10.438 10.414 21.961 20.89"/><circle cx="9" cy="9" r="7.5" fill="%23D9D9D9" stroke="%23000" stroke-width="3"/></svg>');
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 23 22"><path stroke="%23000" stroke-width="3" d="M10.438 10.414 21.961 20.89"/><circle cx="9" cy="9" r="7.5" fill="%23FFF" stroke="%23000" stroke-width="3"/></svg>');
     background-position: 1rem center;
     background-repeat: no-repeat;
     background-size: 20.95px 22px;
@@ -206,6 +206,10 @@ label[for="search"] {
     margin: 0;
     padding: 0;
     text-align: start;
+}
+
+.align-end {
+    text-align: end;
 }
 
 .filters [aria-expanded="true"] {
@@ -415,6 +419,104 @@ filter-container {
 
 filter-container > * + * {
     margin-block-start: 3.25rem;
+}
+
+lite-youtube {
+    background-color: #000;
+    background-position: center center;
+    background-size: cover;
+    contain: content;
+    cursor: pointer;
+    display: block;
+    inline-size: 100%;
+    margin-block: 6.4375rem 0.75rem;
+    position: relative;
+}
+
+lite-youtube::before {
+    background-image:
+        linear-gradient(
+            180deg,
+            rgb(0 0 0 / 67%) 0%,
+            rgb(0 0 0 / 54%) 14%,
+            rgb(0 0 0 / 15%) 54%,
+            rgb(0 0 0 / 5%) 72%,
+            rgb(0 0 0 / 0%) 94%
+        );
+    block-size: 99px;
+    box-sizing: border-box;
+    color: hsl(0deg 0% 93.33%);
+    content: attr(data-title);
+    display: block;
+    font-family: "YouTube Noto", Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    inline-size: 100%;
+    overflow: hidden;
+    padding-block: 25px;
+    padding-inline: 20px;
+    position: absolute;
+    text-overflow: ellipsis;
+    text-shadow: 0 0 2px rgb(0 0 0 / 50%);
+    top: 0;
+    white-space: nowrap;
+}
+
+lite-youtube:hover::before {
+    color: white;
+}
+
+lite-youtube::after {
+    content: "";
+    display: block;
+    padding-block-end: calc(100% / (16 / 9));
+}
+
+lite-youtube > iframe {
+    block-size: 100%;
+    border: 0;
+    inline-size: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+lite-youtube > .lty-playbtn {
+    background: no-repeat center/68px 48px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg>');
+    block-size: 100%;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    filter: grayscale(100%);
+    inline-size: 100%;
+    position: absolute;
+    transition: filter 0.1s cubic-bezier(0, 0, 0.2, 1);
+    z-index: 1;
+}
+
+lite-youtube:hover > .lty-playbtn,
+lite-youtube .lty-playbtn:focus {
+    filter: none;
+}
+
+lite-youtube.lyt-activated {
+    cursor: unset;
+}
+
+lite-youtube.lyt-activated::before,
+lite-youtube.lyt-activated > .lty-playbtn {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.lyt-visually-hidden {
+    block-size: 1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    inline-size: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
 }
 
 @media (width >= 72rem) {
