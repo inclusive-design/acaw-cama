@@ -36,5 +36,6 @@ module.exports = {
     "interpretation": {
         "asl": "with ASL",
         "lsq": "with LSQ"
-    }
+    },
+    "search": "Search submissions:"
 };
