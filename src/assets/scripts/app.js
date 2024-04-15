@@ -11,6 +11,7 @@ https://github.com/inclusive-design/acaw-cama/raw/master/LICENSE.md.
 */
 
 import "@zachleat/filter-container";
+import "lite-youtube-embed";
 
 const disclosureBtn = document.querySelector("[aria-expanded]");
 

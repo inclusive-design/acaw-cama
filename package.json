@@ -33,9 +33,11 @@
         "@11ty/eleventy-plugin-syntaxhighlight": "5.0.0",
         "@zachleat/filter-container": "greatislander/filter-container#feat/paginated-results",
         "eleventy-plugin-fluid": "2.7.1",
+        "get-youtube-id": "1.0.1",
         "infusion": "4.6.0",
-        "rosetta": "^1.1.0",
-        "title": "^3.5.3"
+        "lite-youtube-embed": "0.3.2",
+        "rosetta": "1.1.0",
+        "title": "3.5.3"
     },
     "devDependencies": {
         "@commitlint/cli": "19.2.1",
