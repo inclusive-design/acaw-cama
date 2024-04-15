@@ -39,9 +39,8 @@ collections:
       - {label: ID, name: uuid, widget: uuid, i18n: duplicate}
       - {label: Preview Image, name: previewImage, widget: image, i18n: duplicate, required: false}
       - {label: Preview Image Alternative Text, name: previewImageAlt, widget: string, i18n: true, required: false}
-      - {label: Presenters, name: presenters, widget: list, i18n: duplicate, required: false}
-      - {label: Presenter Affiliation, name: affiliation, widget: string, i18n: duplicate, required: false}
-      - {label: Themes, name: themes, widget: relation, multiple: true, collection: themes, search_fields: [title], value_field: uuid, display_fields: [title], i18n: duplicate, required: false}
+      - {label: Presenters, name: presenters, widget: list, i18n: duplicate, min: 1}
+      - {label: Themes, name: themes, widget: relation, multiple: true, collection: themes, search_fields: [title], value_field: uuid, display_fields: [title], i18n: duplicate, min: 1}
       - label: Text
         name: text
         widget: object

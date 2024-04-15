@@ -14,7 +14,7 @@
         "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
         "lint:yml": "eslint \"**/*.yml\"",
         "start": "npm-run-all -l clean dev",
-        "prepare": "husky install"
+        "prepare": "husky"
     },
     "repository": {
         "type": "git",
