@@ -29,6 +29,13 @@ const parseTransform = require("./src/_transforms/parse-transform.js");
 module.exports = function (eleventyConfig) {
     eleventyConfig.setUseGitIgnore(false);
 
+    // Collections
+    eleventyConfig.addCollection("sortedSubmissions", function (collectionApi) {
+        return collectionApi.getFilteredByTag("submission").sort(function (a, b) {
+            return b.title.localeCompare(b.title.localeCompare);
+        });
+    });
+
     // Filters
     eleventyConfig.addFilter("i18n", function (key, langOverride) {
         let lang = langOverride || this.page?.lang || this.ctx?.page?.lang || this.context?.environments?.page?.lang;

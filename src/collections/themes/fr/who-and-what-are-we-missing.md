@@ -1,4 +1,4 @@
 ---
-title: Who and what are we missing?
+title: Qui et qu'est-ce qui nous manque ?
 uuid: b70c8f53-7613-434c-9b2e-f76da3cc57f3
 ---
