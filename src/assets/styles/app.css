@@ -8,10 +8,28 @@
 
 @font-face {
     font-display: swap;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/montserrat-alternates-v17-latin-500.woff2") format("woff2");
+    unicode-range: U+0049, U+006C;
+}
+
+@font-face {
+    font-display: swap;
     font-family: montserrat;
     font-style: normal;
     font-weight: 600;
     src: url("../fonts/montserrat-v26-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/montserrat-alternates-v17-latin-600.woff2") format("woff2");
+    unicode-range: U+0049, U+006C;
 }
 
 @font-face {
@@ -22,8 +40,34 @@
     src: url("../fonts/montserrat-v26-latin-700.woff2") format("woff2");
 }
 
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/montserrat-alternates-v17-latin-700.woff2") format("woff2");
+    unicode-range: U+0049, U+006C;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/montserrat-v26-latin-800.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/montserrat-alternates-v17-latin-800.woff2") format("woff2");
+    unicode-range: U+0049, U+006C;
+}
+
 :root {
-    --base-font-family: montserrat, sans-serif;
+    --base-font-family: "Montserrat Alternates", montserrat, sans-serif;
 }
 
 body {
@@ -79,11 +123,14 @@ h1 {
     margin-block-end: 2.8125rem;
 }
 
+h2 {
+    font-weight: 800;
+}
+
 h2,
 .title {
     border-block-end: 5px solid #000;
     font-size: 1.875rem;
-    font-weight: 600;
     line-height: 1.219;
     padding-block-end: 1.7rem;
 }
@@ -92,6 +139,7 @@ h2,
     border-block-end: 0;
     display: flex;
     flex-wrap: wrap;
+    font-weight: 500;
     gap: 0.25em;
 }
 
