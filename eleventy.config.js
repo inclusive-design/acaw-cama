@@ -33,7 +33,13 @@ module.exports = function (eleventyConfig) {
     for (let lang of ["en", "fr"]) {
         eleventyConfig.addCollection(`submissions_${lang}`, function (collectionApi) {
             return collectionApi.getFilteredByGlob(`src/collections/submissions/${lang}/*.md`).sort(function (a, b) {
-                return b.data.title.localeCompare(a.data.title);
+                return a.data.title.localeCompare(b.data.title);
+            });
+        });
+
+        eleventyConfig.addCollection(`themes_${lang}`, function (collectionApi) {
+            return collectionApi.getFilteredByGlob(`src/collections/themes/${lang}/*.md`).sort(function (a, b) {
+                return a.data.title.localeCompare(b.data.title);
             });
         });
     }

@@ -31,8 +31,8 @@
     <div class="themes">
         {{ 'themes' | i18n if submission.data.themes | length > 1 else 'theme' | i18n }}: 
         {% for uuid in submission.data.themes -%}
-            {%- for theme in collections.themes -%}
-                {%- if theme.data.lang === locale and theme.data.uuid === uuid -%}
+            {%- for theme in collections['themes_' + lang] -%}
+                {%- if theme.data.uuid === uuid -%}
                 {{ theme.data.title }}
                 {%- endif -%}
             {%- endfor -%}

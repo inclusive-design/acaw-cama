@@ -5,13 +5,11 @@
         <fieldset>
             <legend>{{ 'themes' | i18n }}</legend>
             <ul role="list">
-                {% for theme in collections.themes %}
-                {% if theme.data.lang === locale %}
+                {% for theme in collections['themes_' + lang] %}
                 <li>
                     <input type="checkbox" id="{{ theme.data.uuid }}" name="theme" value="{{ theme.data.uuid }}" data-filter-key="theme" />
                     <label for="{{ theme.data.uuid }}">{{ theme.data.title }}</label>
                 </li>
-                {% endif %}
                 {% endfor %}
             </ul>
         </fieldset>
