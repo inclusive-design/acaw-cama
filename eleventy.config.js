@@ -30,11 +30,13 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.setUseGitIgnore(false);
 
     // Collections
-    eleventyConfig.addCollection("sortedSubmissions", function (collectionApi) {
-        return collectionApi.getFilteredByTag("submission").sort(function (a, b) {
-            return b.title.localeCompare(b.title.localeCompare);
+    for (let lang of ["en", "fr"]) {
+        eleventyConfig.addCollection(`submissions_${lang}`, function (collectionApi) {
+            return collectionApi.getFilteredByGlob(`src/collections/submissions/${lang}/*.md`).sort(function (a, b) {
+                return b.data.title.localeCompare(a.data.title);
+            });
         });
-    });
+    }
 
     // Filters
     eleventyConfig.addFilter("i18n", function (key, langOverride) {
