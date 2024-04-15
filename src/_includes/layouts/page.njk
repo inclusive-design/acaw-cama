@@ -20,8 +20,8 @@
             </div>
         </div>
         
-        {% for submission in collections.submissions %}
-        {% if submission.data.lang === locale %}
+        {% for submission in collections.sortedSubmissions %}
+        {% if submission.data.lang === lang %}
         {% include "partials/components/submission.njk" %}
         {% endif %}
         {% endfor %}
