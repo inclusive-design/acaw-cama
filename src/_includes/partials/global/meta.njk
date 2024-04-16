@@ -1,11 +1,12 @@
-    <meta name="description" content="{{ site[locale].description }}">
+    <meta name="description" content="{{ site[lang].description }}">
+    <meta name="theme-color" content="#fff">
     <meta property="og:title" content="{% if title %} {{ title }} | {% endif %} {{ site[locale].name }}">
-    <meta property="og:description" content="{{ site[locale].description }}">
+    <meta property="og:description" content="{{ site[lang].description }}">
     <meta property="og:locale" content="{{ lang }}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ config.url }}{{ page.url }}">
-    <link rel="canonical" href="{{ config.url }}{{ page.url }}">
+    <meta property="og:url" content="{{ site[lang].url }}{{ page.url }}">
+    <link rel="canonical" href="{{ site[lang].url }}{{ page.url }}">
     {% set links = page.url | locale_links %}
     {%- for link in links %}
-    <link rel="alternate" hreflang="{{ link.lang }}" href="{{ link.url }}">
+    <link rel="alternate" hreflang="{{ link.lang }}" href="{{ site[lang].url }}{{ link.url }}">
     {%- endfor -%}
