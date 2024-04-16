@@ -10,7 +10,7 @@ module.exports = {
         "selector-class-pattern": null,
         "liberty/use-logical-spec": [
             "always",
-            { except: ["float", "top", "left", "right", "bottom"] }
+            { except: ["float", "top", "left", "right", "bottom", "width", "height", "max-width", "max-height", "min-width", "min-height"] }
         ]
     }
 };
