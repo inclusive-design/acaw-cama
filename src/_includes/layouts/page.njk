@@ -32,5 +32,8 @@
     </div>
     {% include "partials/components/pagination.njk" %}
 </filter-container>
+<script>
+    localStorage.setItem("lang", "{{ lang }}");
+</script>
 {% endblock %}
 

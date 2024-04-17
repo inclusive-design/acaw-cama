@@ -1,6 +1,8 @@
         <header role="banner">
             <div class="container">
                 {% include "partials/components/brand.njk" %}
+                {% if not eleventyExcludeFromCollections and lang %}
                 {% include "partials/components/navigation.njk" %}
+                {% endif %}
             </div>
         </header>

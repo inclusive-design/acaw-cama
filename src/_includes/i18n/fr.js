@@ -32,7 +32,7 @@ module.exports = {
         "all": "Toutes les soumissions",
         "filtered": "résultat filtré/résultats filtrés"
     },
-    "registration": "Site d'enregistrement",
+    "registration": "Enregistrement",
     "interpretation": {
         "asl": "avec ASL",
         "lsq": "avec LSQ"

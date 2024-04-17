@@ -1,0 +1,34 @@
+{% extends "layouts/base.njk" %}
+
+{% block pageHeader %}
+{% endblock %}
+
+{% block content %}
+<div class="content">
+    <div class="flow">
+        <div lang="en-CA">
+            <a href=="/en/" hreflang="en-CA">English</a>
+        </div>
+        <div lang="fr-CA">
+            <a href=="/fr/" hreflang="fr-CA">Français</a>
+        </div>
+    </div>
+</div>
+<script>
+    const savedLanguage = localStorage.getItem("lang") ?? null;
+    
+    if (savedLanguage) {
+        shortLanguage = savedLanguage.split('-')[0];
+        window.location.replace(shortLanguage);
+    }
+
+    document.addEventListener('click', (event) => {
+        event.preventDefault();
+        const selectedLanguage = event.target.getAttribute('hreflang');
+        localStorage.setItem("lang", selectedLanguage);
+        shortLanguage = selectedLanguage.split('-')[0];
+        window.location.replace(shortLanguage);
+    });
+</script>
+{% endblock %}
+
