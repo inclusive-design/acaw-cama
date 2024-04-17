@@ -180,6 +180,15 @@ body > * {
     padding-inline: 3rem;
 }
 
+.index {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.index > * {
+    padding-inline: 1.5rem;
+}
+
 .container {
     margin-inline: auto;
     max-width: 75rem;
@@ -205,10 +214,23 @@ header .container {
     gap: 1.75rem;
 }
 
+.index header {
+    align-self: end;
+}
+
+.index header .container {
+    display: block;
+    text-align: center;
+}
+
 .brand svg {
     height: auto;
     max-width: 31rem;
     width: 100%;
+}
+
+.index .brand svg {
+    max-width: 37.5rem;
 }
 
 .nav > ul {
@@ -247,10 +269,16 @@ header .container {
     text-decoration: none;
 }
 
+/* Footer */
+
+.index footer {
+    display: none;
+}
+
 /* Typography */
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-block: 5rem 2.8125rem;
 }
@@ -315,6 +343,7 @@ h2::after,
     background-position: top right;
     background-repeat: no-repeat;
     border: 0;
+    color: currentcolor;
     margin: 0;
     padding: 0;
     text-align: start;
@@ -378,6 +407,7 @@ label[for="search"] {
 
 [type="search"] {
     appearance: none;
+    background-color: transparent;
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 23 22"><path stroke="%23000" stroke-width="3" d="M10.438 10.414 21.961 20.89"/><circle cx="9" cy="9" r="7.5" fill="%23FFF" stroke="%23000" stroke-width="3"/></svg>');
     background-position: 1rem center;
     background-repeat: no-repeat;
@@ -431,6 +461,27 @@ label[for="search"] {
     margin-block-start: 2.3125rem;
 }
 
+.index .content {
+    display: block;
+    margin-block-start: 0;
+    padding-block-start: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.index .content a {
+    border: 0.125rem solid black;
+    border-radius: 1.25rem;
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 800;
+    height: 2.5rem;
+    margin-inline: auto;
+    max-width: 12rem;
+    text-decoration: none;
+    width: 100%;
+}
+
 .content img {
     display: none;
 }
@@ -441,7 +492,6 @@ label[for="search"] {
 
 .formats li {
     align-items: center;
-    display: flex;
 }
 
 .formats li + li {
@@ -449,18 +499,18 @@ label[for="search"] {
 }
 
 .formats svg {
+    margin-block-end: -0.25em;
     margin-inline-end: 1.75rem;
     width: 1.5rem;
 }
 
 .formats a {
-    display: inline-block;
     height: 1.875rem;
 }
 
 .formats span + span::before {
-    content: "/";
-    padding-inline: 1ex;
+    content: " / ";
+    text-decoration: none;
 }
 
 /* Pagination */
@@ -584,6 +634,10 @@ lite-youtube.lyt-activated > .lty-playbtn {
 }
 
 @media (width >= 72rem) {
+    h1 {
+        font-size: 3rem;
+    }
+
     filter-container {
         column-gap: 8.625rem;
         display: grid;
@@ -641,5 +695,9 @@ lite-youtube.lyt-activated > .lty-playbtn {
 
     .content:not(:has(img)) .flow {
         width: 75%;
+    }
+
+    .index .content .flow {
+        width: 100%;
     }
 }

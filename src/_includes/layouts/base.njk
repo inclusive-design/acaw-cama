@@ -1,16 +1,19 @@
 <!doctype html>
-<html lang="{{ lang }}-CA" dir="ltr">
+<html lang="{{ lang if lang else 'en' }}-CA" dir="ltr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <title>{% if title %} {{ title }} | {% endif %} {{ site[lang].name }}</title>
+        <meta name="theme-color" content="#fff">
+        <title>{% if title %} {{ title }}{% if lang %} |{% endif %}{% endif %}{% if lang %} {{ site[lang].name }}{% endif %}</title>
         {% include "partials/global/stylesheets.njk" %}
+        {% if lang %}
         {% include "partials/global/meta.njk" %}
+        {% endif %}
         {% include "partials/global/icons.njk" %}
         <link rel="manifest" href="/manifest.webmanifest">
         {% include "partials/global/scripts.njk" %}
     </head>
-    <body>
+    <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
         {% include "partials/global/header.njk" %}
         <main>
             <article class="container">
