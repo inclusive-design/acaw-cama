@@ -7,17 +7,17 @@
 <div class="content">
     <div class="flow">
         <div lang="en-CA">
-            <a href=="/en/" hreflang="en-CA">English</a>
+            <a href="/en/" hreflang="en-CA">English</a>
         </div>
         <div lang="fr-CA">
-            <a href=="/fr/" hreflang="fr-CA">Français</a>
+            <a href="/fr/" hreflang="fr-CA">Français</a>
         </div>
     </div>
 </div>
 <script>
-    const savedLanguage = localStorage.getItem("lang") ?? null;
+    const savedLanguage = localStorage.getItem("lang");
     
-    if (savedLanguage) {
+    if (savedLanguage === 'en-CA' || savedLanguage === 'fr-CA') {
         shortLanguage = savedLanguage.split('-')[0];
         window.location.replace(shortLanguage);
     }
