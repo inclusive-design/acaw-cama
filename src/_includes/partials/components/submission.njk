@@ -36,7 +36,8 @@
                 {%- endif -%}
             {%- endfor -%}
             {%- if not loop.last %}, {% endif %}
-        {%- endfor %}
+        {%- endfor -%}
+        {%- if submission.data.customTheme %}, {{ submission.data.customTheme }}{% endif %}
     </div>
     <div class="content">
         <div class="flow">

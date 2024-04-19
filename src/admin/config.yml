@@ -43,6 +43,7 @@ collections:
       - {label: Preview Image Alternative Text, name: previewImageAlt, widget: string, i18n: true, required: false}
       - {label: Presenters, name: presenters, widget: list, i18n: duplicate, hint: Enter a comma-separated list of names.}
       - {label: Themes, name: themes, widget: relation, multiple: true, collection: themes, search_fields: [title], value_field: uuid, display_fields: [title], i18n: duplicate}
+      - {label: Custom Theme, name: customTheme, widget: string, i18n: true, required: false}
       - label: Text
         name: text
         widget: object
