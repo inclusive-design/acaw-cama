@@ -8,7 +8,7 @@ slides:
 text:
   en: ""
   fr: ""
-title: "Building It In: Audio Description At Every Performance"
+title: "L’intégrer : Description audio à chaque représentation"
 uuid: 701e79a0-2705-4ce2-8e56-1c2392e88acb
 previewImage: ""
 previewImageAlt: ""
