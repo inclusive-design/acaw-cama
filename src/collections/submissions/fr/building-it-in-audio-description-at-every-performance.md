@@ -21,4 +21,4 @@ pdf: null
 presenters:
   - Joel Snyder
 ---
-Live audio description can be made cost-effectively available at each performance of a performing arts production. This session will demonstrate how it is possible to create accessibility for blind theater-goers on a par with sighted audience members.
+La description audio en direct peut être mise à disposition de manière rentable à chaque représentation d'une production artistique. Cette session démontrera comment il est possible de créer une accessibilité pour les spectateurs aveugles au même titre que les spectateurs voyants.
