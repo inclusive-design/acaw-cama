@@ -1,7 +1,4 @@
 ---
-audio:
-  url: https://idrc.cachefly.net/acaw-cama/02/audio-en.mp4
-  lang: en
 transcript:
   en: https://idrc.cachefly.net/acaw-cama/02/transcript-en.docx
   fr: https://idrc.cachefly.net/acaw-cama/02/transcript-fr.docx
