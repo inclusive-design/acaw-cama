@@ -2,7 +2,7 @@
 transcript:
   en: https://idrc.cachefly.net/acaw-cama/09/transcript-en.docx
   fr: https://idrc.cachefly.net/acaw-cama/09/transcript-fr.docx
-title: An interview with the Accessibility Standards Canada CEO
+title: Entretien avec le directeur général de Normes d'accessibilité Canada
 uuid: 04c05499-82ed-4658-9fd6-17048343f50b
 previewImage: ""
 previewImageAlt: ""
