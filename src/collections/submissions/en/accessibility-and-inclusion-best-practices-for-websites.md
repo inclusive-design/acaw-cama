@@ -1,4 +1,7 @@
 ---
+audio:
+  url: https://idrc.cachefly.net/acaw-cama/07/audio-en.mp4
+  lang: en
 slides:
   en: https://idrc.cachefly.net/acaw-cama/07/slides-en.pptx
   fr: https://idrc.cachefly.net/acaw-cama/07/slides-fr.pptx
@@ -17,7 +20,6 @@ themes:
 customTheme: ""
 text: null
 youtube: null
-audio: null
 pdf: null
 ---
 To encourage an actionable understanding of what accessibility and inclusion best practices mean in digital spaces, McGill University's Web Services and Equity teams collaborated to produce resources and training for their network of 1,500+ site managers and editors.
