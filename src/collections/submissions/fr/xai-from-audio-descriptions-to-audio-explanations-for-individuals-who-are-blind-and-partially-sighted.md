@@ -1,7 +1,7 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/19/slides-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/19/slides-fr.docx
+  en: https://idrc.cachefly.net/acaw-cama/19/slides-en.pptx
+  fr: https://idrc.cachefly.net/acaw-cama/19/slides-fr.pptx
 transcript:
   en: https://idrc.cachefly.net/acaw-cama/19/transcript-en.docx
   fr: https://idrc.cachefly.net/acaw-cama/19/transcript-fr.docx
