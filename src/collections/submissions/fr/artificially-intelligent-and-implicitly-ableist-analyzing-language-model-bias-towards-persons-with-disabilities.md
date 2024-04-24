@@ -10,7 +10,7 @@ presenters:
   - Maysa Gama
 themes:
   - 49e72e28-7453-4233-8aff-456b3a956615
-customTheme: Disability Bias in AI Technologies
+customTheme: Biais liés au handicap dans les technologies de l'IA
 youtube: null
 transcript: null
 slides: null
