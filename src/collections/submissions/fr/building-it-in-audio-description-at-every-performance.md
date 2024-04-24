@@ -1,4 +1,7 @@
 ---
+audio:
+  url: https://idrc.cachefly.net/acaw-cama/02/audio-en.mp4
+  lang: en
 transcript:
   en: https://idrc.cachefly.net/acaw-cama/02/transcript-en.docx
   fr: https://idrc.cachefly.net/acaw-cama/02/transcript-fr.docx
@@ -16,7 +19,6 @@ themes:
   - 49e72e28-7453-4233-8aff-456b3a956615
 customTheme: ""
 youtube: null
-audio: null
 pdf: null
 presenters:
   - Joel Snyder
