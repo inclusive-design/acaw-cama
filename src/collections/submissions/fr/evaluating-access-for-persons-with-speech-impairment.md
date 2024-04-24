@@ -2,7 +2,7 @@
 transcript:
   en: https://idrc.cachefly.net/acaw-cama/04/transcript-en.docx
   fr: https://idrc.cachefly.net/acaw-cama/04/transcript-fr.docx
-title: Evaluating access for persons with speech impairment
+title: Évaluation de l'accès pour les personnes souffrant de troubles de la parole
 uuid: 9803c78c-76c9-427e-b16c-3ec7fc966e61
 previewImage: ""
 previewImageAlt: ""
