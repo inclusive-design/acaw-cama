@@ -1,4 +1,7 @@
 ---
+audio:
+  url: https://idrc.cachefly.net/acaw-cama/03/audio-en.mp4
+  lang: en
 slides:
   en: https://idrc.cachefly.net/acaw-cama/03/slides-en.pptx
   fr: https://idrc.cachefly.net/acaw-cama/03/slides-fr.pptx
@@ -16,7 +19,6 @@ themes:
 customTheme: ""
 text: null
 youtube: null
-audio: null
 pdf: null
 ---
 Cette présentation renforce la nécessité d'ouvrir les opportunités de mentorat à ceux qui n'ont pas eu cette possibilité en raison de la rigidité des modèles de mentorat traditionnels. La présentation met en évidence ce à quoi le mentorat accessible pourrait ressembler et fournit les prochaines étapes pour ceux qui veulent soutenir le mentorat accessible.

@@ -1,4 +1,7 @@
 ---
+audio:
+  url: https://idrc.cachefly.net/acaw-cama/03/audio-en.mp4
+  lang: en
 slides:
   en: https://idrc.cachefly.net/acaw-cama/03/slides-en.pptx
   fr: https://idrc.cachefly.net/acaw-cama/03/slides-fr.pptx
@@ -16,7 +19,6 @@ themes:
 customTheme: ""
 text: null
 youtube: null
-audio: null
 pdf: null
 ---
 This presentation reinforces the need to open mentorship opportunities to those who have not had this opportunity because of the rigidity of traditional mentorship models. The presentation highlights what accessible mentorship could look like and provides next steps for those who want to support accessible mentorship.
