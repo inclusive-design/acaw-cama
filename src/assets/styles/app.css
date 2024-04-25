@@ -208,22 +208,51 @@ filter-container > * + * {
 /* Header */
 
 [role="banner"] {
-    box-shadow: 0 0 1.25rem rgba(0% 0% 0% / 10%);
+    padding-block: 0;
+    padding-inline: 0;
+}
+
+[role="banner"] > * {
+    padding-inline: 3rem;
 }
 
 [role="banner"] .container {
     display: flex;
     flex-direction: column;
     gap: 1.75rem;
+    height: 100%;
+}
+
+[role="banner"] .idrc {
+    font-size: 1rem;
+    height: 4.75rem;
+}
+
+[role="banner"] .idrc .container {
+    justify-content: center;
+}
+
+[role="banner"] .navbar {
+    box-shadow: 0 0 1.25rem rgba(0% 0% 0% / 10%);
+    padding-block: 1.75rem;
 }
 
 .index [role="banner"] {
     align-self: end;
+    height: 100%;
 }
 
 .index [role="banner"] .container {
-    display: block;
+    justify-content: flex-end;
     text-align: center;
+}
+
+.index [role="banner"] .idrc {
+    display: none;
+}
+
+.index [role="banner"] .navbar {
+    height: 100%;
 }
 
 .brand svg {
@@ -364,6 +393,16 @@ article header h1 + p {
 
 article header p + p {
     margin-block-start: 0.75rem;
+}
+
+.index article header {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+
+.index article {
+    padding-block: 3.125rem 4rem;
 }
 
 /* Filter and Search */
@@ -511,12 +550,14 @@ label[for="search"] {
 }
 
 .index .content a {
+    align-items: center;
     border: 0.125rem solid black;
     border-radius: 1.25rem;
-    display: block;
+    display: flex;
     font-size: 1.25rem;
     font-weight: 800;
     height: 2.5rem;
+    justify-content: center;
     margin-inline: auto;
     max-width: 12rem;
     text-decoration: none;
@@ -705,13 +746,25 @@ lite-youtube.lyt-activated > .lty-playbtn {
     }
 
     [role="banner"] {
-        height: 11.75rem;
+        height: 16.5rem;
     }
 
     [role="banner"] .container {
         align-items: center;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    [role="banner"] .idrc {
+        height: 4.75rem;
+    }
+
+    [role="banner"] .idrc .container {
+        justify-content: flex-start;
+    }
+
+    [role="banner"] .navbar {
+        height: 11.75rem;
     }
 
     .brand svg {

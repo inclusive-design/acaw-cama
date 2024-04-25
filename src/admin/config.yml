@@ -124,4 +124,5 @@ collections:
           - {label: Author Name, name: authorName, widget: string, i18n: duplicate}
           - {label: Author Email, name: authorEmail, widget: string, i18n: duplicate}
           - {label: Author Website, name: authorWebsite, widget: string, i18n: duplicate}
+          - {label: IDRC Banner, name: idrcBanner, widget: markdown, i18n: true}
 
