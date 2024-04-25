@@ -5,14 +5,16 @@
 <lite-youtube videoid="{{ youtube | youtubeId }}" style="background-image: url('https://i.ytimg.com/vi/{{ youtube | youtubeId }}/maxresdefault.jpg');"></lite-youtube>
 {% endif %}
 {% if transcript %}
-<p class="align-end">
+<p class="normal">
     <a href="{{ transcript }}">{{ 'video-transcript' | i18n }}</a>
 </p>
 {% endif %}
-<h1>{{ title }}</h1>
+    <h1>{{ site[lang].name }}</h1>
+    {% renderString intro, "md" %}
 {% endblock %}
 
 {% block content %}
+<h2>{{ title }}</h2>
 <div class="content">
     {{ content | safe }}
 </div>
@@ -20,7 +22,7 @@
     {% include "partials/components/filters.njk" %}
     <div class="submissions">
         <div class="title">
-            <h2>{{ 'submissions' | i18n }}</h2>
+            <h3>{{ 'submissions' | i18n }}</h3>
             <div aria-live="polite" data-filter-results="{{ 'filter-results.filtered' | i18n }}">
                 {{ 'filter-results.all' | i18n }}
             </div>

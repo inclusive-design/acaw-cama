@@ -1,5 +1,5 @@
 ---
-title: Accessible Canada, Accessible World / Un Canada accessible, Un monde accessible
+title: Accessible Canada — Accessible World / Un Canada accessible — Un monde accessible
 permalink: /index.html
 layout: layouts/index
 bodyClass: index
