@@ -5,7 +5,8 @@
     "url": "https://acaw-cama.idrc.ocadu.ca",
     "authorWebsite": "https://idrc.ocadu.ca",
     "authorEmail": "acaw@ocadu.ca",
-    "authorName": "Inclusive Design Research Centre"
+    "authorName": "Inclusive Design Research Centre",
+    "idrcBanner": "An [Inclusive Design Research Centre](https://idrc.ocadu.ca) project"
   },
   "fr": {
     "name": "Un Canada accessible — Un monde accessible",
@@ -13,6 +14,7 @@
     "url": "https://acaw-cama.idrc.ocadu.ca",
     "authorWebsite": "https://idrc.ocadu.ca",
     "authorEmail": "acaw@ocadu.ca",
-    "authorName": "Inclusive Design Research Centre"
+    "authorName": "Inclusive Design Research Centre",
+    "idrcBanner": "Un projet du [Centre de Recherche pour une Conception Inclusive](https://idrc.ocadu.ca)"
   }
 }
