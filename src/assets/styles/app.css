@@ -466,6 +466,7 @@ label {
 [type="checkbox"] {
     appearance: none;
     border: 3px solid #000;
+    border-radius: 3px;
     float: left;
     height: 1.5rem;
     margin-block-start: -0.1875em;
@@ -474,7 +475,7 @@ label {
 }
 
 [type="checkbox"]:checked {
-    background-image: url('data:image/svg+xml,<svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 4.5L7 10.5L15.5 1" stroke="black" stroke-width="3"/></svg>');
+    background-image: url('data:image/svg+xml,<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.19922 5.4043L7.19922 11.4043L15.6992 1.9043" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>');
     background-position: center;
     background-repeat: no-repeat;
 }
