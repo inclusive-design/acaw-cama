@@ -254,6 +254,7 @@ a:focus {
 }
 
 .index [role="banner"] .container {
+    flex-direction: column;
     justify-content: flex-end;
     text-align: center;
 }
@@ -281,8 +282,9 @@ a:focus {
     background-color: transparent;
 }
 
-.index .brand svg {
-    max-width: 37.5rem;
+.index .brand a {
+    max-width: 33.5625rem;
+    width: 100%;
 }
 
 .nav > ul {
@@ -595,6 +597,7 @@ button:focus {
 .index .content {
     display: block;
     margin-block-start: 0;
+    margin-inline: auto;
     padding-block-start: 1.5rem;
     text-align: center;
     width: 100%;
