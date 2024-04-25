@@ -1,6 +1,12 @@
         <footer role="contentinfo">
                 <div class="container"></div>
         </footer>
+        {% if lang %}
+        <script>
+            localStorage.setItem("lang", "{{ lang }}-CA");
+        </script>
+        {% endif %}
+        {% if global.context == 'production' %}
         <script>
             if ("serviceWorker" in navigator) {
                 navigator.serviceWorker
@@ -22,3 +28,4 @@
                 });
             }
         </script>
+        {% endif %}

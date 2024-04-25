@@ -23,7 +23,7 @@
 
     data-filter-search="{% for presenter in submission.data.presenters %}{{ presenter }},{% endfor %}{{ submission.data.title }},{{ submission.templateContent | replace('/n', '') }}"
 >
-    <h3 id="{{ submission.data.uuid }}">{{ submission.data.title }}</h3>
+    <h4 id="{{ submission.data.uuid }}">{{ submission.data.title }}</h4>
     <div class="presenters">
         {{ submission.data.presenters | join(', ') }}
     </div>
