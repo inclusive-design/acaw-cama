@@ -465,8 +465,8 @@ label {
 
 [type="checkbox"] {
     appearance: none;
-    border: 3px solid #000;
-    border-radius: 3px;
+    border: 0.1875rem solid #000;
+    border-radius: 0.1875rem;
     float: left;
     height: 1.5rem;
     margin-block-start: -0.1875em;
@@ -491,8 +491,8 @@ label[for="search"] {
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 23 22"><path stroke="%23000" stroke-width="3" d="M10.438 10.414 21.961 20.89"/><circle cx="9" cy="9" r="7.5" fill="%23FFF" stroke="%23000" stroke-width="3"/></svg>');
     background-position: 1rem center;
     background-repeat: no-repeat;
-    background-size: 20.95px 22px;
-    border: 3px solid #000;
+    background-size: 1.3094rem 1.375rem;
+    border: 0.1875rem solid #000;
     border-radius: calc(3.8125rem / 2);
     font-family: inherit;
     font-size: inherit;
@@ -645,14 +645,14 @@ lite-youtube::before {
     content: attr(data-title);
     display: block;
     font-family: "YouTube Noto", Roboto, Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    height: 99px;
+    font-size: 1.125rem;
+    height: 6.1875rem;
     overflow: hidden;
-    padding-block: 25px;
-    padding-inline: 20px;
+    padding-block: 1.6667rem;
+    padding-inline: 1.25rem;
     position: absolute;
     text-overflow: ellipsis;
-    text-shadow: 0 0 2px rgb(0 0 0 / 50%);
+    text-shadow: 0 0 0.125rem rgb(0 0 0 / 50%);
     top: 0;
     white-space: nowrap;
     width: 100%;
@@ -678,7 +678,7 @@ lite-youtube > iframe {
 }
 
 lite-youtube > .lty-playbtn {
-    background: no-repeat center/68px 48px;
+    background: no-repeat center/4.25rem 3rem;
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg>');
     border: 0;
     cursor: pointer;
