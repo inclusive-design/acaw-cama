@@ -141,6 +141,7 @@ input {
 :root {
     --base-font-family: "Montserrat Alternates", montserrat, sans-serif;
     --color-green-100: #eef4ef;
+    --color-green-400: #4d857c;
     --color-red-800: #b21a26;
     --color-yellow-50: #fbeb95;
 }
@@ -531,6 +532,23 @@ label[for="search"] {
 [type="search"]:focus {
     background-color: var(--color-yellow-50);
     outline: 0.1875rem solid currentcolor;
+    outline-offset: 0.1875rem;
+}
+
+button {
+    appearance: none;
+    background: var(--color-green-400);
+    border: 0;
+    border-radius: 0.75rem;
+    color: #fff;
+    font-size: inherit;
+    font-weight: 600;
+    height: 3.5rem;
+    width: 100%;
+}
+
+button:focus {
+    outline: 0.1875rem solid black;
     outline-offset: 0.1875rem;
 }
 
