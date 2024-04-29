@@ -1,7 +1,7 @@
 ---
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/11/transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/11/transcript-fr.docx
+  en: https://idrc.cachefly.net/acaw-cama/11/the-egap-data-governance-framework-developed-by-the-black-health-equity-working-group-transcript-en.docx
+  fr: https://idrc.cachefly.net/acaw-cama/11/the-egap-data-governance-framework-developed-by-the-black-health-equity-working-group-transcript-fr.docx
 title: Le cadre de gouvernance des données EGAP développé par le groupe de travail sur l'équité en matière de santé pour les Noirs
 uuid: c3a8e020-1c32-4029-b514-3a938ce0e885
 previewImage: ""
