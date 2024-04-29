@@ -38,6 +38,8 @@ module.exports = {
         "lsq": "with LSQ"
     },
     "search": "Search submissions:",
-    "video-transcript": "Video transcript",
-    "sponsors": "Sponsors"
+    "video-transcript": "Download descriptive transcript",
+    "sponsors": "Sponsors",
+    "close": "close",
+    "play-video": "Play video"
 };

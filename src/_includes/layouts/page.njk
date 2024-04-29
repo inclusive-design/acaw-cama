@@ -2,7 +2,11 @@
 
 {% block pageHeader %}
 {% if youtube %}
-<lite-youtube videoid="{{ youtube | youtubeId }}" style="background-image: url('https://i.ytimg.com/vi/{{ youtube | youtubeId }}/maxresdefault.jpg');"></lite-youtube>
+<a class="linked-video" rel="external" data-id="{{ youtube | youtubeId }}" data-close="{{ 'close' | i18n }}" href="{{ youtube }}">
+    <img src="/assets/images/placeholder.png" alt="" />
+    {% include "svg/play.svg" %}
+    <div>{{ 'play-video' | i18n }}</div>
+</a>
 {% endif %}
 {% if transcript %}
 <p class="normal">
