@@ -125,4 +125,17 @@ collections:
           - {label: Author Email, name: authorEmail, widget: string, i18n: duplicate}
           - {label: Author Website, name: authorWebsite, widget: string, i18n: duplicate}
           - {label: IDRC Banner, name: idrcBanner, widget: markdown, i18n: true}
+          - {label: IDRC Footer, name: idrcFooter, widget: markdown, i18n: true}
+          - {label: Concordia Footer, name: concordiaFooter, widget: markdown, i18n: true}
+          - {label: ASC Footer, name: ascFooter, widget: markdown, i18n: true}
+          - label: Sponsors
+            name: sponsors
+            widget: list
+            i18n: true
+            fields:
+              - {label: Name, name: name, widget: string, i18n: true}
+              - {label: URL, name: url, widget: string, type: url, i18n: true}
+              - {label: Logo, name: logo, widget: image, i18n: true}
+              - {label: Mobile Width, name: mobileWidth, widget: number, i18n: true}
+              - {label: Desktop Width, name: desktopWidth, widget: number, i18n: true}
 

@@ -6,7 +6,47 @@
     "authorWebsite": "https://idrc.ocadu.ca",
     "authorEmail": "acaw@ocadu.ca",
     "authorName": "Inclusive Design Research Centre",
-    "idrcBanner": "An [Inclusive Design Research Centre](https://idrc.ocadu.ca) project"
+    "idrcBanner": "An [Inclusive Design Research Centre](https://idrc.ocadu.ca) project",
+    "ascFooter": "Funded by [Accessibility Standards Canada](https://accessible.canada.ca) / the Government of Canada.",
+    "concordiaFooter": "Event Partner, [Concordia University](https://www.concordia.ca)",
+    "idrcFooter": "Organized by [Inclusive Design Research Centre](https://idrc.ocadu.ca) at[ OCAD University](https://ocadu.ca), and Community.",
+    "sponsors": [
+      {
+        "url": "https://aequumaccess.com/",
+        "name": "Aequum Global Access",
+        "logo": "/assets/uploads/aequum-en.png",
+        "mobileWidth": 289,
+        "desktopWidth": 176
+      },
+      {
+        "name": "AMI",
+        "url": "https://www.ami.ca",
+        "logo": "/assets/uploads/ami.svg",
+        "mobileWidth": 134,
+        "desktopWidth": 80
+      },
+      {
+        "name": "Canadian Council of the Blind",
+        "url": "https://ccbnational.net",
+        "logo": "/assets/uploads/ccb.png",
+        "mobileWidth": 317,
+        "desktopWidth": 205
+      },
+      {
+        "name": "Fable",
+        "url": "https://makeitfable.com/",
+        "logo": "/assets/uploads/fable.svg",
+        "mobileWidth": 202,
+        "desktopWidth": 122
+      },
+      {
+        "name": "VIA Rail Canada",
+        "url": "https://www.viarail.ca/en",
+        "logo": "/assets/uploads/via-rail.svg",
+        "mobileWidth": 162,
+        "desktopWidth": 99
+      }
+    ]
   },
   "fr": {
     "name": "Un Canada accessible — Un monde accessible",
@@ -15,6 +55,46 @@
     "authorWebsite": "https://idrc.ocadu.ca",
     "authorEmail": "acaw@ocadu.ca",
     "authorName": "Inclusive Design Research Centre",
-    "idrcBanner": "Un projet du [Centre de Recherche pour une Conception Inclusive](https://idrc.ocadu.ca)"
+    "idrcBanner": "Un projet du [Centre de Recherche pour une Conception Inclusive](https://idrc.ocadu.ca)",
+    "idrcFooter": "Organisé par le [Centre de Recherche pour une Conception Inclusive](https://idrc.ocadu.ca) de [l'Université OCAD](https://ocadu.ca) et la Communauté.",
+    "concordiaFooter": "Partenaire de l'événement, [Université Concordia](https://www.concordia.ca/fr.html)",
+    "ascFooter": "Financé par [Normes d'accessibilité Canada](https://accessibilite.canada.ca) / le gouvernement du Canada.",
+    "sponsors": [
+      {
+        "name": "Aequum Global Access",
+        "url": "https://aequumaccess.com/",
+        "logo": "/assets/uploads/aequum-fr.png",
+        "desktopWidth": 176,
+        "mobileWidth": 289
+      },
+      {
+        "name": "AMI",
+        "url": "https://www.ami.ca",
+        "logo": "/assets/uploads/ami.svg",
+        "desktopWidth": 80,
+        "mobileWidth": 134
+      },
+      {
+        "name": "Le Conseil canadien des aveugles",
+        "url": "https://ccbnational.net",
+        "logo": "/assets/uploads/ccb.png",
+        "desktopWidth": 205,
+        "mobileWidth": 317
+      },
+      {
+        "name": "Fable",
+        "url": "https://makeitfable.com/",
+        "logo": "/assets/uploads/fable.svg",
+        "desktopWidth": 122,
+        "mobileWidth": 202
+      },
+      {
+        "name": "VIA Rail Canada",
+        "url": "https://www.viarail.ca/fr",
+        "logo": "/assets/uploads/via-rail.svg",
+        "desktopWidth": 99,
+        "mobileWidth": 162
+      }
+    ]
   }
 }
