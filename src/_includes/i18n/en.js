@@ -41,5 +41,9 @@ module.exports = {
     "video-transcript": "Download descriptive transcript",
     "sponsors": "Sponsors",
     "close": "close",
-    "play-video": "Play video"
+    "play-video": "Play video",
+    "idrc": "Inclusive Design Research Centre",
+    "ocadu": "OCAD University",
+    "concordia": "Concordia University",
+    "asc": "Accessibility Standards Canada"
 };

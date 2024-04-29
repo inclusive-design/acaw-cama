@@ -1,7 +1,7 @@
 ---
 text:
-  en: https://idrc.cachefly.net/acaw-cama/20/text-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/20/text-fr.docx
+  en: https://idrc.cachefly.net/acaw-cama/20/artificially-intelligent-and-implicitly-ableist-analyzing-language-model-bias-towards-persons-with-disabilities-text-en.docx
+  fr: https://idrc.cachefly.net/acaw-cama/20/artificially-intelligent-and-implicitly-ableist-analyzing-language-model-bias-towards-persons-with-disabilities-text-fr.docx
 title: "Artificially Intelligent and Implicitly Ableist: Analyzing Language Model Bias Towards Persons with Disabilities"
 uuid: 964fbb8e-9f07-4aee-bc67-bf494402df08
 previewImage: ""

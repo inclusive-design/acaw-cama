@@ -41,5 +41,9 @@ module.exports = {
     "video-transcript": "Télécharger la transcription descriptive",
     "sponsors": "Parrains",
     "close": "fermer",
-    "play-video": "Lire la vidéo"
+    "play-video": "Lire la vidéo",
+    "idrc": "Centre de Recherche pour une Conception Inclusive",
+    "ocadu": "Université OCAD",
+    "concordia": "Université Concordia",
+    "asc": "Normes d’accessibilité Canada"
 };
