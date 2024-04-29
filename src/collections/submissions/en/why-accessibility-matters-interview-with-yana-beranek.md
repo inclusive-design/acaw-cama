@@ -1,7 +1,7 @@
 ---
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/16/transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/16/transcript-fr.docx
+  en: https://idrc.cachefly.net/acaw-cama/16/why-accessibility-matters-interview-with-yana-beranek-transcript-en.docx
+  fr: https://idrc.cachefly.net/acaw-cama/16/why-accessibility-matters-interview-with-yana-beranek-transcript-fr.docx
 title: Why Accessibility Matters - Interview with Yana Beranek
 uuid: e94d3b06-1f88-4cd3-a96a-79941eeecab4
 previewImage: ""
