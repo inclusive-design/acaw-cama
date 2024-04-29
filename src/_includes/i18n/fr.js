@@ -39,5 +39,9 @@ module.exports = {
     },
     "search": "Rechercher les soumissions :",
     "video-transcript": "Transcription de la vidéo",
-    "sponsors": "Parrains"
+    "sponsors": "Parrains",
+    "idrc": "Centre de Recherche pour une Conception Inclusive",
+    "ocadu": "Université OCAD",
+    "concordia": "Université Concordia",
+    "asc": "Normes d’accessibilité Canada"
 };
