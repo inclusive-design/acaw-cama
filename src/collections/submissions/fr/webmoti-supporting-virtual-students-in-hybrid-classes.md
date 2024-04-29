@@ -1,10 +1,10 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/23/slides-en.pptx
-  fr: https://idrc.cachefly.net/acaw-cama/23/slides-fr.pptx
+  en: https://idrc.cachefly.net/acaw-cama/23/webmoti-supporting-virtual-students-in-hybrid-classes-slides-en.pptx
+  fr: https://idrc.cachefly.net/acaw-cama/23/webmoti-supporting-virtual-students-in-hybrid-classes-slides-fr.pptx
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/23/transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/23/transcript-fr.docx
+  en: https://idrc.cachefly.net/acaw-cama/23/webmoti-supporting-virtual-students-in-hybrid-classes-transcript-en.docx
+  fr: https://idrc.cachefly.net/acaw-cama/23/webmoti-supporting-virtual-students-in-hybrid-classes-transcript-fr.docx
 title: "WebMoti: Soutenir les étudiants virtuels neurodiverses dans les classes hybrides"
 uuid: 8e8b6dba-2d70-4515-abb5-e72c5c0f92fe
 previewImage: ""
