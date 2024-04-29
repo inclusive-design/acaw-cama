@@ -1,10 +1,10 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/15/slides-en.pptx
-  fr: https://idrc.cachefly.net/acaw-cama/15/slides-fr.pptx
+  en: https://idrc.cachefly.net/acaw-cama/15/inclusive-decision-making-paving-the-way-for-equitable-career-progression-slides-en.pptx
+  fr: https://idrc.cachefly.net/acaw-cama/15/inclusive-decision-making-paving-the-way-for-equitable-career-progression-slides-fr.pptx
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/15/transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/15/transcript-fr.docx
+  en: https://idrc.cachefly.net/acaw-cama/15/inclusive-decision-making-paving-the-way-for-equitable-career-progression-transcript-en.docx
+  fr: https://idrc.cachefly.net/acaw-cama/15/inclusive-decision-making-paving-the-way-for-equitable-career-progression-transcript-fr.docx
 title: Inclusive decision-making Paving the way for equitable career progression
 uuid: 66b7c1ea-f034-478f-b052-e3e131c66c86
 previewImage: ""
