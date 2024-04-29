@@ -1,9 +1,9 @@
 ---
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/02/transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/02/transcript-fr.docx
+  en: https://idrc.cachefly.net/acaw-cama/02/building-it-in-audio-description-at-every-performance-transcript-en.docx
+  fr: https://idrc.cachefly.net/acaw-cama/02/building-it-in-audio-description-at-every-performance-transcript-fr.docx
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/02/slides-en.pptx
+  en: https://idrc.cachefly.net/acaw-cama/02/building-it-in-audio-description-at-every-performance-slides-en.pptx
   fr: ""
 text:
   en: ""
