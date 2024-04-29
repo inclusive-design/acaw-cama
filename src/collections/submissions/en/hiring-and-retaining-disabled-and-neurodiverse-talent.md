@@ -1,7 +1,7 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/06/slides-en.pptx
-  fr: https://idrc.cachefly.net/acaw-cama/06/slides-fr.pptx
+  en: https://idrc.cachefly.net/acaw-cama/06/hiring-and-retaining-disabled-and-neurodiverse-talent-slides-en.pptx
+  fr: https://idrc.cachefly.net/acaw-cama/06/hiring-and-retaining-disabled-and-neurodiverse-talent-slides-fr.pptx
 title: Hiring and Retaining Disabled and Neurodiverse Talent
 uuid: aa879abf-cfb3-451b-9c5c-39b3211191ba
 previewImage: ""
