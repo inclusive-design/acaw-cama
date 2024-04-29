@@ -1,10 +1,10 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/19/slides-en.pptx
-  fr: https://idrc.cachefly.net/acaw-cama/19/slides-fr.pptx
+  en: https://idrc.cachefly.net/acaw-cama/19/xai-from-audio-descriptions-to-audio-explanations-for-individuals-who-are-blind-and-partially-sighted-slides-en.pptx
+  fr: https://idrc.cachefly.net/acaw-cama/19/xai-from-audio-descriptions-to-audio-explanations-for-individuals-who-are-blind-and-partially-sighted-slides-fr.pptx
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/19/transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/19/transcript-fr.docx
+  en: https://idrc.cachefly.net/acaw-cama/19/xai-from-audio-descriptions-to-audio-explanations-for-individuals-who-are-blind-and-partially-sighted-transcript-en.docx
+  fr: https://idrc.cachefly.net/acaw-cama/19/xai-from-audio-descriptions-to-audio-explanations-for-individuals-who-are-blind-and-partially-sighted-transcript-fr.docx
 title: "XAI: Des descriptions audio aux explications audio pour les personnes aveugles et malvoyantes"
 uuid: a46cdb65-9e29-4705-bbb6-2d9f18434493
 previewImage: ""
