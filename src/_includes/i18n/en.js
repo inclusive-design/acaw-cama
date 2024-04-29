@@ -39,5 +39,9 @@ module.exports = {
     },
     "search": "Search submissions:",
     "video-transcript": "Video transcript",
-    "sponsors": "Sponsors"
+    "sponsors": "Sponsors",
+    "idrc": "Inclusive Design Research Centre",
+    "ocadu": "OCAD University",
+    "concordia": "Concordia University",
+    "asc": "Accessibility Standards Canada"
 };
