@@ -325,6 +325,96 @@ a:focus {
 
 /* Footer */
 
+footer {
+    font-size: 1rem;
+    margin-block-start: 12.5rem;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+footer .container > *::before {
+    background-color: #000;
+    border-radius: 0.3125rem;
+    content: "";
+    display: block;
+    height: 0.625rem;
+    margin-block-end: 4.25rem;
+    width: 100%;
+}
+
+footer .acaw-cama svg {
+    height: auto;
+    max-width: 12.5rem;
+    width: 100%;
+}
+
+footer .acaw-cama svg + p {
+    margin-block-start: 3rem;
+}
+
+footer .acaw-cama p + p {
+    margin-block-start: 0.5rem;
+}
+
+footer .acaw-cama p {
+    font-family: var(--alternate-font-family);
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+footer .acaw-cama nav {
+    margin-block-start: 1.5rem;
+}
+
+footer .acaw-cama nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+footer .acaw-cama nav a {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+footer .acaw-cama nav svg {
+    height: 1.125rem;
+    width: 1.125rem;
+}
+
+footer .logos {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    line-height: 1.5;
+}
+
+footer .logos.idrc-ocadu {
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+footer .logos img,
+footer .logos svg {
+    height: auto;
+    width: var(--mobileWidth);
+}
+
+footer .sponsors ul + p {
+    margin-block-start: 3rem;
+}
+
+footer .sponsors p + ul {
+    margin-block-start: 0.5rem;
+}
+
 .index footer {
     display: none;
 }
@@ -855,5 +945,26 @@ lite-youtube.lyt-activated > .lty-playbtn {
 
     .index .content .flow {
         width: 100%;
+    }
+
+    footer .container {
+        column-gap: 8.625rem;
+        display: grid;
+        grid-template-columns: 18.5625rem 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    footer .logos {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    footer .logos.idrc-ocadu {
+        align-items: center;
+    }
+
+    footer .logos img,
+    footer .logos svg {
+        width: var(--desktopWidth);
     }
 }

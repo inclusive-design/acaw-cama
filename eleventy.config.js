@@ -75,6 +75,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({"src/assets/icons": "/"});
     eleventyConfig.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
     eleventyConfig.addPassthroughCopy({"src/assets/images": "assets/images"});
+    eleventyConfig.addPassthroughCopy({"src/assets/uploads": "assets/uploads"});
 
     // Plugins
     eleventyConfig.addPlugin(navigationPlugin);

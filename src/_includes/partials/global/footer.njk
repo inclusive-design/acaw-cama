@@ -1,31 +1,44 @@
         <footer role="contentinfo">
-                <div class="container"></div>
+                <div class="container">
+                    <div class="acaw-cama">
+                        {% include "svg/mark.svg" %}
+
+                        <nav aria-label="{{ "social-media" | i18n }}">
+                            <ul role="list">
+                                <li><a href="mailto:acaw@ocadu.ca">{% include "svg/mail.svg" %} acaw@ocadu.ca</a></li>
+                                <li><a href="https://www.youtube.com/channel/UCKuY5ffOerSEG4VHgBAemOg" rel="external">{% include "svg/youtube.svg" %} YouTube</a></li>
+                                <li><a href="https://www.linkedin.com/company/103409909" rel="external">{% include "svg/linkedin.svg" %} LinkedIn</a></li>
+                                <li><a href="https://twitter.com/ACAWConference" rel="external">{% include "svg/x.svg" %} X</a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=61558053070052" rel="external">{% include "svg/facebook.svg" %} Facebook</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    {% if lang %}
+                    <div class="sponsors">
+                        {% renderString site[lang].idrcFooter, "md" %}
+                        <ul class="logos idrc-ocadu" role="list">
+                            <li><a href="https://idrc.ocadu.ca"><img src="/assets/images/idrc.svg" alt="{{ 'idrc' | i18n }}" style="--mobileWidth: 220px; --desktopWidth: 300px;" /></a></li>
+                            <li><a href="https://ocadu.ca"><img src="/assets/images/ocadu.svg" alt="{{ 'ocadu' | i18n }}" style="--mobileWidth: 75px; --desktopWidth: 96px;" /></a></li>
+                        </ul>
+                        {% renderString site[lang].concordiaFooter, "md" %}
+                        <ul class="logos" role="list">
+                            <li><a href="https://concordia.ca{% if lang and lang == 'fr' %}/fr.html{% endif %}"><img src="/assets/images/concordia.png" alt="{{ 'concordia' | i18n }}" style="--mobileWidth: 288px; --desktopWidth: 288px;" /></a></li>
+                        </ul>
+                        {% renderString site[lang].ascFooter, "md" %}
+                        <ul class="logos" role="list">
+                            <li><a href="{% if lang and lang == 'fr' %}https://accessibilite.canada.ca{% else %}https://accessibility.canada.ca{% endif %}"><img src="/assets/images/asc.jpg" alt="{{ 'asc' | i18n }}" style="--mobileWidth: min(100%, 643px); --desktopWidth: 643px;" /></a></li>
+                        </ul>
+                        <p>{{ 'sponsors' | i18n }}</p>
+                        <ul class="logos" role="list">
+                            {% for sponsor in site[lang].sponsors %}
+                            <li><a href="{{ sponsor.url }}">
+                                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" style="--mobileWidth: {{ sponsor.mobileWidth }}px; --desktopWidth: {{ sponsor.desktopWidth }}px;" />
+                            </a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
         </footer>
-        {% if lang %}
-        <script>
-            localStorage.setItem("lang", "{{ lang }}-CA");
-        </script>
-        {% endif %}
-        {% if global.context == 'production' %}
-        <script>
-            if ("serviceWorker" in navigator) {
-                navigator.serviceWorker
-                .register("/sw.js")
-                .then((registration) => {
-                    registration.addEventListener("updatefound", () => {
-                        const newWorker = registration.installing;
-                        newWorker.addEventListener("statechange", () => {
-                            if (newWorker.state === "installed") {
-                                if (navigator.serviceWorker.controller) {
-                                    window.location.reload();
-                                }
-                            }
-                        });
-                    });
-                })
-                .catch((error) => {
-                    console.error("Service Worker registration failed:", error);
-                });
-            }
-        </script>
-        {% endif %}
+        {% include "partials/components/lang.njk" %}
+        {% include "partials/components/sw.njk" %}
