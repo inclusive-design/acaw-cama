@@ -38,8 +38,10 @@ module.exports = {
         "lsq": "with LSQ"
     },
     "search": "Search submissions:",
-    "video-transcript": "Video transcript",
+    "video-transcript": "Download descriptive transcript",
     "sponsors": "Sponsors",
+    "close": "close",
+    "play-video": "Play video",
     "idrc": "Inclusive Design Research Centre",
     "ocadu": "OCAD University",
     "concordia": "Concordia University",

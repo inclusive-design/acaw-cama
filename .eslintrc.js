@@ -18,7 +18,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ["src/assets/scripts/app.js"],
+            files: ["src/assets/scripts/app.js", "src/assets/scripts/*.module.js"],
             parserOptions: {
                 sourceType: "module"
             }

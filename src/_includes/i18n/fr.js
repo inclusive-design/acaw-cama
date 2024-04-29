@@ -38,8 +38,10 @@ module.exports = {
         "lsq": "avec LSQ"
     },
     "search": "Rechercher les soumissions :",
-    "video-transcript": "Transcription de la vidéo",
+    "video-transcript": "Télécharger la transcription descriptive",
     "sponsors": "Parrains",
+    "close": "fermer",
+    "play-video": "Lire la vidéo",
     "idrc": "Centre de Recherche pour une Conception Inclusive",
     "ocadu": "Université OCAD",
     "concordia": "Université Concordia",
