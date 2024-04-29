@@ -1,7 +1,7 @@
 ---
 pdf:
-  en: https://idrc.cachefly.net/acaw-cama/12/text-en.pdf
-  fr: https://idrc.cachefly.net/acaw-cama/12/text-fr.pdf
+  en: https://idrc.cachefly.net/acaw-cama/12/creating-inclusive-employment-empowering-youth-with-disabilities-through-inclusive-accessible-digital-skill-development-text-en.pdf
+  fr: https://idrc.cachefly.net/acaw-cama/12/creating-inclusive-employment-empowering-youth-with-disabilities-through-inclusive-accessible-digital-skill-development-text-fr.pdf
 title: "Creating Inclusive Employment: Empowering youth with disabilities through inclusive accessible digital skill development"
 uuid: 9584539e-6c3e-46a5-8368-13637c37e278
 previewImage: ""
