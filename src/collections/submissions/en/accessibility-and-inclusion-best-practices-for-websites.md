@@ -6,7 +6,7 @@ transcript:
   en: https://idrc.cachefly.net/acaw-cama/07/accessibility-and-inclusion-best-practices-for-websites-transcript-en.docx
   fr: https://idrc.cachefly.net/acaw-cama/07/accessibility-and-inclusion-best-practices-for-websites-transcript-fr.docx
 title: Accessibility and inclusion best practices  for websites
-uuid: 80f51cd6-96b9-4dc9-8b16-d5d25ae693fb
+id: "07"
 previewImage: ""
 previewImageAlt: ""
 presenters:

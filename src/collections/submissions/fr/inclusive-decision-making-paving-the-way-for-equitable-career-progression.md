@@ -6,7 +6,7 @@ transcript:
   en: https://idrc.cachefly.net/acaw-cama/15/inclusive-decision-making-paving-the-way-for-equitable-career-progression-transcript-en.docx
   fr: https://idrc.cachefly.net/acaw-cama/15/inclusive-decision-making-paving-the-way-for-equitable-career-progression-transcript-fr.docx
 title: Une prise de décision inclusive Ouvrir la voie à une progression de carrière équitable
-uuid: 66b7c1ea-f034-478f-b052-e3e131c66c86
+id: "15"
 previewImage: ""
 previewImageAlt: ""
 presenters:

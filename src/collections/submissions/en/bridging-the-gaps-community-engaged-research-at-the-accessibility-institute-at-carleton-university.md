@@ -6,7 +6,7 @@ transcript:
   en: https://idrc.cachefly.net/acaw-cama/17/bridging-the-gaps-community-engaged-research-at-the-accessibility-institute-at-carleton-university-transcript-en.docx
   fr: https://idrc.cachefly.net/acaw-cama/17/bridging-the-gaps-community-engaged-research-at-the-accessibility-institute-at-carleton-university-transcript-fr.docx
 title: "Bridging the Gaps: Community-Engaged Research at the Accessibility Institute at Carleton University"
-uuid: fcae3804-4541-488f-9ec4-af5f634ef3b7
+id: "17"
 previewImage: ""
 previewImageAlt: ""
 presenters:

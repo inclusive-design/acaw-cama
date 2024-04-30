@@ -3,7 +3,7 @@ transcript:
   en: https://idrc.cachefly.net/acaw-cama/08/the-application-of-unlearning-and-questioning-towards-creating-and-id-mindset-transcript-en.docx
   fr: https://idrc.cachefly.net/acaw-cama/08/the-application-of-unlearning-and-questioning-towards-creating-and-id-mindset-transcript-fr.docx
 title: L'application du « désapprentissage et de la remise en question » à la création d'un état d'esprit de l'ID
-uuid: 26dc1ed9-2216-44f8-adff-c3ffc4c3ae4f
+id: "08"
 previewImage: ""
 previewImageAlt: ""
 presenters:

@@ -9,7 +9,7 @@ text:
   en: https://idrc.cachefly.net/acaw-cama/13/accessible-explainable-ai-research-text-en.txt
   fr: https://idrc.cachefly.net/acaw-cama/13/accessible-explainable-ai-research-text-fr.txt
 title: Accessible Explainable AI Research
-uuid: e23e1ac4-3a55-46a8-9369-500cee487d15
+id: "13"
 previewImage: ""
 previewImageAlt: ""
 presenters:

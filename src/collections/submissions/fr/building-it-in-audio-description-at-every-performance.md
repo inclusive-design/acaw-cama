@@ -9,7 +9,7 @@ text:
   en: ""
   fr: ""
 title: "L’intégrer : Description audio à chaque représentation"
-uuid: 701e79a0-2705-4ce2-8e56-1c2392e88acb
+id: "02"
 previewImage: ""
 previewImageAlt: ""
 themes:
