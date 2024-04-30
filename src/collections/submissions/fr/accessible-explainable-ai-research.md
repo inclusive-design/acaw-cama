@@ -1,13 +1,12 @@
 ---
 slides:
-  en: true
-  fr: true
+  en: https://idrc.cachefly.net/acaw-cama/13/accessible-explainable-ai-research-slides-en.pptx
+  fr: https://idrc.cachefly.net/acaw-cama/13/accessible-explainable-ai-research-slides-fr.pptx
 transcript:
-  en: true
-  fr: true
-text: null
+  en: https://idrc.cachefly.net/acaw-cama/13/accessible-explainable-ai-research-transcript-en.docx
+  fr: https://idrc.cachefly.net/acaw-cama/13/accessible-explainable-ai-research-transcript-fr.docx
 title: Recherche sur l'IA Explicable Accessible
-id: "13"
+uuid: e23e1ac4-3a55-46a8-9369-500cee487d15
 previewImage: ""
 previewImageAlt: ""
 presenters:
