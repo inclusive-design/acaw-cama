@@ -51,8 +51,8 @@ collections:
         i18n: duplicate
         required: false
         fields:
-          - {label: English URL, name: en, widget: string, type: url, i18n: duplicate, required: false}
-          - {label: French URL, name: fr, widget: string, type: url, i18n: duplicate, required: false}
+          - {label: English, name: en, widget: boolean, i18n: duplicate, required: false}
+          - {label: French, name: fr, widget: boolean, i18n: duplicate, required: false}
       - label: YouTube
         name: youtube
         widget: object
@@ -68,16 +68,16 @@ collections:
         i18n: duplicate
         required: false
         fields:
-          - {label: English URL, name: en, widget: string, type: url, i18n: duplicate, required: false}
-          - {label: French URL, name: fr, widget: string, type: url, i18n: duplicate, required: false}
+          - {label: English, name: en, widget: boolean, i18n: duplicate, required: false}
+          - {label: French, name: fr, widget: boolean, i18n: duplicate, required: false}
       - label: Slide Deck
         name: slides
         widget: object
         i18n: duplicate
         required: false
         fields:
-          - {label: English URL, name: en, widget: string, type: url, i18n: duplicate, required: false}
-          - {label: French URL, name: fr, widget: string, type: url, i18n: duplicate, required: false}
+          - {label: English, name: en, widget: boolean, i18n: duplicate, required: false}
+          - {label: French, name: fr, widget: boolean, i18n: duplicate, required: false}
       - label: Audio
         name: audio
         widget: object
@@ -92,8 +92,8 @@ collections:
         i18n: duplicate
         required: false
         fields:
-          - {label: English URL, name: en, widget: string, type: url, i18n: duplicate, required: false}
-          - {label: French URL, name: fr, widget: string, type: url, i18n: duplicate, required: false}
+          - {label: English, name: en, widget: boolean, i18n: duplicate, required: false}
+          - {label: French, name: fr, widget: boolean, i18n: duplicate, required: false}
       - {label: Body, name: body, widget: markdown, i18n: true}
   - label: Themes
     label_singular: Theme

@@ -1,7 +1,7 @@
 ---
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/16/why-accessibility-matters-interview-with-yana-beranek-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/16/why-accessibility-matters-interview-with-yana-beranek-transcript-fr.docx
+  en: true
+  fr: true
 title: Pourquoi l’accessibilité est importante - entretien avec Yana Beranek
 id: "16"
 previewImage: ""

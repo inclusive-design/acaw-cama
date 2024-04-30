@@ -1,7 +1,7 @@
 ---
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/08/the-application-of-unlearning-and-questioning-towards-creating-and-id-mindset-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/08/the-application-of-unlearning-and-questioning-towards-creating-and-id-mindset-transcript-fr.docx
+  en: true
+  fr: true
 title: The application of 'Unlearning and questioning' towards creating and ID mindset
 id: "08"
 previewImage: ""

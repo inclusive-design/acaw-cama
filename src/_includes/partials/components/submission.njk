@@ -1,4 +1,3 @@
-
 <article
     data-filter-theme="{{ submission.data.themes | join(',') }}"
     data-filter-format="
@@ -24,6 +23,7 @@
     data-filter-search="{% for presenter in submission.data.presenters %}{{ presenter }},{% endfor %}{{ submission.data.title }},{{ submission.templateContent | replace('/n', '') }}"
 >
     <h4 id="{{ submission.data.id }}">{{ submission.data.title }}</h4>
+    
     <div class="presenters">
         {{ submission.data.presenters | join(', ') }}
     </div>
@@ -66,9 +66,9 @@
         {% for format in ['text', 'transcript', 'slides', 'pdf'] %}
         {% if submission.data[format] %}
         <li class="{{ format }}">{% if format === 'transcript' %}{% include 'svg/text.svg' %}{% else %}{% include 'svg/' + format + '.svg' %}{% endif %}
-        {% for formatLocale, formatUrl in submission.data[format] -%}
-        {%- if formatUrl !== '' -%}
-        <span><a aria-describedby="{{ submission.data.id }}" href="{{ formatUrl }}">{% localizedFormat format, formatLocale, lang %}</a></span>
+        {% for formatLocale, hasFormatLocale in submission.data[format] -%}
+        {%- if hasFormatLocale -%}
+        <span><a aria-describedby="{{ submission.data.id }}" href="{% formatUrl submission.data.id, format, formatLocale %}">{% localizedFormat format, formatLocale, lang %}</a></span>
         {%- endif -%}
         {%- endfor %}
         </li>

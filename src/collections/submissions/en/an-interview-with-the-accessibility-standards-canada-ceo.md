@@ -1,7 +1,7 @@
 ---
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/09/an-interview-with-the-accessibility-standards-canada-ceo-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/09/an-interview-with-the-accessibility-standards-canada-ceo-transcript-fr.docx
+  en: true
+  fr: true
 title: An interview with the Accessibility Standards Canada CEO
 id: "09"
 previewImage: ""

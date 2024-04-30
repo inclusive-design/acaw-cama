@@ -1,10 +1,10 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/03/mentorship-supporting-the-future-of-accessibility-through-connection-slides-en.pptx
-  fr: https://idrc.cachefly.net/acaw-cama/03/mentorship-supporting-the-future-of-accessibility-through-connection-slides-fr.pptx
+  en: true
+  fr: true
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/03/mentorship-supporting-the-future-of-accessibility-through-connection-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/03/mentorship-supporting-the-future-of-accessibility-through-connection-transcript-fr.docx
+  en: true
+  fr: true
 title: "Le mentorat: Soutenir l'avenir de l'accessibilité avec connexion"
 id: "03"
 previewImage: ""

@@ -1,11 +1,11 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/07/accessibility-and-inclusion-best-practices-for-websites-slides-en.pptx
-  fr: https://idrc.cachefly.net/acaw-cama/07/accessibility-and-inclusion-best-practices-for-websites-slides-fr.pptx
+  en: true
+  fr: true
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/07/accessibility-and-inclusion-best-practices-for-websites-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/07/accessibility-and-inclusion-best-practices-for-websites-transcript-fr.docx
-title: Meilleures pratiques en matière d’accessibilité et d’inclusion pour les sites Web 
+  en: true
+  fr: true
+title: Meilleures pratiques en matière d’accessibilité et d’inclusion pour les sites Web
 id: "07"
 previewImage: ""
 previewImageAlt: ""

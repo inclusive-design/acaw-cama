@@ -1,7 +1,7 @@
 ---
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/22/in-exclusion-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/22/in-exclusion-transcript-fr.docx
+  en: true
+  fr: true
 title: In-Exclusion
 id: "22"
 previewImage: ""

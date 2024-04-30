@@ -1,7 +1,7 @@
 ---
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/21/understanding-co-design-perspectives-of-researchers-and-participantsco-researchers-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/21/understanding-co-design-perspectives-of-researchers-and-participantsco-researchers-transcript-fr.docx
+  en: true
+  fr: true
 title: Understanding co-design; perspectives of researchers and participants/co-researchers
 id: "21"
 previewImage: ""

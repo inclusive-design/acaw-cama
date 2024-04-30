@@ -1,7 +1,7 @@
 ---
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/11/the-egap-data-governance-framework-developed-by-the-black-health-equity-working-group-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/11/the-egap-data-governance-framework-developed-by-the-black-health-equity-working-group-transcript-fr.docx
+  en: true
+  fr: true
 title: The EGAP data governance framework developed by the Black Health Equity Working Group
 id: "11"
 previewImage: ""

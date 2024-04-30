@@ -1,10 +1,10 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/25/reporting-risks-in-ai-based-assistive-technology-research-a-systematic-review-slides-en.pptx
-  fr: https://idrc.cachefly.net/acaw-cama/25/reporting-risks-in-ai-based-assistive-technology-research-a-systematic-review-slides-fr.pptx
+  en: true
+  fr: true
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/25/reporting-risks-in-ai-based-assistive-technology-research-a-systematic-review-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/25/reporting-risks-in-ai-based-assistive-technology-research-a-systematic-review-transcript-fr.docx
+  en: true
+  fr: true
 title: "Reporting risks in AI-based assistive technology research: A systematic review"
 id: "25"
 previewImage: ""
