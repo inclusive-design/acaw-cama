@@ -3,7 +3,7 @@ transcript:
   en: https://idrc.cachefly.net/acaw-cama/22/in-exclusion-transcript-en.docx
   fr: https://idrc.cachefly.net/acaw-cama/22/in-exclusion-transcript-fr.docx
 title: In-Exclusion
-uuid: 1650afa2-bf67-4260-9e19-73ba0dbd932b
+id: "22"
 previewImage: ""
 previewImageAlt: ""
 presenters:

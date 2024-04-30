@@ -5,8 +5,8 @@ slides:
 transcript:
   en: https://idrc.cachefly.net/acaw-cama/25/reporting-risks-in-ai-based-assistive-technology-research-a-systematic-review-transcript-en.docx
   fr: https://idrc.cachefly.net/acaw-cama/25/reporting-risks-in-ai-based-assistive-technology-research-a-systematic-review-transcript-fr.docx
-title: Signalement des risques dans la recherche sur les technologies d’assistance basées sur l’IA : Une revue systématique
-uuid: 1e7559f7-a592-4843-8547-3da28f9d4770
+title: "Signalement des risques dans la recherche sur les technologies d’assistance basées sur l’IA : Une revue systématique"
+id: "25"
 previewImage: ""
 previewImageAlt: ""
 presenters:

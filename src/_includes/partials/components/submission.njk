@@ -23,7 +23,7 @@
 
     data-filter-search="{% for presenter in submission.data.presenters %}{{ presenter }},{% endfor %}{{ submission.data.title }},{{ submission.templateContent | replace('/n', '') }}"
 >
-    <h4 id="{{ submission.data.uuid }}">{{ submission.data.title }}</h4>
+    <h4 id="{{ submission.data.id }}">{{ submission.data.title }}</h4>
     <div class="presenters">
         {{ submission.data.presenters | join(', ') }}
     </div>
@@ -49,7 +49,7 @@
     </div>
     <ul class="formats" role="list">
         {% if submission.data.youtube %}
-        <li class="youtube">{% include 'svg/youtube.svg' %} <a aria-describedby="{{ submission.data.uuid }}" href="{{ submission.data.youtube.url }}">
+        <li class="youtube">{% include 'svg/youtube.svg' %} <a aria-describedby="{{ submission.data.id }}" href="{{ submission.data.youtube.url }}">
             {% localizedFormat 'youtube', submission.data.youtube.lang, lang %} {% if submission.data.youtube.interpretation -%}
             (
                 {%- if submission.data.youtube.lang === 'en' -%}
@@ -61,14 +61,14 @@
             {%- endif %}</a>
         {% endif %}
         {% if submission.data.audio %}
-        <li class="audio">{% include 'svg/audio.svg' %} <a aria-describedby="{{ submission.data.uuid }}" href="{{ submission.data.audio.url }}">{% localizedFormat 'audio', submission.data.audio.lang, lang %}</a>
+        <li class="audio">{% include 'svg/audio.svg' %} <a aria-describedby="{{ submission.data.id }}" href="{{ submission.data.audio.url }}">{% localizedFormat 'audio', submission.data.audio.lang, lang %}</a>
         {% endif %}
         {% for format in ['text', 'transcript', 'slides', 'pdf'] %}
         {% if submission.data[format] %}
         <li class="{{ format }}">{% if format === 'transcript' %}{% include 'svg/text.svg' %}{% else %}{% include 'svg/' + format + '.svg' %}{% endif %}
         {% for formatLocale, formatUrl in submission.data[format] -%}
         {%- if formatUrl !== '' -%}
-        <span><a aria-describedby="{{ submission.data.uuid }}" href="{{ formatUrl }}">{% localizedFormat format, formatLocale, lang %}</a></span>
+        <span><a aria-describedby="{{ submission.data.id }}" href="{{ formatUrl }}">{% localizedFormat format, formatLocale, lang %}</a></span>
         {%- endif -%}
         {%- endfor %}
         </li>

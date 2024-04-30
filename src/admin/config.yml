@@ -39,7 +39,7 @@ collections:
     create: true
     fields:
       - {label: Title, name: title, widget: string, i18n: true}
-      - {label: ID, name: uuid, widget: uuid, i18n: duplicate}
+      - {label: ID, name: id, widget: string, i18n: duplicate}
       - {label: Preview Image, name: previewImage, widget: image, i18n: duplicate, required: false}
       - {label: Preview Image Alternative Text, name: previewImageAlt, widget: string, i18n: true, required: false}
       - {label: Presenters, name: presenters, widget: list, i18n: duplicate, hint: Enter a comma-separated list of names.}

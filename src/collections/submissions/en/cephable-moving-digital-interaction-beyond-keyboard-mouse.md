@@ -6,7 +6,7 @@ transcript:
   en: https://idrc.cachefly.net/acaw-cama/10/cephable-moving-digital-interaction-beyond-keyboard-and-mouse-transcript-en.docx
   fr: https://idrc.cachefly.net/acaw-cama/10/cephable-moving-digital-interaction-beyond-keyboard-and-mouse-transcript-fr.docx
 title: "Cephable: Moving Digital Interaction Beyond Keyboard & Mouse"
-uuid: ffe80f53-fa70-47e9-9508-fefa24a403cf
+id: "10"
 previewImage: ""
 previewImageAlt: ""
 presenters:
