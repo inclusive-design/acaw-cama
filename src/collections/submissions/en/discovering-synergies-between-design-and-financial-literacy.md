@@ -1,10 +1,10 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/26/discovering-synergies-between-design-and-financial-literacy-slides-en.pptx
-  fr: https://idrc.cachefly.net/acaw-cama/26/discovering-synergies-between-design-and-financial-literacy-slides-fr.pptx
+  en: true
+  fr: true
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/26/discovering-synergies-between-design-and-financial-literacy-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/26/discovering-synergies-between-design-and-financial-literacy-transcript-fr.docx
+  en: true
+  fr: true
 title: Discovering Synergies between Design and Financial Literacy
 id: "26"
 previewImage: ""

@@ -1,10 +1,10 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/10/cephable-moving-digital-interaction-beyond-keyboard-and-mouse-slides-en.pptx
-  fr: https://idrc.cachefly.net/acaw-cama/10/cephable-moving-digital-interaction-beyond-keyboard-and-mouse-slides-fr.pptx
+  en: true
+  fr: true
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/10/cephable-moving-digital-interaction-beyond-keyboard-and-mouse-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/10/cephable-moving-digital-interaction-beyond-keyboard-and-mouse-transcript-fr.docx
+  en: true
+  fr: true
 title: "Cephable: Déplacement de l’interaction numérique  Au-delà du clavier et de la souris"
 id: "10"
 previewImage: ""

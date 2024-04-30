@@ -1,10 +1,10 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/17/bridging-the-gaps-community-engaged-research-at-the-accessibility-institute-at-carleton-university-slides-en.pptx
-  fr: https://idrc.cachefly.net/acaw-cama/17/bridging-the-gaps-community-engaged-research-at-the-accessibility-institute-at-carleton-university-slides-fr.pptx
+  en: true
+  fr: true
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/17/bridging-the-gaps-community-engaged-research-at-the-accessibility-institute-at-carleton-university-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/17/bridging-the-gaps-community-engaged-research-at-the-accessibility-institute-at-carleton-university-transcript-fr.docx
+  en: true
+  fr: true
 title: "Combler les lacunes: Recherche engagée dans la communauté à l'Institut d'accessibilité de l'Université Carleton"
 id: "17"
 previewImage: ""

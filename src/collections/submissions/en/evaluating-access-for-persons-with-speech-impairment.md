@@ -1,7 +1,7 @@
 ---
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/04/evaluating-access-for-persons-with-speech-impairment-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/04/evaluating-access-for-persons-with-speech-impairment-transcript-fr.docx
+  en: true
+  fr: true
 title: Evaluating access for persons with speech impairment
 id: "04"
 previewImage: ""

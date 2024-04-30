@@ -1,10 +1,10 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/23/webmoti-supporting-virtual-students-in-hybrid-classes-slides-en.pptx
-  fr: https://idrc.cachefly.net/acaw-cama/23/webmoti-supporting-virtual-students-in-hybrid-classes-slides-fr.pptx
+  en: true
+  fr: true
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/23/webmoti-supporting-virtual-students-in-hybrid-classes-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/23/webmoti-supporting-virtual-students-in-hybrid-classes-transcript-fr.docx
+  en: true
+  fr: true
 title: "WebMoti: Supporting Virtual Students in Hybrid Classes"
 id: "23"
 previewImage: ""

@@ -16,8 +16,10 @@ const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
 const pluginPWA = require("eleventy-plugin-pwa-v2");
+const brokenLinksPlugin = require("eleventy-plugin-broken-links");
 const getYouTubeID = require("get-youtube-id");
 const title = require("title");
+const slugify = require("@sindresorhus/slugify");
 const rosetta = require("rosetta");
 const i18n = rosetta();
 i18n.locale("en");
@@ -59,12 +61,45 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("youtubeId", function (value) {
         return getYouTubeID(value);
     });
+    eleventyConfig.addFilter("englishTitle", function (id) {
+        const collections = this.ctx?.collections || {};
+        const submissions = collections.submissions_en || [];
+        const submission = submissions.find(item => item.data.id === id);
+        if (submission) {
+            return submission.data.title;
+        }
+        throw new Error(`Unknown submission ID: "${id}"`);
+    });
 
     // Shortcodes
     eleventyConfig.addShortcode("localizedFormat", function (format, formatLocale, langOverride) {
         let lang = langOverride || this.page?.lang || this.ctx?.page?.lang || this.context?.environments?.page?.lang;
 
         return i18n.t(`submission-formats.${format}`, {formatLocale: i18n.t(`languages.${formatLocale}`, {}, lang)}, lang);
+    });
+
+    eleventyConfig.addShortcode("formatUrl", function (submissionId, format, formatLocale) {
+        const collections = this.ctx?.collections || {};
+        const submissions = collections.submissions_en || [];
+        const submission = submissions.find(item => item.data.id === submissionId);
+        if (submission) {
+            let extension;
+            const slug = slugify(submission.data.title);
+            switch (format) {
+            case "slides":
+                extension = "pptx";
+                break;
+            default:
+                extension = "docx";
+            };
+
+            if (format === "pdf") {
+                return `https://idrc.cachefly.net/acaw-cama/${submissionId}/${slug}-text-${formatLocale}.pdf`;
+            }
+
+            return `https://idrc.cachefly.net/acaw-cama/${submissionId}/${slug}-${format}-${formatLocale}.${extension}`;
+        }
+        throw new Error(`Unknown submission ID: "${submissionId}"`);
     });
 
     // Transforms
@@ -78,6 +113,12 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({"src/assets/uploads": "assets/uploads"});
 
     // Plugins
+    eleventyConfig.addPlugin(brokenLinksPlugin, {
+        forbidden: "error",
+        broken: "error",
+        cacheDuration: "60s",
+        loggingLevel: 1
+    });
     eleventyConfig.addPlugin(navigationPlugin);
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
         defaultLanguage: "en"

@@ -1,7 +1,7 @@
 ---
 text:
-  en: https://idrc.cachefly.net/acaw-cama/20/artificially-intelligent-and-implicitly-ableist-analyzing-language-model-bias-towards-persons-with-disabilities-text-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/20/artificially-intelligent-and-implicitly-ableist-analyzing-language-model-bias-towards-persons-with-disabilities-text-fr.docx
+  en: true
+  fr: true
 title: "Artificiellement intelligent et implicitement capable : analyse du biais du modèle linguistique envers les personnes handicapées"
 id: "20"
 previewImage: ""

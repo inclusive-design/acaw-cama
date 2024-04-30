@@ -1,13 +1,13 @@
 ---
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/02/building-it-in-audio-description-at-every-performance-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/02/building-it-in-audio-description-at-every-performance-transcript-fr.docx
+  en: true
+  fr: true
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/02/building-it-in-audio-description-at-every-performance-slides-en.pptx
-  fr: ""
+  en: true
+  fr: false
 text:
-  en: ""
-  fr: ""
+  en: false
+  fr: false
 title: "Building It In: Audio Description At Every Performance"
 id: "02"
 previewImage: ""

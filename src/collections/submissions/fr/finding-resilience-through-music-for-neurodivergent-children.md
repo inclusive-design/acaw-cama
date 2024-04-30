@@ -1,7 +1,7 @@
 ---
 pdf:
-  en: https://idrc.cachefly.net/acaw-cama/18/finding-resilience-through-music-for-neurodivergent-children-text-en.pdf
-  fr: https://idrc.cachefly.net/acaw-cama/18/finding-resilience-through-music-for-neurodivergent-children-text-fr.pdf
+  en: true
+  fr: true
 title: Trouver la résilience grâce à la musique pour les enfants neurodivergents
 id: "18"
 previewImage: ""
