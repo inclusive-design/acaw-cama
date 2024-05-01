@@ -1,10 +1,10 @@
 ---
 slides:
-  en: https://idrc.cachefly.net/acaw-cama/13/accessible-explainable-ai-research-slides-en.pptx
-  fr: https://idrc.cachefly.net/acaw-cama/13/accessible-explainable-ai-research-slides-fr.pptx
+  en: true
+  fr: true
 transcript:
-  en: https://idrc.cachefly.net/acaw-cama/13/accessible-explainable-ai-research-transcript-en.docx
-  fr: https://idrc.cachefly.net/acaw-cama/13/accessible-explainable-ai-research-transcript-fr.docx
+  en: true
+  fr: true
 title: Recherche sur l'IA Explicable Accessible
 uuid: e23e1ac4-3a55-46a8-9369-500cee487d15
 previewImage: ""
@@ -18,5 +18,6 @@ customTheme: ""
 youtube: null
 audio: null
 pdf: null
+id: "13"
 ---
 Cette présentation traite de l'importance de créer une IA explicable et accessible aux personnes malvoyantes. Elle passe en revue la littérature et souligne la nécessité de développer des prototypes et des lignes directrices dans ce domaine.
