@@ -12,4 +12,4 @@ intro: |-
 
   Vous n'êtes pas encore inscrit ? Il est encore temps ! Pour mieux comprendre les défis que nous allons relever et pour vous inscrire, veuillez consulter les pages [Défis de la conférence](https://sites.events.concordia.ca/sites/accessconf/fr/accessible-canada-accessible-world/pages/9) et [Inscription](https://sites.events.concordia.ca/sites/accessconf/fr/accessible-canada-accessible-world/register). Nous avons besoin de votre contribution !
 ---
-Plongez dans le contenu à votre rythme. Filtrez par thème, format et langue pour adapter votre expérience. Rejoignez-nous en ligne ou à Montréal les 27 et 28 mai pour contribuer aux discussions.
+Plongez dans le contenu à votre rythme. Filtrez par thème, format et langue pour adapter votre expérience. Rejoignez-nous en ligne ou à Montréal les 27 et 28 mai pour contribuer aux discussions. Restez à l'écoute, nous publierons bientôt d'autres candidatures !
