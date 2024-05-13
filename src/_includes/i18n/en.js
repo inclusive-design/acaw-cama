@@ -45,5 +45,7 @@ module.exports = {
     "idrc": "Inclusive Design Research Centre",
     "ocadu": "OCAD University",
     "concordia": "Concordia University",
-    "asc": "Accessibility Standards Canada"
+    "asc": "Accessibility Standards Canada",
+    "asl-video": "ASL Video",
+    "lsq-video": "LSQ Video"
 };

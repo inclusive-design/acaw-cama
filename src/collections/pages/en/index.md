@@ -2,8 +2,9 @@
 title: Conference presentations
 excerpt: Welcome to Accessible Canada — Accessible World, a conference that aims to advance accessibility and inclusive design in various domains.
 permalink: /en/
-transcript: ""
-youtube: ""
+transcript: "https://idrc.cachefly.net/acaw-cama/home/accessible-canada-accessible-world-transcript-en.docx"
+youtube: "https://youtu.be/0OavhX2hraE"
+asl: "https://youtu.be/iH_TKYIXFoM"
 intro: |-
   Join us at the [Accessible Canada — Accessible World](https://sites.events.concordia.ca/sites/accessconf/en/accessible-canada-accessible-world/home) conference happening online and in Montreal on May 27 & 28, 2024.
 

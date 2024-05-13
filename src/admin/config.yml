@@ -26,6 +26,8 @@ collections:
       - {label: Excerpt, name: excerpt, widget: string, required: false, i18n: true}
       - {label: YouTube Video, name: youtube, widget: string, type: url, required: false, i18n: true}
       - {label: YouTube Video Transcript Link, name: transcript, widget: string, type: url, required: false, i18n: true}
+      - {label: ASL Video, name: asl, widget: string, type: url, required: false, i18n: duplicate}
+      - {label: LSQ Video, name: lsq, widget: string, type: url, required: false, i18n: duplicate}
       - {label: Introduction, name: intro, widget: markdown, i18n: true, required: false}
       - {label: Body, name: body, widget: markdown, i18n: true}
   - label: Submissions
