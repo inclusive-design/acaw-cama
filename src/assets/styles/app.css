@@ -590,9 +590,11 @@ article header p {
 }
 
 article header p.normal {
+    display: flex;
     font-family: var(--base-font-family);
     font-size: 1.125rem;
     font-weight: 500;
+    gap: 1.5rem;
     line-height: 1.6667;
 }
 

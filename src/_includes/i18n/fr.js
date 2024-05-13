@@ -45,5 +45,7 @@ module.exports = {
     "idrc": "Centre de Recherche pour une Conception Inclusive",
     "ocadu": "Université OCAD",
     "concordia": "Université Concordia",
-    "asc": "Normes d’accessibilité Canada"
+    "asc": "Normes d’accessibilité Canada",
+    "asl-video": "Vidéo ASL",
+    "lsq-video": "Vidéo LSQ"
 };

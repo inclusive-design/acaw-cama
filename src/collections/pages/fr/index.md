@@ -3,8 +3,9 @@ title: Présentations à la conférence
 locale: fr
 excerpt: Bienvenue à Un Canada accessible — Un monde accessible, une conférence visant à promouvoir l'accessibilité et la conception inclusive dans divers contextes.
 permalink: /fr/
-transcript: ""
-youtube: ""
+transcript: "https://idrc.cachefly.net/acaw-cama/home/accessible-canada-accessible-world-transcript-fr.docx"
+youtube: "https://youtu.be/ifZhRiH66w0"
+lsq: "https://youtu.be/ldYQ9SypYgg"
 intro: |-
   Rejoignez-nous à la conférence [Accessible Canada - Accessible World](https://sites.events.concordia.ca/sites/accessconf/fr/accessible-canada-accessible-world/home) qui se déroulera en ligne et à Montréal les 27 et 28 mai 2024.
 

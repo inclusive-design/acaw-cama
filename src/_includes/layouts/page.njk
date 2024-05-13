@@ -8,9 +8,17 @@
     <div>{{ 'play-video' | i18n }}</div>
 </a>
 {% endif %}
-{% if transcript %}
+{% if transcript or asl or lsq %}
 <p class="normal">
+    {% if transcript %}
     <a href="{{ transcript }}">{{ 'video-transcript' | i18n }}</a>
+    {% endif %}
+    {% if asl %}
+    <a href="{{ asl }}">{{ 'asl-video' | i18n }}</a>
+    {% endif %}
+    {% if lsq %}
+    <a href="{{ lsq }}">{{ 'lsq-video' | i18n }}</a>
+    {% endif %}
 </p>
 {% endif %}
     <h1>{{ site[lang].name }}</h1>
