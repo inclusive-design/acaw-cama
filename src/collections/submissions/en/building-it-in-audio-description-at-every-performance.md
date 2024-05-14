@@ -2,15 +2,12 @@
 youtube:
   url: https://youtu.be/k3A7YsUS8Wo
   lang: en
-  signLanguageUrl: https://youtu.be/WdDCi99EK_U
+  interpretation: true
 transcript:
   en: true
   fr: true
 slides:
   en: true
-  fr: false
-text:
-  en: false
   fr: false
 title: "Building It In: Audio Description At Every Performance"
 id: "02"

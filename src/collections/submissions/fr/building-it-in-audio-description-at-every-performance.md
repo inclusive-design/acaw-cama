@@ -9,9 +9,6 @@ transcript:
 slides:
   en: true
   fr: ""
-text:
-  en: ""
-  fr: ""
 title: "L’intégrer : Description audio à chaque représentation"
 id: "02"
 previewImage: ""
