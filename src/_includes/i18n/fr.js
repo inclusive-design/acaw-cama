@@ -33,10 +33,7 @@ module.exports = {
         "filtered": "résultat filtré/résultats filtrés"
     },
     "registration": "Enregistrement",
-    "interpretation": {
-        "asl": "avec ASL",
-        "lsq": "avec LSQ"
-    },
+    "interpretation": "Vidéo LSQ",
     "search": "Rechercher les soumissions :",
     "video-transcript": "Télécharger la transcription descriptive",
     "sponsors": "Parrains",
