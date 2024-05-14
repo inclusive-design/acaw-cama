@@ -63,7 +63,7 @@ collections:
         fields:
           - {label: YouTube URL, name: url, widget: string, type: url, i18n: duplicate, required: false}
           - {label: Language, name: lang, widget: select, options: [{value: en, label: English}, {value: fr, label: Français}], i18n: duplicate, required: false}
-          - {label: Sign Language Interpretation, name: interpretation, widget: boolean, i18n: duplicate, required: false}
+          - {label: Sign Language YouTube URL, name: signLanguageUrl, widget: string, type: url, i18n: true, required: false}
       - label: Transcript
         name: transcript
         widget: object

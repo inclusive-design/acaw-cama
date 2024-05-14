@@ -50,15 +50,10 @@
     <ul class="formats" role="list">
         {% if submission.data.youtube %}
         <li class="youtube">{% include 'svg/youtube.svg' %} <a aria-describedby="{{ submission.data.id }}" href="{{ submission.data.youtube.url }}">
-            {% localizedFormat 'youtube', submission.data.youtube.lang, lang %} {% if submission.data.youtube.interpretation -%}
-            (
-                {%- if submission.data.youtube.lang === 'en' -%}
-                {{ 'interpretation.asl' | i18n }}
-                {%- elif submission.data.youtube.lang === 'fr' -%}
-                {{ 'interpretation.lsq' | i18n }}
-                {%- endif -%}
-            )
-            {%- endif %}</a>
+            {% localizedFormat 'youtube', submission.data.youtube.lang, lang %}</a>
+            {% if submission.data.youtube.signLanguageUrl -%}
+                | <a aria-describedby="{{ submission.data.id }}" href="{{ submission.data.youtube.signLanguageUrl }}"> {{ 'interpretation' | i18n }} </a>
+            {%- endif %}
         {% endif %}
         {% if submission.data.audio %}
         <li class="audio">{% include 'svg/audio.svg' %} <a aria-describedby="{{ submission.data.id }}" href="{{ submission.data.audio.url }}">{% localizedFormat 'audio', submission.data.audio.lang, lang %}</a>
