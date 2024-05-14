@@ -1,4 +1,8 @@
 ---
+youtube:
+  url: https://youtu.be/k3A7YsUS8Wo
+  lang: en
+  interpretation: true
 transcript:
   en: true
   fr: true
@@ -15,7 +19,6 @@ previewImageAlt: ""
 themes:
   - 49e72e28-7453-4233-8aff-456b3a956615
 customTheme: ""
-youtube: null
 pdf: null
 presenters:
   - Joel Snyder
