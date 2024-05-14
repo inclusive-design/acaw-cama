@@ -1,4 +1,8 @@
 ---
+youtube:
+  url: https://youtu.be/QIjb89Wk8e0
+  lang: en
+  signLanguageUrl: ""
 transcript:
   en: true
   fr: true
@@ -14,7 +18,6 @@ themes:
   - b70c8f53-7613-434c-9b2e-f76da3cc57f3
 customTheme: Accessible User Experience Research
 text: null
-youtube: null
 slides: null
 audio: null
 pdf: null
