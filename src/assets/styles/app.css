@@ -778,6 +778,7 @@ button:focus {
 .content {
     align-items: flex-start;
     display: flex;
+    flex-direction: column;
     gap: 2rem;
     margin-block-start: 2.3125rem;
     max-width: 55.625rem;
