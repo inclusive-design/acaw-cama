@@ -1,4 +1,8 @@
 ---
+youtube:
+  url: https://youtu.be/qafgSsyVbRA
+  lang: en
+  signLanguageUrl: https://youtu.be/PW6JcO-62LM
 slides:
   en: true
   fr: true
@@ -16,7 +20,6 @@ themes:
   - 49e72e28-7453-4233-8aff-456b3a956615
 customTheme: ""
 text: null
-youtube: null
 pdf: null
 ---
 To encourage an actionable understanding of what accessibility and inclusion best practices mean in digital spaces, McGill University's Web Services and Equity teams collaborated to produce resources and training for their network of 1,500+ site managers and editors.
