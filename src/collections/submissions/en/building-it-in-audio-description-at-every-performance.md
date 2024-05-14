@@ -3,6 +3,7 @@ youtube:
   url: https://youtu.be/k3A7YsUS8Wo
   lang: en
   interpretation: true
+  signLanguageUrl: https://youtu.be/WdDCi99EK_U
 transcript:
   en: true
   fr: true
