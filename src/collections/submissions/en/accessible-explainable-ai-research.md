@@ -21,7 +21,6 @@ audio: null
 pdf: null
 id: "13"
 presenters:
-  - Xiaomi
   - Maria Joelma Pereira Peixoto
 ---
 This presentation discusses the importance of creating AI that is explainable and accessible to people with sight loss. It reviews the literature and highlights the need to develop prototypes and guidelines in the field.

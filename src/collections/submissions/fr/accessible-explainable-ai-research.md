@@ -21,7 +21,6 @@ audio: null
 pdf: null
 id: "13"
 presenters:
-  - Xiaomi
   - Maria Joelma Pereira Peixoto
 ---
 Cette présentation traite de l'importance de créer une IA explicable et accessible aux personnes malvoyantes. Elle passe en revue la littérature et souligne la nécessité de développer des prototypes et des lignes directrices dans ce domaine.
