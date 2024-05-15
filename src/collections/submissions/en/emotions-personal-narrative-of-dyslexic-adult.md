@@ -19,7 +19,8 @@ previewImageAlt: ""
 presenters:
   - purvi agarwal
 themes:
-  - b70c8f53-7613-434c-9b2e-f76da3cc57f3
+  - 49e72e28-7453-4233-8aff-456b3a956615
+  - 50974e4b-f81c-42b6-848e-faefdff5d892
 customTheme: ""
 text: null
 audio: null
