@@ -1,4 +1,7 @@
 ---
+slides:
+  en: true
+  fr: false
 transcript:
   en: true
   fr: true
@@ -14,7 +17,6 @@ themes:
 customTheme: ""
 text: null
 youtube: null
-slides: null
 audio: null
 pdf: null
 ---
