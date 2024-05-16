@@ -481,6 +481,7 @@ h3::after,
 }
 
 .linked-video {
+    color: inherit;
     display: block;
     max-width: 55.625rem;
     position: relative;

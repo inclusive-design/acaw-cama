@@ -52,7 +52,7 @@
         <li class="youtube">{% include 'svg/youtube.svg' %} <a aria-describedby="{{ submission.data.id }}" href="{{ submission.data.youtube.url }}">
             {% localizedFormat 'youtube', submission.data.youtube.lang, lang %}</a>
             {% if submission.data.youtube.signLanguageUrl -%}
-                | <a aria-describedby="{{ submission.data.id }}" href="{{ submission.data.youtube.signLanguageUrl }}"> {{ 'interpretation' | i18n }} </a>
+                / <a aria-describedby="{{ submission.data.id }}" href="{{ submission.data.youtube.signLanguageUrl }}"> {{ 'interpretation' | i18n }} </a>
             {%- endif %}
         {% endif %}
         {% if submission.data.audio %}
