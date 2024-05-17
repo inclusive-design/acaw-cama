@@ -11,6 +11,6 @@ intro: |-
   Embrace our unique flipped conference model by reviewing the diverse array of presentations before the event on this page. This pre-conference exploration allows us to dedicate our time together to tackle 24 critical challenges across four pivotal themes.
 lsq: ""
 ---
-Dive into the content at your own pace. Filter by theme, format, and language to tailor your experience. Join online or in Montreal on May 27th and 28th to contribute to the discussions.
+Dive into the content at your own pace. Filter by theme, format, and language to tailor your experience. Join online or in Montreal on May 27th and 28th to contribute to the discussions. 
 
-**Stay tuned, we will be posting more submissions soon!**
+**Stay tuned, we will be posting more submissions soon! Some videos do not have ASL yet, the work is in progress and we will post them as they come in. Please accept our apologies for the inconvenience.**
