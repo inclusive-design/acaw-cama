@@ -14,4 +14,4 @@ asl: ""
 ---
 Plongez dans le contenu à votre rythme. Filtrez par thème, format et langue pour adapter votre expérience. Rejoignez-nous en ligne ou à Montréal les 27 et 28 mai pour contribuer aux discussions.
 
-**Restez à l'écoute, nous publierons bientôt d'autres candidatures ! Certaines vidéos n'ont pas encore l'ASL, le travail est en cours et nous les publierons au fur et à mesure qu'elles nous parviendront. Nous vous prions d'accepter nos excuses pour la gêne occasionnée.**
+**Restez à l'écoute, nous publierons bientôt d'autres candidatures ! Certaines vidéos n'ont pas encore de LSQ, le travail est en cours et nous les publierons au fur et à mesure qu'elles nous parviendront. Nous vous prions d'accepter nos excuses pour la gêne occasionnée.**
