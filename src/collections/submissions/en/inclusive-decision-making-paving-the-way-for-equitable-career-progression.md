@@ -2,7 +2,7 @@
 youtube:
   url: https://youtu.be/fJH6J8LDbJY
   lang: en
-  signLanguageUrl: ""
+  signLanguageUrl: https://youtu.be/EEKcR0tN7Gs
 slides:
   en: true
   fr: true
