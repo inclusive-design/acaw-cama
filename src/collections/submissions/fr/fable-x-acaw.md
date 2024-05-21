@@ -1,4 +1,7 @@
 ---
+transcript:
+  en: true
+  fr: true
 youtube:
   url: https://youtu.be/fWBobfwdtrw
   lang: en
@@ -13,7 +16,6 @@ themes:
   - c5c0a3cc-516d-4013-a997-1f48cc63f990
 customTheme: ""
 text: null
-transcript: null
 slides: null
 audio: null
 pdf: null
