@@ -1,4 +1,8 @@
 ---
+youtube:
+  url: https://youtu.be/UMv9VGqZ3R8
+  lang: en
+  signLanguageUrl: ""
 slides:
   en: true
   fr: false
@@ -15,7 +19,6 @@ themes:
   - 49e72e28-7453-4233-8aff-456b3a956615
 customTheme: ""
 text: null
-youtube: null
 audio: null
 pdf: null
 ---
