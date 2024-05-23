@@ -24,4 +24,4 @@ slides: null
 audio: null
 pdf: null
 ---
-Voici la présentation de Normes d'accessibilité Canada. La vidéo est un entretien avec notre PDG qui explique qui nous sommes et comment nous travaillons, comment nous élaborons nos normes, comment nous finançons et partageons la recherche, et comment nous contribuons à la construction d'un Canada sans obstacles.
+Voici la présentation de Normes d'accessibilité Canada. La vidéo est un entretien avec le président-directeur général de Normes d'accessibilité Canada qui explique qui nous sommes et comment nous travaillons, comment nous élaborons nos normes, comment nous finançons et partageons la recherche, et comment nous contribuons à la construction d'un Canada sans obstacles.
