@@ -2,7 +2,7 @@
 title: Conference presentations
 excerpt: Welcome to Accessible Canada — Accessible World, a conference that aims to advance accessibility and inclusive design in various domains.
 permalink: /en/
-transcript: https://idrc.cachefly.net/acaw-cama/home/accessible-canada-accessible-world-transcript-en.docx
+transcript: https://idrc.cachefly.net/acaw-cama/home/accessible-canada-accessible-world-transcript2-en.docx
 youtube: https://youtu.be/0OavhX2hraE
 asl: https://youtu.be/v38jv-OpPkU
 intro: |-
