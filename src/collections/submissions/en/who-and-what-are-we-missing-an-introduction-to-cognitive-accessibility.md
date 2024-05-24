@@ -1,6 +1,6 @@
 ---
 youtube:
-  url: https://youtu.be/2xNrBxe5z_o
+  url: https://youtu.be/Y4-WYzxPWws
   lang: en
   signLanguageUrl: https://youtu.be/vvzq1FwbYsg
 slides:
