@@ -6,7 +6,7 @@ youtube:
 transcript:
   en: true
   fr: true
-title: Entretien avec le directeur général de Normes d'accessibilité Canada
+title: Entretien avec le président-directeur général de Normes d'accessibilité Canada
 id: "09"
 previewImage: ""
 previewImageAlt: ""
