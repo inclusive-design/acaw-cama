@@ -59,6 +59,13 @@
         "logo": "/assets/uploads/ccd.png",
         "mobileWidth": 300,
         "desktopWidth": 200
+      },
+      {
+        "name": "Webmoti",
+        "url": "https://webmoti.org",
+        "logo": "/assets/uploads/webmoti.png",
+        "mobileWidth": 130,
+        "desktopWidth": 80
       }
     ]
   },
@@ -122,6 +129,13 @@
         "logo": "/assets/uploads/ccd.png",
         "mobileWidth": 300,
         "desktopWidth": 200
+      },
+      {
+        "name": "Webmoti",
+        "url": "https://webmoti.org",
+        "logo": "/assets/uploads/webmoti.png",
+        "mobileWidth": 130,
+        "desktopWidth": 80
       }
     ]
   }
