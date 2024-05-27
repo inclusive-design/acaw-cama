@@ -66,6 +66,20 @@
         "logo": "/assets/uploads/webmoti.png",
         "mobileWidth": 130,
         "desktopWidth": 80
+      },
+      {
+        "name": "OCAD U Copy & Print Services",
+        "url": "https://www.ocadu.ca/services/copy-print-services",
+        "logo": "/assets/uploads/ocaducopyandprint.png",
+        "mobileWidth": 160,
+        "desktopWidth": 90
+      },
+      {
+        "name": "William and Flora Hewlett Foundation",
+        "url": "https://hewlett.org/",
+        "logo": "/assets/uploads/hewlett.png",
+        "mobileWidth": 200,
+        "desktopWidth": 120
       }
     ]
   },
@@ -136,6 +150,20 @@
         "logo": "/assets/uploads/webmoti.png",
         "mobileWidth": 130,
         "desktopWidth": 80
+      },
+      {
+        "name": "OCAD U Copy & Print Services",
+        "url": "https://www.ocadu.ca/services/copy-print-services",
+        "logo": "/assets/uploads/ocaducopyandprint.png",
+        "mobileWidth": 160,
+        "desktopWidth": 90
+      },
+      {
+        "name": "William and Flora Hewlett Foundation",
+        "url": "https://hewlett.org/",
+        "logo": "/assets/uploads/hewlett.png",
+        "mobileWidth": 200,
+        "desktopWidth": 120
       }
     ]
   }
