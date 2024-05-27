@@ -45,6 +45,13 @@
         "logo": "/assets/uploads/via-rail.svg",
         "mobileWidth": 162,
         "desktopWidth": 99
+      },
+      {
+        "name": "Eliquo Training",
+        "url": "https://www.eliquotraining.com",
+        "logo": "/assets/uploads/eliquo.jpeg",
+        "mobileWidth": 160,
+        "desktopWidth": 90
       }
     ]
   },
@@ -94,6 +101,13 @@
         "logo": "/assets/uploads/via-rail.svg",
         "desktopWidth": 99,
         "mobileWidth": 162
+      },
+      {
+        "name": "Eliquo Training",
+        "url": "https://www.eliquotraining.com",
+        "logo": "/assets/uploads/eliquo.jpeg",
+        "mobileWidth": 160,
+        "desktopWidth": 99
       }
     ]
   }
