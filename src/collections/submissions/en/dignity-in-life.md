@@ -2,9 +2,6 @@
 transcript:
   en: true
   fr: true
-text:
-  en: false
-  fr: false
 title: Dignity in Life
 id: "58"
 previewImage: ""

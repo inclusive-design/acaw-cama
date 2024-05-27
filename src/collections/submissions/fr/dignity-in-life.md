@@ -2,9 +2,6 @@
 transcript:
   en: true
   fr: true
-text:
-  en: false
-  fr: false
 title: La dignité dans la vie
 id: "58"
 previewImage: ""
