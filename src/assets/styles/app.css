@@ -981,7 +981,7 @@ button:focus {
 
     footer .logos {
         align-items: center;
-        flex-direction: row;
+        flex-flow: row wrap;
     }
 
     footer .logos.idrc-ocadu {
