@@ -52,6 +52,13 @@
         "logo": "/assets/uploads/eliquo.jpeg",
         "mobileWidth": 160,
         "desktopWidth": 90
+      },
+      {
+        "name": "Council of Canadians with Disabilities",
+        "url": "http://www.ccdonline.ca/en/",
+        "logo": "/assets/uploads/ccd.png",
+        "mobileWidth": 300,
+        "desktopWidth": 200
       }
     ]
   },
@@ -108,6 +115,13 @@
         "logo": "/assets/uploads/eliquo.jpeg",
         "mobileWidth": 160,
         "desktopWidth": 99
+      },
+      {
+        "name": "Conseil des Canadiens avec déficiences",
+        "url": "http://www.ccdonline.ca/fr/",
+        "logo": "/assets/uploads/ccd.png",
+        "mobileWidth": 300,
+        "desktopWidth": 200
       }
     ]
   }
