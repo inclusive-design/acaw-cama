@@ -1,4 +1,8 @@
 ---
+youtube:
+  url: https://youtu.be/kDhDX0e6DKI
+  lang: en
+  signLanguageUrl: ""
 transcript:
   en: true
   fr: true
@@ -11,7 +15,6 @@ presenters:
 themes:
   - b70c8f53-7613-434c-9b2e-f76da3cc57f3
 customTheme: ""
-youtube: null
 slides: null
 audio: null
 pdf: null
