@@ -10,8 +10,6 @@ You may obtain a copy of the New BSD License at
 https://github.com/inclusive-design/acaw-cama/raw/main/LICENSE.md.
 */
 
-"use strict";
-
 const { parseHTML } = require("linkedom");
 
 module.exports = function (value, outputPath) {
