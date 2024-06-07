@@ -1,5 +1,5 @@
 class VideoOverlay {
-    constructor( link, options ) {
+    constructor(link, options) {
         this.link = link;
         this.closeButton = false;
         this.overlay = false;
@@ -11,15 +11,15 @@ class VideoOverlay {
             ...options
         };
 
-        this.init = this.init.bind( this );
+        this.init = this.init.bind(this);
     }
 
     init() {
         this.elems = document.querySelectorAll("body > *");
-        this.displayOverlay = this.displayOverlay.bind( this );
-        this.dismissOverlay = this.dismissOverlay.bind( this );
-        this.handleClick = this.handleClick.bind( this );
-        this.handleKeydown = this.handleKeydown.bind( this );
+        this.displayOverlay = this.displayOverlay.bind(this);
+        this.dismissOverlay = this.dismissOverlay.bind(this);
+        this.handleClick = this.handleClick.bind(this);
+        this.handleKeydown = this.handleKeydown.bind(this);
         this.addEventListeners();
     }
 
@@ -45,7 +45,7 @@ class VideoOverlay {
         this.closeButton = document.createElement("button");
         this.closeButton.className = "close";
         this.closeButton.innerHTML = `<span class='visually-hidden'>${closeMsg}</span><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' aria-hidden='true' focusable='false'><path d='M0 0h24v24H0V0z' fill='none' /><path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z' fill='currentColor' /></svg>`;
-        Array.prototype.forEach.call(this.elems, elem => {
+        Array.prototype.forEach.call(this.elems, (elem) => {
             elem.setAttribute("inert", "inert");
         });
         this.overlay.insertBefore(this.closeButton, this.overlay.firstChild);
@@ -69,7 +69,7 @@ class VideoOverlay {
     dismissOverlay() {
         const scrollY = document.body.style.top;
         this.overlay.remove();
-        Array.prototype.forEach.call(this.elems, elem => {
+        Array.prototype.forEach.call(this.elems, (elem) => {
             elem.removeAttribute("inert");
         });
         document.body.classList.remove("has-overlay");
@@ -79,8 +79,8 @@ class VideoOverlay {
     }
 
     addEventListeners() {
-        this.link.addEventListener( "click", this.handleClick, false );
-        document.addEventListener( "keydown", this.handleKeydown, false );
+        this.link.addEventListener("click", this.handleClick, false);
+        document.addEventListener("keydown", this.handleKeydown, false);
     }
 }
 

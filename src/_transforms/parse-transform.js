@@ -12,15 +12,15 @@ https://github.com/inclusive-design/acaw-cama/raw/main/LICENSE.md.
 
 "use strict";
 
-const {parseHTML} = require("linkedom");
+const { parseHTML } = require("linkedom");
 
 module.exports = function (value, outputPath) {
     if (outputPath && outputPath.endsWith(".html")) {
-        let {document} = parseHTML(value);
+        let { document } = parseHTML(value);
         const articleImages = [...document.querySelectorAll("main article img")];
 
         if (articleImages.length) {
-            articleImages.forEach(image => {
+            articleImages.forEach((image) => {
                 // Enable native lazy-loading.
                 image.setAttribute("loading", "lazy");
             });
