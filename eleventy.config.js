@@ -10,8 +10,6 @@ You may obtain a copy of the New BSD License at
 https://github.com/inclusive-design/acaw-cama/raw/main/LICENSE.md.
 */
 
-"use strict";
-
 const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
@@ -30,7 +28,7 @@ for (let lang of ["en", "fr"]) {
 // Import transforms
 const parseTransform = require("./src/_transforms/parse-transform.js");
 
-module.exports = function (eleventyConfig) {
+module.exports = (eleventyConfig) => {
     eleventyConfig.setUseGitIgnore(false);
 
     // Collections
@@ -64,7 +62,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("englishTitle", function (id) {
         const collections = this.ctx?.collections || {};
         const submissions = collections.submissions_en || [];
-        const submission = submissions.find(item => item.data.id === id);
+        const submission = submissions.find((item) => item.data.id === id);
         if (submission) {
             return submission.data.title;
         }
@@ -75,23 +73,23 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode("localizedFormat", function (format, formatLocale, langOverride) {
         let lang = langOverride || this.page?.lang || this.ctx?.page?.lang || this.context?.environments?.page?.lang;
 
-        return i18n.t(`submission-formats.${format}`, {formatLocale: i18n.t(`languages.${formatLocale}`, {}, lang)}, lang);
+        return i18n.t(`submission-formats.${format}`, { formatLocale: i18n.t(`languages.${formatLocale}`, {}, lang) }, lang);
     });
 
     eleventyConfig.addShortcode("formatUrl", function (submissionId, format, formatLocale) {
         const collections = this.ctx?.collections || {};
         const submissions = collections.submissions_en || [];
-        const submission = submissions.find(item => item.data.id === submissionId);
+        const submission = submissions.find((item) => item.data.id === submissionId);
         if (submission) {
             let extension;
             const slug = slugify(submission.data.title);
             switch (format) {
-            case "slides":
-                extension = "pptx";
-                break;
-            default:
-                extension = "docx";
-            };
+                case "slides":
+                    extension = "pptx";
+                    break;
+                default:
+                    extension = "docx";
+            }
 
             if (format === "pdf") {
                 return `https://idrc.cachefly.net/acaw-cama/${submissionId}/${slug}-text-${formatLocale}.pdf`;
@@ -106,11 +104,15 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addTransform("parse", parseTransform);
 
     // Passthrough copy
-    eleventyConfig.addPassthroughCopy({"src/admin/config.yml": "admin/config.yml"});
-    eleventyConfig.addPassthroughCopy({"src/assets/icons": "/"});
-    eleventyConfig.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
-    eleventyConfig.addPassthroughCopy({"src/assets/images": "assets/images"});
-    eleventyConfig.addPassthroughCopy({"src/assets/uploads": "assets/uploads"});
+    eleventyConfig.addPassthroughCopy({
+        "src/admin/config.yml": "admin/config.yml"
+    });
+    eleventyConfig.addPassthroughCopy({ "src/assets/icons": "/" });
+    eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
+    eleventyConfig.addPassthroughCopy({ "src/assets/images": "assets/images" });
+    eleventyConfig.addPassthroughCopy({
+        "src/assets/uploads": "assets/uploads"
+    });
 
     // Plugins
     eleventyConfig.addPlugin(brokenLinksPlugin, {
