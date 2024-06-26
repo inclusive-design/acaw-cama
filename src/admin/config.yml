@@ -2,7 +2,7 @@ backend:
   name: github
   branch: main
   repo: inclusive-design/acaw-cama
-  base_url: https://sveltia-cms-auth.idrc-ops.workers.dev
+  base_url: https://idrc-auth.fly.dev
 media_folder: src/assets/uploads
 public_folder: /assets/uploads
 
