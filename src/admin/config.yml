@@ -2,7 +2,7 @@ backend:
   name: github
   branch: main
   repo: inclusive-design/acaw-cama
-  base_url: https://idrc-auth.fly.dev
+  base_url: https://auth.incd.ca
 media_folder: src/assets/uploads
 public_folder: /assets/uploads
 
@@ -22,14 +22,54 @@ collections:
     extension: md
     create: true
     fields:
-      - {label: Title, name: title, widget: string, i18n: true}
-      - {label: Excerpt, name: excerpt, widget: string, required: false, i18n: true}
-      - {label: YouTube Video, name: youtube, widget: string, type: url, required: false, i18n: true}
-      - {label: YouTube Video Transcript Link, name: transcript, widget: string, type: url, required: false, i18n: true}
-      - {label: ASL Video, name: asl, widget: string, type: url, required: false, i18n: true}
-      - {label: LSQ Video, name: lsq, widget: string, type: url, required: false, i18n: true}
-      - {label: Introduction, name: intro, widget: markdown, i18n: true, required: false}
-      - {label: Body, name: body, widget: markdown, i18n: true}
+      - { label: Title, name: title, widget: string, i18n: true }
+      - {
+          label: Excerpt,
+          name: excerpt,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
+      - {
+          label: YouTube Video,
+          name: youtube,
+          widget: string,
+          type: url,
+          required: false,
+          i18n: true,
+        }
+      - {
+          label: YouTube Video Transcript Link,
+          name: transcript,
+          widget: string,
+          type: url,
+          required: false,
+          i18n: true,
+        }
+      - {
+          label: ASL Video,
+          name: asl,
+          widget: string,
+          type: url,
+          required: false,
+          i18n: true,
+        }
+      - {
+          label: LSQ Video,
+          name: lsq,
+          widget: string,
+          type: url,
+          required: false,
+          i18n: true,
+        }
+      - {
+          label: Introduction,
+          name: intro,
+          widget: markdown,
+          i18n: true,
+          required: false,
+        }
+      - { label: Body, name: body, widget: markdown, i18n: true }
   - label: Submissions
     label_singular: Submission
     name: submissions
@@ -40,63 +80,182 @@ collections:
     extension: md
     create: true
     fields:
-      - {label: Title, name: title, widget: string, i18n: true}
-      - {label: ID, name: id, widget: string, i18n: duplicate}
-      - {label: Preview Image, name: previewImage, widget: image, i18n: duplicate, required: false}
-      - {label: Preview Image Alternative Text, name: previewImageAlt, widget: string, i18n: true, required: false}
-      - {label: Presenters, name: presenters, widget: list, i18n: duplicate, hint: Enter a comma-separated list of names.}
-      - {label: Themes, name: themes, widget: relation, multiple: true, collection: themes, search_fields: [title], value_field: uuid, display_fields: [title], i18n: duplicate}
-      - {label: Custom Theme, name: customTheme, widget: string, i18n: true, required: false}
+      - { label: Title, name: title, widget: string, i18n: true }
+      - { label: ID, name: id, widget: string, i18n: duplicate }
+      - {
+          label: Preview Image,
+          name: previewImage,
+          widget: image,
+          i18n: duplicate,
+          required: false,
+        }
+      - {
+          label: Preview Image Alternative Text,
+          name: previewImageAlt,
+          widget: string,
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: Presenters,
+          name: presenters,
+          widget: list,
+          i18n: duplicate,
+          hint: Enter a comma-separated list of names.,
+        }
+      - {
+          label: Themes,
+          name: themes,
+          widget: relation,
+          multiple: true,
+          collection: themes,
+          search_fields: [title],
+          value_field: uuid,
+          display_fields: [title],
+          i18n: duplicate,
+        }
+      - {
+          label: Custom Theme,
+          name: customTheme,
+          widget: string,
+          i18n: true,
+          required: false,
+        }
       - label: Text
         name: text
         widget: object
         i18n: duplicate
         required: false
         fields:
-          - {label: English, name: en, widget: boolean, i18n: duplicate, required: false}
-          - {label: French, name: fr, widget: boolean, i18n: duplicate, required: false}
+          - {
+              label: English,
+              name: en,
+              widget: boolean,
+              i18n: duplicate,
+              required: false,
+            }
+          - {
+              label: French,
+              name: fr,
+              widget: boolean,
+              i18n: duplicate,
+              required: false,
+            }
       - label: YouTube
         name: youtube
         widget: object
         i18n: duplicate
         required: false
         fields:
-          - {label: YouTube URL, name: url, widget: string, type: url, i18n: duplicate, required: false}
-          - {label: Language, name: lang, widget: select, options: [{value: en, label: English}, {value: fr, label: Français}], i18n: duplicate, required: false}
-          - {label: Sign Language YouTube URL, name: signLanguageUrl, widget: string, type: url, i18n: true, required: false}
+          - {
+              label: YouTube URL,
+              name: url,
+              widget: string,
+              type: url,
+              i18n: duplicate,
+              required: false,
+            }
+          - {
+              label: Language,
+              name: lang,
+              widget: select,
+              options:
+                [{ value: en, label: English }, { value: fr, label: Français }],
+              i18n: duplicate,
+              required: false,
+            }
+          - {
+              label: Sign Language YouTube URL,
+              name: signLanguageUrl,
+              widget: string,
+              type: url,
+              i18n: true,
+              required: false,
+            }
       - label: Transcript
         name: transcript
         widget: object
         i18n: duplicate
         required: false
         fields:
-          - {label: English, name: en, widget: boolean, i18n: duplicate, required: false}
-          - {label: French, name: fr, widget: boolean, i18n: duplicate, required: false}
+          - {
+              label: English,
+              name: en,
+              widget: boolean,
+              i18n: duplicate,
+              required: false,
+            }
+          - {
+              label: French,
+              name: fr,
+              widget: boolean,
+              i18n: duplicate,
+              required: false,
+            }
       - label: Slide Deck
         name: slides
         widget: object
         i18n: duplicate
         required: false
         fields:
-          - {label: English, name: en, widget: boolean, i18n: duplicate, required: false}
-          - {label: French, name: fr, widget: boolean, i18n: duplicate, required: false}
+          - {
+              label: English,
+              name: en,
+              widget: boolean,
+              i18n: duplicate,
+              required: false,
+            }
+          - {
+              label: French,
+              name: fr,
+              widget: boolean,
+              i18n: duplicate,
+              required: false,
+            }
       - label: Audio
         name: audio
         widget: object
         i18n: duplicate
         required: false
         fields:
-          - {label: Audio URL, name: url, widget: string, type: url, i18n: duplicate, required: false}
-          - {label: Language, name: lang, widget: select, options: [{value: en, label: English}, {value: fr, label: Français}], i18n: duplicate, required: false}
+          - {
+              label: Audio URL,
+              name: url,
+              widget: string,
+              type: url,
+              i18n: duplicate,
+              required: false,
+            }
+          - {
+              label: Language,
+              name: lang,
+              widget: select,
+              options:
+                [{ value: en, label: English }, { value: fr, label: Français }],
+              i18n: duplicate,
+              required: false,
+            }
       - label: PDF
         name: pdf
         widget: object
         i18n: duplicate
         required: false
         fields:
-          - {label: English, name: en, widget: boolean, i18n: duplicate, required: false}
-          - {label: French, name: fr, widget: boolean, i18n: duplicate, required: false}
-      - {label: Body, name: body, widget: markdown, i18n: true}
+          - {
+              label: English,
+              name: en,
+              widget: boolean,
+              i18n: duplicate,
+              required: false,
+            }
+          - {
+              label: French,
+              name: fr,
+              widget: boolean,
+              i18n: duplicate,
+              required: false,
+            }
+      - { label: Body, name: body, widget: markdown, i18n: true }
   - label: Themes
     label_singular: Theme
     name: themes
@@ -107,8 +266,8 @@ collections:
     extension: md
     create: true
     fields:
-      - {label: Title, name: title, widget: string, i18n: true}
-      - {label: ID, name: uuid, widget: uuid, i18n: duplicate}
+      - { label: Title, name: title, widget: string, i18n: true }
+      - { label: ID, name: uuid, widget: uuid, i18n: duplicate }
   - label: Settings
     name: settings
     icon: tune
@@ -120,24 +279,63 @@ collections:
         file: src/_data/site.json
         i18n: true
         fields:
-          - {label: Name, name: name, widget: string, i18n: true}
-          - {label: Description, name: description, widget: text, i18n: true}
-          - {label: URL, name: url, widget: string, i18n: duplicate}
-          - {label: Author Name, name: authorName, widget: string, i18n: duplicate}
-          - {label: Author Email, name: authorEmail, widget: string, i18n: duplicate}
-          - {label: Author Website, name: authorWebsite, widget: string, i18n: duplicate}
-          - {label: IDRC Banner, name: idrcBanner, widget: markdown, i18n: true}
-          - {label: IDRC Footer, name: idrcFooter, widget: markdown, i18n: true}
-          - {label: Concordia Footer, name: concordiaFooter, widget: markdown, i18n: true}
-          - {label: ASC Footer, name: ascFooter, widget: markdown, i18n: true}
+          - { label: Name, name: name, widget: string, i18n: true }
+          - { label: Description, name: description, widget: text, i18n: true }
+          - { label: URL, name: url, widget: string, i18n: duplicate }
+          - {
+              label: Author Name,
+              name: authorName,
+              widget: string,
+              i18n: duplicate,
+            }
+          - {
+              label: Author Email,
+              name: authorEmail,
+              widget: string,
+              i18n: duplicate,
+            }
+          - {
+              label: Author Website,
+              name: authorWebsite,
+              widget: string,
+              i18n: duplicate,
+            }
+          - {
+              label: IDRC Banner,
+              name: idrcBanner,
+              widget: markdown,
+              i18n: true,
+            }
+          - {
+              label: IDRC Footer,
+              name: idrcFooter,
+              widget: markdown,
+              i18n: true,
+            }
+          - {
+              label: Concordia Footer,
+              name: concordiaFooter,
+              widget: markdown,
+              i18n: true,
+            }
+          - { label: ASC Footer, name: ascFooter, widget: markdown, i18n: true }
           - label: Sponsors
             name: sponsors
             widget: list
             i18n: true
             fields:
-              - {label: Name, name: name, widget: string, i18n: true}
-              - {label: URL, name: url, widget: string, type: url, i18n: true}
-              - {label: Logo, name: logo, widget: image, i18n: true}
-              - {label: Mobile Width, name: mobileWidth, widget: number, i18n: true}
-              - {label: Desktop Width, name: desktopWidth, widget: number, i18n: true}
-
+              - { label: Name, name: name, widget: string, i18n: true }
+              - { label: URL, name: url, widget: string, type: url, i18n: true }
+              - { label: Logo, name: logo, widget: image, i18n: true }
+              - {
+                  label: Mobile Width,
+                  name: mobileWidth,
+                  widget: number,
+                  i18n: true,
+                }
+              - {
+                  label: Desktop Width,
+                  name: desktopWidth,
+                  widget: number,
+                  i18n: true,
+                }
