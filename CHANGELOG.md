@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/inclusive-design/acaw-cama/compare/v1.1.0...v1.2.0) (2024-07-04)
+
+
+### Features
+
+* use IDRC CMS Authenticator ([#59](https://github.com/inclusive-design/acaw-cama/issues/59)) ([9c7de1f](https://github.com/inclusive-design/acaw-cama/commit/9c7de1f22642be7254db7d85c4bcaa81a891b34d))
+
 ## [1.1.0](https://github.com/inclusive-design/acaw-cama/compare/v1.0.0...v1.1.0) (2024-06-07)
 
 
