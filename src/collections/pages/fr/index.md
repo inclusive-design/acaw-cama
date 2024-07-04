@@ -7,11 +7,9 @@ transcript: https://idrc.cachefly.net/acaw-cama/home/accessible-canada-accessibl
 youtube: https://youtu.be/ifZhRiH66w0
 lsq: https://youtu.be/ldYQ9SypYgg
 intro: |-
-  Rejoignez-nous à la conférence [Accessible Canada - Accessible World](https://sites.events.concordia.ca/sites/accessconf/fr/accessible-canada-accessible-world/home) qui se déroulera en ligne et à Montréal les 27 et 28 mai 2024.
+  Merci d'avoir participé à la conférence Un Canada accessible, Un monde accessible en ligne et à Montréal !
 
-  Adoptez notre modèle unique de conférence inversée en examinant les diverses présentations avant l'événement sur cette page. Cette exploration pré-conférence nous permet de consacrer notre temps à relever 24 défis critiques à travers quatre thèmes centraux.
+  Notre modèle unique de conférence inversée a permis aux participants d'examiner les diverses présentations avant l'événement. Cette exploration pré-conférence nous a permis de consacrer notre temps ensemble les 27 et 28 mai à relever 24 défis cruciaux dans le cadre de quatre thèmes centraux.
 asl: ""
 ---
-Plongez dans le contenu à votre rythme. Filtrez par thème, format et langue pour adapter votre expérience. Rejoignez-nous en ligne ou à Montréal les 27 et 28 mai pour contribuer aux discussions.
-
-**Restez à l'écoute, nous publierons bientôt d'autres candidatures ! Certaines vidéos n'ont pas encore de LSQ, le travail est en cours et nous les publierons au fur et à mesure qu'elles nous parviendront. Nous vous prions d'accepter nos excuses pour la gêne occasionnée.**
+Vous pouvez continuer à consulter les diverses présentations sur cette page.
