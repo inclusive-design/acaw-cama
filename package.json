@@ -44,7 +44,7 @@
     "@commitlint/config-conventional": "19.2.2",
     "biome-config-fluid": "github:greatislander/biome-config-fluid",
     "cross-env": "7.0.3",
-    "debug": "4.3.4",
+    "debug": "4.3.5",
     "eleventy-plugin-broken-links": "^2.2.1",
     "husky": "9.0.11",
     "image-size": "1.1.1",
