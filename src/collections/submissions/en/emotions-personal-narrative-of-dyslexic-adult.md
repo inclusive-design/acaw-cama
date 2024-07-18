@@ -1,7 +1,7 @@
 ---
 youtube:
   url: https://youtu.be/FV38aZ1Q7cw
-  lang: ""
+  lang: en
   signLanguageUrl: https://youtu.be/_g-3KMAgaYw
 pdf:
   en: true
