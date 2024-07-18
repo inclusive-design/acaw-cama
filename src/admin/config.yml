@@ -161,8 +161,8 @@ collections:
               widget: select,
               options:
                 [{ value: en, label: English }, { value: fr, label: Français }],
-              i18n: duplicate,
-              required: false,
+              i18n: true,
+              required: true,
             }
           - {
               label: Sign Language YouTube URL,
