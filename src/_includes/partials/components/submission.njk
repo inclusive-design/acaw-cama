@@ -9,7 +9,7 @@
     {%- endfor -%}
     "
     data-filter-language="
-    {%- if submission.data.youtube.interpretation -%}
+    {%- if submission.data.youtube.signLanguageUrl -%}
         {{ 'asl' if submission.data.youtube.lang === 'en' else 'lsq' }},
     {%- endif -%}
     {%- if submission.data.youtube.lang === 'en' or submission.data.text.en or submission.data.transcript.en or submission.data.slides.en or submission.data.audio.lang === 'en' or submission.data.pdf.en -%}
