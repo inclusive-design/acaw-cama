@@ -1,6 +1,6 @@
 {
   "name": "@inclusive-design/acaw-cama",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Microsite for ACAW / CAMA",
   "scripts": {
     "build": "npm-run-all -l clean -p build:eleventy",
@@ -61,6 +61,8 @@
   "lint-staged": {
     "*.css": "stylelint --fix",
     "*.{js,cjs,json,jsonc}": "biome check --write --no-errors-on-unmatched",
-    "*.md": ["markdownlint-cli2 --fix"]
+    "*.md": [
+      "markdownlint-cli2 --fix"
+    ]
   }
 }

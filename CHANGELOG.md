@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/inclusive-design/acaw-cama/compare/v1.2.0...v1.2.1) (2024-07-18)
+
+
+### Bug Fixes
+
+* update how asl and lsq filters are applied to submissions ([#66](https://github.com/inclusive-design/acaw-cama/issues/66)) ([331b66e](https://github.com/inclusive-design/acaw-cama/commit/331b66eef808814cadc4e5d695e7507ca48993a1))
+
 ## [1.2.0](https://github.com/inclusive-design/acaw-cama/compare/v1.1.0...v1.2.0) (2024-07-04)
 
 
