@@ -162,7 +162,7 @@ collections:
               options:
                 [{ value: en, label: English }, { value: fr, label: Français }],
               i18n: duplicate,
-              required: false,
+              required: true,
             }
           - {
               label: Sign Language YouTube URL,
