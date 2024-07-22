@@ -161,7 +161,7 @@ collections:
               widget: select,
               options:
                 [{ value: en, label: English }, { value: fr, label: Français }],
-              i18n: true,
+              i18n: duplicate,
               required: true,
             }
           - {
