@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/inclusive-design/acaw-cama/compare/v1.2.1...v1.2.2) (2024-10-28)
+
+
+### Bug Fixes
+
+* update youtube lang attribute ([#68](https://github.com/inclusive-design/acaw-cama/issues/68)) ([3f29907](https://github.com/inclusive-design/acaw-cama/commit/3f29907ff8943d97397c21537fa0ed15965c6c2e))
+
 ## [1.2.1](https://github.com/inclusive-design/acaw-cama/compare/v1.2.0...v1.2.1) (2024-07-18)
 
 
