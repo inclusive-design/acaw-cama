@@ -80,6 +80,13 @@
         "logo": "/assets/uploads/hewlett.png",
         "mobileWidth": 200,
         "desktopWidth": 120
+      },
+      {
+        "name": "Vraie IDEA",
+        "url": "https://www.vraie-idea.ca/",
+        "logo": "/assets/uploads/vraie-idea-logo.svg",
+        "mobileWidth": 200,
+        "desktopWidth": 120
       }
     ]
   },
@@ -162,6 +169,13 @@
         "name": "William and Flora Hewlett Foundation",
         "url": "https://hewlett.org/",
         "logo": "/assets/uploads/hewlett.png",
+        "mobileWidth": 200,
+        "desktopWidth": 120
+      },
+      {
+        "name": "Vraie IDEA",
+        "url": "https://www.vraie-idea.ca/",
+        "logo": "/assets/uploads/vraie-idea-logo.svg",
         "mobileWidth": 200,
         "desktopWidth": 120
       }
