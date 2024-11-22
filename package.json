@@ -32,7 +32,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "5.0.0",
     "@zachleat/filter-container": "greatislander/filter-container#feat/paginated-results",
     "eleventy-plugin-fluid": "2.7.1",
-    "eleventy-plugin-pwa-v2": "^1.0.1",
+    "eleventy-plugin-pwa-v2": "^1.0.2",
     "get-youtube-id": "1.0.1",
     "infusion": "4.7.1",
     "rosetta": "1.1.0",
