@@ -42,5 +42,6 @@ module.exports = {
     concordia: "Université Concordia",
     asc: "Normes d’accessibilité Canada",
     "asl-video": "Vidéo ASL",
-    "lsq-video": "Vidéo LSQ"
+    "lsq-video": "Vidéo LSQ",
+    discussions: "Discussions"
 };
