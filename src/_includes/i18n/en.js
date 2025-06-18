@@ -43,5 +43,6 @@ module.exports = {
     asc: "Accessibility Standards Canada",
     "asl-video": "ASL Video",
     "lsq-video": "LSQ Video",
-    discussions: "Discussions"
+    discussions: "Discussions",
+    "project-page": "ACAW Project Page"
 };

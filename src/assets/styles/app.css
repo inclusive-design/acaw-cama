@@ -278,7 +278,7 @@ a:visited {
 
 .brand svg {
     height: auto;
-    max-width: 33.5625rem;
+    max-width: 25rem;
     width: 100%;
 }
 
@@ -294,6 +294,10 @@ a:visited {
 .nav > ul {
     display: flex;
     flex-direction: column;
+}
+
+.nav li:has(a[rel="external"]) {
+    margin-inline-end: 2rem;
 }
 
 .nav ul ul {

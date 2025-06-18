@@ -1,6 +1,9 @@
             <nav class="nav" id="menu" aria-label="menu">
                 <ul role="list">
                     <li>
+                        <a rel="external" href={% if lang == "fr" %}"https://idrc.ocadu.ca/projets/acaw-cama/"{% else %}"https://idrc.ocadu.ca/projects/acaw-cama/"{% endif %} lang="{{ lang }}-CA" hreflang="{{ lang }}-CA"><span class="underline">{{ 'project-page' | i18n }}</span> {% include "svg/external.svg" %}</a>
+                    </li>
+                    <li>
                         <a rel="external" href="https://groups.io/g/ACAW-CAMA" lang="{{ lang }}-CA" hreflang="{{ lang }}-CA"><span class="underline">{{ 'discussions' | i18n }}</span> {% include "svg/external.svg" %}</a>
                     </li>
                     <li>
