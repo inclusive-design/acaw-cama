@@ -1,13 +1,4 @@
-            <div class="brand">
-                {% if lang and lang !== defaultLanguage %}
-                {% set homeUrl = "/" + supportedLanguages[lang].slug + "/" %}
-                {% else %}
-                {% set lang = defaultLanguage %}
-                {% set homeUrl = "/" + supportedLanguages[lang].slug + "/" %}
-                {% endif %}
-
-                <a rel="home" href="{{ homeUrl }}"{% if page.url === homeUrl %} aria-current="page"{% endif %}>
-                    {% include "svg/logo.svg" %}
-                    <span class="visually-hidden">{{ site[lang].name }}</span>
-                </a>
-            </div>
+<div class="brand">
+    {% include "svg/logo.svg" %}
+    <span class="visually-hidden">{{ site[lang].name }}</span>
+</div>

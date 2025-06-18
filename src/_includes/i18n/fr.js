@@ -43,5 +43,6 @@ module.exports = {
     asc: "Normes d’accessibilité Canada",
     "asl-video": "Vidéo ASL",
     "lsq-video": "Vidéo LSQ",
-    discussions: "Discussions"
+    discussions: "Discussions",
+    "project-page": "Page du projet de CAMA"
 };

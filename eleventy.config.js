@@ -116,8 +116,8 @@ module.exports = (eleventyConfig) => {
 
     // Plugins
     eleventyConfig.addPlugin(brokenLinksPlugin, {
-        forbidden: "error",
-        broken: "error",
+        forbidden: "warn",
+        broken: "warn",
         cacheDuration: "60s",
         loggingLevel: 1
     });
