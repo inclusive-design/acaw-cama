@@ -46,7 +46,7 @@
     "cross-env": "7.0.3",
     "debug": "4.3.6",
     "eleventy-plugin-broken-links": "^2.2.1",
-    "husky": "9.1.4",
+    "husky": "9.1.6",
     "image-size": "1.1.1",
     "linkedom": "0.18.4",
     "lint-staged": "15.2.10",
