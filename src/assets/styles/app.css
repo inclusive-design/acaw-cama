@@ -278,7 +278,7 @@ a:visited {
 
 .brand svg {
     height: auto;
-    max-width: 33.5625rem;
+    max-width: 23rem;
     width: 100%;
 }
 
@@ -294,6 +294,10 @@ a:visited {
 .nav > ul {
     display: flex;
     flex-direction: column;
+}
+
+.nav li:has(a[rel="external"]) {
+    margin-inline-end: 2.5rem;
 }
 
 .nav ul ul {
@@ -318,8 +322,9 @@ a:visited {
 
 .nav a[rel="external"] {
     align-items: center;
-    display: flex;
+    display: grid;
     gap: 0.25em;
+    grid-template-columns: max-content min-content;
     text-decoration: none;
 }
 
@@ -863,7 +868,7 @@ button:focus {
     width: auto;
 }
 
-@media (width >= 72rem) {
+@media (width >= 78rem) {
     h1 {
         font-size: 3.75rem;
     }
