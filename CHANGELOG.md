@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.3.0](https://github.com/inclusive-design/acaw-cama/compare/v1.2.1...v1.3.0) (2025-06-19)
+
+
+### Features
+
+* update registration link to Discussions link ([#84](https://github.com/inclusive-design/acaw-cama/issues/84)) ([ad936b3](https://github.com/inclusive-design/acaw-cama/commit/ad936b326743f3cd0d9e32072d51ccae71ba68d8))
+
+
+### Bug Fixes
+
+* remove link from the brand logo and add external link to the project page ([#85](https://github.com/inclusive-design/acaw-cama/issues/85)) ([525b3ba](https://github.com/inclusive-design/acaw-cama/commit/525b3ba794da454a3be3d2185de14a118901a1aa))
+* update main navigations ([#86](https://github.com/inclusive-design/acaw-cama/issues/86)) ([cb40bc7](https://github.com/inclusive-design/acaw-cama/commit/cb40bc7d5b12eab0b44a66739dcb0d3176f92e6a))
+* update youtube lang attribute ([#68](https://github.com/inclusive-design/acaw-cama/issues/68)) ([3f29907](https://github.com/inclusive-design/acaw-cama/commit/3f29907ff8943d97397c21537fa0ed15965c6c2e))
+
 ## [1.2.1](https://github.com/inclusive-design/acaw-cama/compare/v1.2.0...v1.2.1) (2024-07-18)
 
 
