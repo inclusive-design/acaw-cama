@@ -48,7 +48,7 @@
     "eleventy-plugin-broken-links": "^2.2.1",
     "husky": "9.1.6",
     "image-size": "1.1.1",
-    "linkedom": "0.18.4",
+    "linkedom": "0.18.11",
     "lint-staged": "15.2.10",
     "markdownlint-cli2": "0.13.0",
     "markdownlint-config-fluid": "0.1.5",
