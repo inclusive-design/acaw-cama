@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/inclusive-design/acaw-cama/compare/v1.3.0...v1.4.0) (2025-07-16)
+
+
+### Features
+
+* adjustments to home page ([#92](https://github.com/inclusive-design/acaw-cama/issues/92)) ([ae9a582](https://github.com/inclusive-design/acaw-cama/commit/ae9a5825a5bd7e2b278fd2c04055bcb3f11c667c))
+
 ## [1.3.0](https://github.com/inclusive-design/acaw-cama/compare/v1.2.1...v1.3.0) (2025-06-19)
 
 
