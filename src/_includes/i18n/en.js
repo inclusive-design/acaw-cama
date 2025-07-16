@@ -44,5 +44,5 @@ module.exports = {
     "asl-video": "ASL Video",
     "lsq-video": "LSQ Video",
     discussions: "Discussions",
-    "project-page": "ACAW Project Page"
+    "project-page": "Project Page"
 };

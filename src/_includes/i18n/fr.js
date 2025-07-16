@@ -44,5 +44,5 @@ module.exports = {
     "asl-video": "Vidéo ASL",
     "lsq-video": "Vidéo LSQ",
     discussions: "Discussions",
-    "project-page": "Page du projet de CAMA"
+    "project-page": "Page du projet"
 };
