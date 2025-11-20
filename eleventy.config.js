@@ -92,10 +92,10 @@ module.exports = (eleventyConfig) => {
             }
 
             if (format === "pdf") {
-                return `https://idrc.cachefly.net/acaw-cama/${submissionId}/${slug}-text-${formatLocale}.pdf`;
+                return `https://static.inclusivedesign.ca/acaw-cama/${submissionId}/${slug}-text-${formatLocale}.pdf`;
             }
 
-            return `https://idrc.cachefly.net/acaw-cama/${submissionId}/${slug}-${format}-${formatLocale}.${extension}`;
+            return `https://static.inclusivedesign.ca/acaw-cama/${submissionId}/${slug}-${format}-${formatLocale}.${extension}`;
         }
         throw new Error(`Unknown submission ID: "${submissionId}"`);
     });
