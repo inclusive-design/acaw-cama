@@ -7,5 +7,5 @@ on:
     branches: [ dev, main ]
 
 jobs:
-  lint-and-test-with-coverage:
+  lint-and-test:
     uses: inclusive-design/workflows/.github/workflows/node-lint-and-test.yml@main
