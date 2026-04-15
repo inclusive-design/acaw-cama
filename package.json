@@ -50,7 +50,7 @@
     "image-size": "1.2.1",
     "linkedom": "0.18.12",
     "lint-staged": "16.4.0",
-    "markdownlint-cli2": "0.13.0",
+    "markdownlint-cli2": "0.22.0",
     "markdownlint-config-fluid": "0.1.8",
     "npm-run-all2": "5.0.0",
     "rimraf": "6.1.3",
