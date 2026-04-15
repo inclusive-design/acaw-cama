@@ -44,7 +44,7 @@
     "@commitlint/config-conventional": "20.5.0",
     "biome-config-fluid": "github:nedatidrc/biome-config-fluid",
     "cross-env": "7.0.3",
-    "debug": "4.3.6",
+    "debug": "4.4.3",
     "eleventy-plugin-broken-links": "^2.2.1",
     "husky": "9.1.7",
     "image-size": "1.1.1",
