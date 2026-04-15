@@ -49,7 +49,7 @@
     "husky": "9.1.7",
     "image-size": "1.1.1",
     "linkedom": "0.18.12",
-    "lint-staged": "16.2.7",
+    "lint-staged": "16.4.0",
     "markdownlint-cli2": "0.13.0",
     "markdownlint-config-fluid": "0.1.5",
     "npm-run-all2": "5.0.0",
