@@ -9,8 +9,8 @@ module.exports = {
         "liberty/use-logical-spec": [
             "always",
             {
-                except: ["float", "top", "left", "right", "bottom", "width", "height", "max-width", "max-height", "min-width", "min-height"]
-            }
-        ]
-    }
+                except: ["float", "top", "left", "right", "bottom", "width", "height", "max-width", "max-height", "min-width", "min-height"],
+            },
+        ],
+    },
 };

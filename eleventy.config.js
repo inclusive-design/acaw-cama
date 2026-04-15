@@ -52,7 +52,7 @@ module.exports = (eleventyConfig) => {
     });
     eleventyConfig.addFilter("titlecase", function (value) {
         return title(value, {
-            special: ["ASL", "LSQ"]
+            special: ["ASL", "LSQ"],
         });
     });
     eleventyConfig.addFilter("youtubeId", function (value) {
@@ -104,13 +104,13 @@ module.exports = (eleventyConfig) => {
 
     // Passthrough copy
     eleventyConfig.addPassthroughCopy({
-        "src/admin/config.yml": "admin/config.yml"
+        "src/admin/config.yml": "admin/config.yml",
     });
     eleventyConfig.addPassthroughCopy({ "src/assets/icons": "/" });
     eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
     eleventyConfig.addPassthroughCopy({ "src/assets/images": "assets/images" });
     eleventyConfig.addPassthroughCopy({
-        "src/assets/uploads": "assets/uploads"
+        "src/assets/uploads": "assets/uploads",
     });
 
     // Plugins
@@ -118,21 +118,21 @@ module.exports = (eleventyConfig) => {
         forbidden: "warn",
         broken: "warn",
         cacheDuration: "60s",
-        loggingLevel: 1
+        loggingLevel: 1,
     });
     eleventyConfig.addPlugin(navigationPlugin);
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
-        defaultLanguage: "en"
+        defaultLanguage: "en",
     });
     eleventyConfig.addPlugin(fluidPlugin, {
-        i18n: false
+        i18n: false,
     });
 
     return {
         dir: {
-            input: "src"
+            input: "src",
         },
         passthroughFileCopy: true,
-        markdownTemplateEngine: "njk"
+        markdownTemplateEngine: "njk",
     };
 };
