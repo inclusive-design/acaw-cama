@@ -13,7 +13,6 @@ https://github.com/inclusive-design/acaw-cama/raw/main/LICENSE.md.
 const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
-const pluginPWA = require("eleventy-plugin-pwa-v2");
 const brokenLinksPlugin = require("eleventy-plugin-broken-links");
 const getYouTubeID = require("get-youtube-id");
 const title = require("title");
@@ -127,26 +126,6 @@ module.exports = (eleventyConfig) => {
     });
     eleventyConfig.addPlugin(fluidPlugin, {
         i18n: false
-    });
-    eleventyConfig.addPlugin(pluginPWA, {
-        swDest: "./_site/sw.js",
-        globDirectory: "./_site",
-        cacheId: "acaw-cama",
-        globIgnores: [],
-        runtimeCaching: [
-            {
-                urlPattern: /\/$/,
-                handler: "NetworkFirst"
-            },
-            {
-                urlPattern: /\.html$/,
-                handler: "NetworkFirst"
-            },
-            {
-                urlPattern: /^.*\.(jpg|png|mp4|gif|webp|ico|svg|woff2|woff|eot|ttf|otf|ttc|json)$/,
-                handler: "StaleWhileRevalidate"
-            }
-        ]
     });
 
     return {
