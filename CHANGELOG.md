@@ -1,5 +1,18 @@
 # Changelog
 
+## [2026.04.15.1454.a561d08](https://github.com/inclusive-design/acaw-cama/compare/2026.04.15.1239.4c09579...2026.04.15.1454.a561d08)
+
+### Dependencies
+
+* fix(deps): update dependency [@11ty](https://github.com/11ty)/eleventy-navigation to v1 (#144) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency [@biomejs](https://github.com/biomejs)/biome to v2 (#137) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update nginx docker tag to v1.30.0 (#136) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency image-size to v2 (#139) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency npm-run-all2 to v8 (#140) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency cross-env to v10 (#138) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency markdownlint-cli2 to v0.22.0 (#135) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency [@biomejs](https://github.com/biomejs)/biome to v1.9.4 (#131) @[renovate[bot]](https://github.com/apps/renovate)
+
 ## [2026.04.15.1239.4c09579](https://github.com/inclusive-design/acaw-cama/compare/v1.4.0...2026.04.15.1239.4c09579)
 
 ### Bug Fixes
