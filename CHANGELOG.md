@@ -1,7 +1,26 @@
 # Changelog
 
-## [1.4.0](https://github.com/inclusive-design/acaw-cama/compare/v1.3.0...v1.4.0) (2026-01-06)
+## [2026.04.15.1239.4c09579](https://github.com/inclusive-design/acaw-cama/compare/v1.4.0...2026.04.15.1239.4c09579)
 
+### Bug Fixes
+
+* fix: remove and unregister service worker (#124) [@nedatidrc](https://github.com/nedatidrc)
+
+### Dependencies
+
+* chore(deps): update dependency lint-staged to v16.4.0 (#134) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency image-size to v1.2.1 (#133) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency debug to v4.4.3 (#132) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update commitlint monorepo to v20.5.0 (#130) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency rimraf to v6.1.3 (#127) @[renovate[bot]](https://github.com/apps/renovate)
+* fix(deps): update dependency eleventy-plugin-fluid to v2.7.3 (#129) @[renovate[bot]](https://github.com/apps/renovate)
+* fix(deps): update dependency [@11ty](https://github.com/11ty)/eleventy-plugin-syntaxhighlight to v5.0.2 (#128) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency markdownlint-config-fluid to v0.1.8 (#125) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#122) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update nginx Docker tag to v1.29.8 (#121) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update actions/checkout action to v6.0.2 (#120) @[renovate[bot]](https://github.com/apps/renovate)
+
+## [1.4.0](https://github.com/inclusive-design/acaw-cama/compare/v1.3.0...v1.4.0) (2026-01-06)
 
 ### Features
 
@@ -10,11 +29,9 @@
 
 ## [1.3.0](https://github.com/inclusive-design/acaw-cama/compare/v1.2.1...v1.3.0) (2025-06-19)
 
-
 ### Features
 
 * update registration link to Discussions link ([#84](https://github.com/inclusive-design/acaw-cama/issues/84)) ([ad936b3](https://github.com/inclusive-design/acaw-cama/commit/ad936b326743f3cd0d9e32072d51ccae71ba68d8))
-
 
 ### Bug Fixes
 
@@ -24,20 +41,17 @@
 
 ## [1.2.1](https://github.com/inclusive-design/acaw-cama/compare/v1.2.0...v1.2.1) (2024-07-18)
 
-
 ### Bug Fixes
 
 * update how asl and lsq filters are applied to submissions ([#66](https://github.com/inclusive-design/acaw-cama/issues/66)) ([331b66e](https://github.com/inclusive-design/acaw-cama/commit/331b66eef808814cadc4e5d695e7507ca48993a1))
 
 ## [1.2.0](https://github.com/inclusive-design/acaw-cama/compare/v1.1.0...v1.2.0) (2024-07-04)
 
-
 ### Features
 
 * use IDRC CMS Authenticator ([#59](https://github.com/inclusive-design/acaw-cama/issues/59)) ([9c7de1f](https://github.com/inclusive-design/acaw-cama/commit/9c7de1f22642be7254db7d85c4bcaa81a891b34d))
 
 ## [1.1.0](https://github.com/inclusive-design/acaw-cama/compare/v1.0.0...v1.1.0) (2024-06-07)
-
 
 ### Features
 
@@ -51,7 +65,6 @@
 * modify checkboxes, links and buttons (resolves [#23](https://github.com/inclusive-design/acaw-cama/issues/23), resolves [#24](https://github.com/inclusive-design/acaw-cama/issues/24)) ([#29](https://github.com/inclusive-design/acaw-cama/issues/29)) ([1d569f3](https://github.com/inclusive-design/acaw-cama/commit/1d569f3fb8f031c3f702f59d8164e0fa1f5bb20c))
 * use Biome ([#57](https://github.com/inclusive-design/acaw-cama/issues/57)) ([86b674f](https://github.com/inclusive-design/acaw-cama/commit/86b674f8339fdb80322c5080cb010abcdbb6da3c))
 * use ID instead of UUID for submissions ([#35](https://github.com/inclusive-design/acaw-cama/issues/35)) ([8da2d72](https://github.com/inclusive-design/acaw-cama/commit/8da2d727659cd4b72f372e6a60f725ff90eb4033))
-
 
 ### Bug Fixes
 
@@ -67,7 +80,6 @@
 * wrap logos on desktop ([a5d182f](https://github.com/inclusive-design/acaw-cama/commit/a5d182f8840da2b5de892a5fb6f5a9f128bc801f))
 
 ## [1.0.0](https://github.com/inclusive-design/acaw-cama/compare/v0.0.1...v1.0.0) (2024-04-22)
-
 
 ### Features
 
@@ -86,12 +98,10 @@
 * sort alphabetically ([#10](https://github.com/inclusive-design/acaw-cama/issues/10)) ([091cd19](https://github.com/inclusive-design/acaw-cama/commit/091cd1973ce0d846fd6cafb73cda68416236556d))
 * update configuration ([7bed998](https://github.com/inclusive-design/acaw-cama/commit/7bed9985a085422a442b6fb7e6bab36afe445614))
 
-
 ### Bug Fixes
 
 * order collections properly ([f68186c](https://github.com/inclusive-design/acaw-cama/commit/f68186cc68da0152a047a1c7b2b83f595e84c2e7))
 * prevent redirect to null language ([#19](https://github.com/inclusive-design/acaw-cama/issues/19)) ([2fd3a4c](https://github.com/inclusive-design/acaw-cama/commit/2fd3a4c76fbfda00dc33dee94c90bdc5483e3d5c))
-
 
 ### Miscellaneous Chores
 
