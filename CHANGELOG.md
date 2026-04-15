@@ -1,5 +1,23 @@
 # Changelog
 
+## [2026.4.2](https://github.com/inclusive-design/acaw-cama/compare/v1.4.0...v2026.4.2) (2026-04-15)
+
+
+### Bug Fixes
+
+* add empty test ([19092c7](https://github.com/inclusive-design/acaw-cama/commit/19092c7dc3905ae3469671887be4bce060930056))
+* **deps:** update dependency @11ty/eleventy-navigation to v1 ([#144](https://github.com/inclusive-design/acaw-cama/issues/144)) ([a561d08](https://github.com/inclusive-design/acaw-cama/commit/a561d088c6982815653cf8b43c7fd9822a4bbf3d))
+* **deps:** update dependency @11ty/eleventy-plugin-syntaxhighlight to v5.0.2 ([#128](https://github.com/inclusive-design/acaw-cama/issues/128)) ([dbe8296](https://github.com/inclusive-design/acaw-cama/commit/dbe8296ab97defe2decc1f80c85de9732bae2719))
+* **deps:** update dependency eleventy-plugin-fluid to v2.7.3 ([#129](https://github.com/inclusive-design/acaw-cama/issues/129)) ([c8d1ef9](https://github.com/inclusive-design/acaw-cama/commit/c8d1ef98f7dd0166094d07a353eabb28ccb6e206))
+* remove and unregister service worker ([#124](https://github.com/inclusive-design/acaw-cama/issues/124)) ([72344e1](https://github.com/inclusive-design/acaw-cama/commit/72344e1a2c05483bcf37434780c4e453ea07d73f))
+* run biome ([c6cdb9c](https://github.com/inclusive-design/acaw-cama/commit/c6cdb9cff11403e2a815f89c5d40879be218241e))
+* workflow name ([0b2c790](https://github.com/inclusive-design/acaw-cama/commit/0b2c790637d23a6fd5efa35789f7c02c3da90bcf))
+
+
+### Miscellaneous Chores
+
+* **release:** release 2026.4.2 ([#149](https://github.com/inclusive-design/acaw-cama/issues/149)) ([e847fec](https://github.com/inclusive-design/acaw-cama/commit/e847fec4fdf9ff93f923503a61ef661133d2de40))
+
 ## [2026.04.15.1239.4c09579](https://github.com/inclusive-design/acaw-cama/compare/v1.4.0...2026.04.15.1239.4c09579)
 
 ### Bug Fixes
