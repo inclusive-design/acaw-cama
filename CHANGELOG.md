@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/inclusive-design/acaw-cama/compare/v1.4.0...v1.4.1) (2026-04-15)
+
+
+### Bug Fixes
+
+* run biome ([c6cdb9c](https://github.com/inclusive-design/acaw-cama/commit/c6cdb9cff11403e2a815f89c5d40879be218241e))
+
 ## [1.4.0](https://github.com/inclusive-design/acaw-cama/compare/v1.3.0...v1.4.0) (2026-01-06)
 
 
