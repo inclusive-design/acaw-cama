@@ -13,7 +13,8 @@
     "lint:scripts": "biome check .",
     "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
     "start": "npm-run-all -l clean dev",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "echo \"No test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
