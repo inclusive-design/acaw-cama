@@ -1,12 +1,73 @@
 {
     "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-    "extends": ["node_modules/biome-config-fluid/biome.jsonc"],
-    "files": {
-        "ignore": ["src/_data/site.json"]
+    "formatter": {
+        "enabled": true,
+        "formatWithErrors": false,
+        "indentStyle": "space",
+        "indentWidth": 4,
+        "lineEnding": "lf",
+        "lineWidth": 320, // Don't enforce line width
+        "attributePosition": "auto"
     },
     "vcs": {
         "enabled": true,
         "clientKind": "git",
         "useIgnoreFile": true
-    }
+    },
+    "assist": {
+        "actions": {
+            "source": {
+                "organizeImports": "on"
+            }
+        }
+    },
+    "linter": {
+        "enabled": true,
+        "rules": {
+            "recommended": false,
+            "complexity": {
+                "noCommaOperator": "error"
+            },
+            "correctness": {
+                "noUndeclaredVariables": "error",
+                "noUnusedVariables": "error",
+                "useValidTypeof": "error"
+            },
+            "security": {
+                "noGlobalEval": "error"
+            },
+            "style": {
+                "useBlockStatements": "error"
+            },
+            "suspicious": {
+                "noDebugger": "error",
+                "noDoubleEquals": "error",
+                "noEmptyBlockStatements": "error",
+                "noRedeclare": "error",
+                "noWith": "error"
+            }
+        }
+    },
+    "javascript": {
+        "formatter": {
+            "jsxQuoteStyle": "double",
+            "quoteProperties": "asNeeded",
+            "trailingCommas": "all",
+            "semicolons": "always",
+            "arrowParentheses": "always",
+            "bracketSpacing": true,
+            "bracketSameLine": false,
+            "quoteStyle": "double",
+            "attributePosition": "auto"
+        },
+        "globals": ["fluid"]
+    },
+    "overrides": [
+        {
+            "includes": ["**/package.json"],
+            "formatter": {
+                "indentWidth": 2
+            }
+        }
+    ]
 }

@@ -6,9 +6,9 @@ class VideoOverlay {
 
         this.config = {
             ...{
-                autoplay: false
+                autoplay: false,
             },
-            ...options
+            ...options,
         };
 
         this.init = this.init.bind(this);

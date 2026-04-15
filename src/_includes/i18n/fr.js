@@ -5,7 +5,7 @@ module.exports = {
         en: "anglais",
         fr: "français",
         asl: "ASL",
-        lsq: "LSQ"
+        lsq: "LSQ",
     },
     formats: {
         label: "Formats",
@@ -13,7 +13,7 @@ module.exports = {
         audio: "Audio",
         text: "Texte",
         slides: "Diapositives",
-        pdf: "PDF"
+        pdf: "PDF",
     },
     "submission-formats": {
         text: "Texte en {{ formatLocale }}",
@@ -21,14 +21,14 @@ module.exports = {
         slides: "Diapositives en {{ formatLocale }}",
         audio: "Audio en {{ formatLocale }}",
         youtube: "Vidéo en {{ formatLocale }} sur YouTube",
-        pdf: "PDF en {{ formatLocale }}"
+        pdf: "PDF en {{ formatLocale }}",
     },
     submissions: "Soumissions",
     theme: "Thème",
     themes: "Thèmes",
     "filter-results": {
         all: "Toutes les soumissions",
-        filtered: "résultat filtré/résultats filtrés"
+        filtered: "résultat filtré/résultats filtrés",
     },
     registration: "Enregistrement",
     interpretation: "Vidéo LSQ",
@@ -44,5 +44,5 @@ module.exports = {
     "asl-video": "Vidéo ASL",
     "lsq-video": "Vidéo LSQ",
     discussions: "Discussions",
-    "project-page": "Page du projet"
+    "project-page": "Page du projet",
 };
