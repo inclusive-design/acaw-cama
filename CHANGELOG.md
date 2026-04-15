@@ -1,5 +1,17 @@
 # Changelog
 
+## [2026.4.3](https://github.com/inclusive-design/acaw-cama/compare/v2026.4.2...v2026.4.3) (2026-04-15)
+
+
+### Bug Fixes
+
+* **deps:** fix Dockerfile ([c9816a8](https://github.com/inclusive-design/acaw-cama/commit/c9816a8a49a3787e1bcde153aec6f5be0746cf06))
+
+
+### Miscellaneous Chores
+
+* **release:** release 2026.4.3 ([a66703a](https://github.com/inclusive-design/acaw-cama/commit/a66703aef80a64ea1011d04da7cd301bfdcc4748))
+
 ## [2026.4.2](https://github.com/inclusive-design/acaw-cama/compare/v1.4.0...v2026.4.2) (2026-04-15)
 
 
