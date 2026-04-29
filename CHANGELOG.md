@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.4.4](https://github.com/inclusive-design/acaw-cama/compare/v2026.4.3...v2026.4.4) (2026-04-29)
+
+
+### Bug Fixes
+
+* resolve linting issues ([3bd1cb8](https://github.com/inclusive-design/acaw-cama/commit/3bd1cb8e8f779180ffda59b1c475584a562cbe5c))
+
 ## [2026.4.3](https://github.com/inclusive-design/acaw-cama/compare/v2026.4.2...v2026.4.3) (2026-04-15)
 
 
