@@ -41,7 +41,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.4.15",
     "@commitlint/cli": "20.5.3",
-    "@commitlint/config-conventional": "20.5.3",
+    "@commitlint/config-conventional": "21.0.1",
     "biome-config-fluid": "github:nedatidrc/biome-config-fluid",
     "cross-env": "10.1.0",
     "debug": "4.4.3",
