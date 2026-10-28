@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.5.1](https://github.com/inclusive-design/acaw-cama/compare/v2026.5.0...v2026.5.1) (2026-10-28)
+
+
+### Bug Fixes
+
+* switch auth base_url ([af9eb4d](https://github.com/inclusive-design/acaw-cama/commit/af9eb4d659de88e83d67f0d5b66f12174ada3429))
+
 ## [2026.5.0](https://github.com/inclusive-design/acaw-cama/compare/v2026.4.4...v2026.5.0) (2026-05-19)
 
 
